@@ -1,0 +1,17 @@
+s3,
+s1,
+s2 {
+  color: #0000ff;
+}
+s4,
+s1,
+s2 {
+  font-size: 12pt;
+}
+.classe {
+  color: green;
+}
+table td,
+.classe {
+  border: solid;
+}
