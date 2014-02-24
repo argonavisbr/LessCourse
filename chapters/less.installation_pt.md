@@ -17,7 +17,7 @@ Se o seu sistema for Ubuntu (12/13), use
 
 ```
 sudo apt-get install nodejs npm
-``
+```
 
 Em Fedora e CentOS use:
 
@@ -70,23 +70,28 @@ Grave o arquivo em sua área de trabalho.
 
 Através do terminal, mude até o diretório correspondente à pasta da sua área de trabalho. Verifique que o arquivo teste.less está nessa pasta:
 
-ls
-
+```
+computador$ ls
 teste.less
+```
 
 Agora execute
 
+```
 lessc teste.less
+```
 
 O arquivo CSS gerado é listado na tela. Para converter o resultado para um arquivo faça:
 
+```
 lessc teste.less > teste.css
+```
 
 Agora abra o CSS e veja o resultado.
 
 ##pré-processador estático
 
-O programa `lessc`que executamos é um pré-processador estático. Ele gera o arquivo CSS que iremos usar. Observe que o CSS gerado é bem maior e têm mais dados repetidos (cores) que o arquivo LESS. 
+O programa `lessc` que executamos é um pré-processador estático. Ele gera o arquivo CSS que iremos usar. Observe que o CSS gerado é bem maior e têm mais dados repetidos (cores) que o arquivo LESS. 
 
 Você não precisa usar sempre linha de comando. Várias ferramentas de Web Design têm suporte a LESS ou permitem a instalação de plug-ins que geram automaticamente o CSS a cada alteração de um documento LESS. 
 
@@ -98,16 +103,22 @@ Você também pode usar folhas de estilo Less diretamente no HTML, para processa
 
 É necessário usar o script less.js, que pode ser baixado de https://github.com/less ou usado através de um CDN.
 
-Usando less.js local:
+Usando `less.js` local:
 
-<script src="less.js" type="text/javascript"></script>
+```
+ <script src="less.js" type="text/javascript"></script>
+```
 
 Através de CDN:
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.3/less.min.js"></script>
+```
+ <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.3/less.min.js"></script>
+```
 
 Depois deve-se incluir a folha de estilos Less usando 
 
-<link rel="stylesheet/less" type="text/css" href="teste.less" />
+```
+ <link rel="stylesheet/less" type="text/css" href="teste.less" />
+```
 
 É importante que as folhas de estilo Less sejam carregadas **antes** do script. Elas serão compiladas individualmente, portanto não é possível compartilhar variáveis e outros recursos do Less entre elas. Mas o CSS resultante continuará seguindo as mesmas regras de cascade, na ordem em que os estilos Less foram declarados.
