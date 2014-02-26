@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <link rel="stylesheet/less" type="text/css" href="stylesheets/variables.less" />
+    <!--link rel="stylesheet/less" type="text/css" href="stylesheets/variables.less" /-->
     <script src="bower_components/less/dist/less-1.6.2.min.js"></script>
-
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <meta charset="utf-8"/>
     <title></title>
 </head>
 <body>
 <h1>Less variables</h1>
-<div id="vars"></div>
-
+<ol id="varlist"></ol>
 </body>
-
 <script>
     var parser = new(less.Parser);
     var client = new XMLHttpRequest();
     client.open('GET', 'stylesheets/variables.less');
     client.onreadystatechange = function() {
         var data = client.responseText;
-        var div = document.getElementById("vars");
+        var varlist = document.getElementById("varlist");
 
         parser.parse(data, function (e, tree) {
             var variables = tree.variables();
@@ -27,12 +25,11 @@
             for (i in variables) {
                 var name = variables[i].name;
                 var value = variables[i].value.toCSS();
-                html += "<p>"+name + ":" + value+"</p>";
+                html += "<li>"+name + ":" + value+"</li>";
             }
-
-            div.innerHTML = html;
+            varlist.innerHTML = html;
         });
     }
     client.send();
-</script>
+  </script>
 </html>
