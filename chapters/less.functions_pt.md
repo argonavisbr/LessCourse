@@ -1,4 +1,6 @@
 #{9: funções }
+Este é um capítulo novo!
+
 ##funções?
 ##string
 ##listas
