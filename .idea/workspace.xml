@@ -23,73 +23,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
+      <file leaf-file-name="pseudo.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/pseudo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+            <state line="6" column="0" selection-start="70" selection-end="133" vertical-scroll-proportion="0.13432837" vertical-offset="0" max-vertical-offset="670">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less-js.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less-js.html">
+      <file leaf-file-name="pseudo.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/pseudo.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="630">
+            <state line="5" column="0" selection-start="68" selection-end="141" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mixins-1.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.less">
+      <file leaf-file-name="predicate.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/predicate.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mixins-1.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.css">
+      <file leaf-file-name="predicate.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/predicate.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less-js-jquery.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less-js-jquery.html">
+      <file leaf-file-name="comments.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/comments.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="38" selection-start="537" selection-end="537" vertical-scroll-proportion="0.63829786" vertical-offset="0" max-vertical-offset="570">
+            <state line="11" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extend-1.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.less">
+      <file leaf-file-name="comments.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/comments.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+            <state line="8" column="0" selection-start="241" selection-end="418" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extend-1.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.css">
+      <file leaf-file-name="aninhamento_2.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="345">
+            <state line="10" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variables.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.css">
+      <file leaf-file-name="aninhamento_2.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_2.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="20" column="1" selection-start="160" selection-end="160" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aninhamento_1.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="1" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aninhamento_1.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_1.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="3" selection-start="407" selection-end="407" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -111,12 +129,23 @@
         <option value="$PROJECT_DIR$/stylesheets/mixins-1.less" />
         <option value="$PROJECT_DIR$/less-js.html" />
         <option value="$PROJECT_DIR$/less-js-jquery.html" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/aninhamento_1.less" />
+        <option value="$PROJECT_DIR$/chapters/less.variables_pt.md" />
+        <option value="$PROJECT_DIR$/chapters/less.mixin.1_pt.md" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/comentarios.less" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/comentarios.css" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/simbolo_amp.css" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/aninhamento_2.css" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/aninhamento_2.less" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/simbolo_amp.less" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/pseudo.css" />
+        <option value="$PROJECT_DIR$/stylesheets/basics/pseudo.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2148" />
-    <option name="y" value="22" />
+    <option name="x" value="2197" />
+    <option name="y" value="62" />
     <option name="width" value="890" />
     <option name="height" value="834" />
   </component>
@@ -146,6 +175,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,9 +262,154 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simbolo_amp.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pseudo.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="predicate.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comments.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aninhamento_2.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aninhamento_1.less" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,6 +432,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -267,23 +450,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -305,27 +480,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2148" y="22" width="890" height="834" extended-state="0" />
-    <editor active="false" />
+    <frame x="2197" y="62" width="890" height="834" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32884097" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25589624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26179245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -345,6 +520,62 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less-js-jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="38" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="4" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
@@ -382,14 +613,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+        <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.15889831" vertical-offset="0" max-vertical-offset="472">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.28601694" vertical-offset="0" max-vertical-offset="472">
           <folding />
         </state>
       </provider>
@@ -403,35 +634,199 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+        <state line="20" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+        <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.50223213" vertical-offset="0" max-vertical-offset="448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
+        <state line="13" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less-js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="16" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="600">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/css/syntax.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/less-js-jquery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="38" selection-start="537" selection-end="537" vertical-scroll-proportion="0.63829786" vertical-offset="0" max-vertical-offset="570">
+        <state line="16" column="38" selection-start="537" selection-end="537" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/css/app 3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_flip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_gradiente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.33482143" vertical-offset="150" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/css/argonavis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="613" selection-end="613" vertical-scroll-proportion="0.4988864" vertical-offset="1" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.variables_pt.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="9" selection-start="837" selection-end="837" vertical-scroll-proportion="-10.555555" vertical-offset="315" max-vertical-offset="1770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.mixin.1_pt.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="42" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.45045045" vertical-offset="1635" max-vertical-offset="2415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.mixin.2_pt.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3430321" vertical-offset="877" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.more_pt.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="429" selection-end="429" vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/simbolo_amp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/simbolo_amp.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/predicate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="647">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/predicate.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/comments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/comments.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="241" selection-end="418" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="160" selection-end="160" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/aninhamento_1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="3" selection-start="407" selection-end="407" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/pseudo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="68" selection-end="141" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/basics/pseudo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="70" selection-end="133" vertical-scroll-proportion="0.13432837" vertical-offset="0" max-vertical-offset="670">
           <folding />
         </state>
       </provider>

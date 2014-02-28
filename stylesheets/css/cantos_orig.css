@@ -1,0 +1,82 @@
+H1 {font-size: 28pt; color: maroon;
+    text-align: center;
+	font-style: italic; 
+    font-weight: normal;
+	font-family: Garamond, serif;}
+H2 {font-size: 18pt; font-style: italic; font-weight: normal;
+	text-align: center;
+	font-family: Garamond, serif;}
+H3 {font-size: 16pt; font-weight: bold;
+    font-variant: small-caps;
+	text-align: center;
+	font-family: Garamond, serif;}
+H4 {font-size: 14pt; font-weight: normal;
+	text-align: center;
+	font-family: Garamond, serif;}
+    
+h1 {font-weight: normal; font-style: italic}
+td.num {font-size: 10pt; color: rgb(60%,40%,0%);}
+td.verso {font-size: 14pt; font-family: Garamond, serif}
+	
+BODY {background-color: black;	
+      background-image: url(../../imagens/inf_back.jpg);
+      background-repeat: repeat-y;
+      margin-left: 40px}
+	
+P 		{font-size: 14pt; 
+  		 text-align: justify; 
+		 text-indent: 1cm;
+  		 margin-top: 7pt; margin-bottom: 7pt;
+		 line-height: 150%;
+		 font-family: Garamond, serif;}
+p.primeiro {text-indent: 0px}
+span.cap    { font: bold 48pt;
+	        color: rgb(70%,30%,0%);
+		    width: 10pt;
+		    vertical-align: top;
+		    float: left;
+            display: block	}
+P.idx   {text-align: center;
+         text-indent: 0cm;
+		 }
+P.menu 	{text-align: right}
+P.minimenu 	{text-align: center;
+		     text-indent: 0cm;
+			 font-size: 12pt;
+			 margin: 0px}
+
+P.ref 	{text-indent: 0cm;
+      	 color: black;
+	  	 margin-top: 14pt; 
+		 text-align: left}
+P.nota 	{text-indent: 0cm; 
+	     margin-top: 12pt;}
+P.copy 	{font-size: 11pt; 
+	     text-indent: 0px; 
+		 line-height: 120%}
+P.lista, P.legenda
+        {font-size: 12pt;
+         text-indent: 0px;
+		 text-align: left}
+
+TD 		{font-family: Garamond, serif;}
+TD.legenda 	{font-size: 11pt; 
+		     font-family: Garamond, serif;
+             text-align: left}
+TD.minimenu 	{text-indent: 0cm;
+			 	 font-size: 11pt;
+			 	 margin: 0px}
+			
+LI, UL, OL {font-size: 14pt;  
+		    font-family: Garamond, serif; 
+			line-height: 120%}
+LI {margin-bottom: 6pt}
+
+DIV.figura {margin-top: 0.5cm; 
+	   		margin-bottom: 0.5cm}
+
+A:link 	   {color: rgb(60%,0%,0%); 
+		    text-decoration: none}
+A:visited  {color: rgb(50%,0%,0%); 
+			text-decoration: none}
+A:hover {text-decoration: underline;}

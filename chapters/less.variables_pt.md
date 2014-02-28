@@ -37,6 +37,20 @@ h1 {
 }
 ```
 
+## escopo
+As chaves limitam o escopo de variáveis. Se uma variável é definida dentro de um bloco, o valor dela vale para todo o bloco e para os blocos que estejam em nível mais baixo.
+```
+```
+```
+```
+
+A ordem das declarações é irrelevante. Você pode declarar uma variável no final de um bloco, que o valor dela valerá para o bloco inteiro e todos os sub-blocos, mesmo que tenham sido declarados antes. As variáveis podem ser declaradas em qualquer lugar do arquivo, mesmo no final. Somente blocos limitam o escopo.
+```
+```
+```
+```
+
+
 ## variáveis interpoladas
 
 Variáveis não servem apenas para guardar valores. Podem ser usadas para conter outros textos, tais como nomes de propriedades, seletores, URLs, etc. Neste caso a declaração não muda, mas para usar a variável é preciso colocar seu nome entre chaves:

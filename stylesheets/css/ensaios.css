@@ -1,0 +1,75 @@
+	body {background-color: rgb(255,250,230);}
+	
+	.body {width: 60%; 		 	/* CLASSE "body" */
+		   margin-left: 2cm}
+		   
+	H1, H2, H3 {text-align: center;
+		    	font-weight: normal; 
+				font-style: italic;}
+
+	H1 {font-size: 32pt;
+    	color: maroon}
+
+	H2 {font-size: 20pt}
+
+	H3 {font-size: 14pt}
+	
+	P.copy {font-size: 12pt; 
+        	font-style: italic;
+			text-align: right;}
+						
+	.destaque {width: 5cm; 
+	           margin: 10px 0px 0px 10px; 
+			   padding: 0px 5px; 
+			   border-width: 2px; 
+			   border-style: outset;
+	           border-color: rgb(250,245,200); 
+			   background: rgb(250,245,200);
+	           float: right; 
+			   }
+			   
+	.destaque table {text-align: center; 
+					 text-indent: 0cm;
+				     font-size: 13pt; 
+					 font-weight: bold; 
+					 font-style: italic; 
+					 color: rgb(180,90,0);
+					 background: rgb(250,245,200);
+					 width: 100%}
+					 
+	p {font-size: 12pt; 
+	   text-indent: 1cm;
+	   line-height: 150%; 
+	   text-align: justify;
+	   color: rgb(80, 60, 20);
+	   margin: 5px 0px 5px 0px}
+	   
+	p.autor  {text-align: center;
+			  text-indent: 0px;
+			  font-family: sans-serif;
+			  font-size: 10pt;
+			  border-width: 1px; 
+			  border-style: outset none outset none;
+	          border-color: rgb(250,245,200);
+			  }
+			  
+	.cap {font: bold 450% fantasy;
+		  border-width: 2px; 
+		  border-style: outset;
+	      border-color: rgb(250,245,200); 
+		  background: rgb(250,245,200);
+		  color: rgb(180,90,0);
+		  width: 20pt;
+		  vertical-align: top;
+		  float: left;}
+
+		
+	p.primeiro {text-indent: 0px;}
+	
+		   
+	A:link, A:visited {text-decoration: none;
+                   	   color: rgb(50%,30%,0%)}
+					 
+	A:hover {color: rgb(220,120,0);
+			 text-decoration: underline;
+	      	 background-color: rgb(250,245,200);  }

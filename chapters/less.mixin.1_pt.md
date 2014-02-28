@@ -107,7 +107,7 @@ Usando o símbolo &, que representa o seletor pai, um mixin pode ser usado para 
 
 
 ##namespacing
-Mixins com seletores de ids podem ser usados para definir um namespace para agrupar vários mixins e evitar conflitos.
+Um namespace em less é declarado com um mixin usando seletor de ID. Namespaces são úteis para agrupar outros mixins e evitar conflitos de nome, principalmente em aplicações que importam folhas de estilo de terceiros.
 ```
 ```
 Para usar deve-se usar o nome do mixin externo (namespace) antes do mixin interno. 
@@ -116,6 +116,7 @@ Para usar deve-se usar o nome do mixin externo (namespace) antes do mixin intern
 Existe uma sintaxe alternativa usando `>` que é opcional:
 ```
 ```
+Recomendações sobre namespaces, boas práticas.
 
 ##!important
 A palavra-chave !important é usada em CSS para sobrepor as regras de precedência do cascade e forçar a aplicação de uma declaração de estilo em um seletor. Se for aplicada em um mixin, todas as declarações de estilo contidas no mixin irão ser marcadas como !important.

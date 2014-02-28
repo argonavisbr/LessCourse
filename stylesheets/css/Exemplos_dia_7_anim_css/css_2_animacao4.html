@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+   	   <head>
+            <meta charset="UTF-8">
+            <title>CSS 3</title>
+            <script>
+            	function initCanvas()  {
+			      var i = new Image();
+                  i.src = "imagens/sicilia2007.jpg";
+				  var ctx1 = document.getElementById("canvas").getContext("2d");
+				  i.onload = function () {	
+                     ctx1.drawImage(i,0,0,200,150);
+                  }
+			}
+            </script>
+            <style> 
+            
+            
+            
+			.esperando {
+			  -webkit-transform: scale(0.1);
+			}
+			
+			.inicio {
+			  -webkit-animation-name: roda-cresce;
+			  -webkit-animation-duration: 2s;
+			}
+			
+			.fim {
+			  -webkit-transform: scale(1);
+			}
+			 
+			@-webkit-keyframes roda-cresce {
+				  from {
+					-webkit-transform: scale(0.1) rotate(-0deg);
+				  }
+			
+				  to {
+					-webkit-transform: scale(1) rotate(-360deg);
+				  }
+			}
+
+           </style>
+       </head>
+       <body onload="initCanvas()">
+            <p>Animação</p>
+            <canvas id="canvas" style="opacity:0.5" height="150" width="200" onclick="this.setAttribute('style','opacity:1.0'); document.getElementById('im1').setAttribute('class','inicio')"></canvas>
+            <div id="im1" class="esperando" onclick="this.setAttribute('class','inicio')" onwebkitAnimationEnd="this.setAttribute('class','fim')">
+            <img src="imagens/sicilia2007.jpg" id="sicilia">
+            </div>
+       </body>
+</html>

@@ -1,0 +1,11 @@
+.tag {
+  &:before {Content: '&lt;'}
+  &:after {Content: '/&gt;'}
+}
+
+div {
+  p {
+    &:first-child {color: red;}
+  }
+  &.last {color: blue;}
+}

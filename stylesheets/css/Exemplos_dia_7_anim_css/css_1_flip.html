@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+   	   <head>
+            <meta charset="UTF-8">
+            <title>CSS 3</title>
+            <style> 
+            body {background: black}
+            #frente {
+                 position:absolute; top: 0px; left: 0px;
+                 -webkit-transform: translateZ(10px) scaleZ(1.2) scale(0.5);
+   				 -webkit-transform-style: preserve-3d;
+            }
+            #verso {
+                 position:absolute; top: 0px; left: 0px;
+                 -webkit-transform: translateZ(-10px) scaleZ(1.2) scale(0.5);
+                 -webkit-transform-style: preserve-3d;
+            }
+             
+            #cena {
+            	-webkit-animation: flip 8s infinite linear;
+            	-webkit-transform-style: preserve-3d;
+            }
+ 
+            
+            @-webkit-keyframes flip {
+                  from {
+					-webkit-transform: rotateY(0deg);
+				  }
+				  to {
+					-webkit-transform: rotateY(-360deg);
+				  }
+			}
+
+           </style>
+       </head>
+       <body style="-webkit-perspective: 1000;">
+          <div id="cena">
+            <div id="frente">
+               <img src="imagens/sicilia2007.jpg" >
+            </div>
+            <div id="verso">
+               <img src="imagens/barcelona2009.jpg" >
+            </div>
+          </div>
+       </body>
+</html>

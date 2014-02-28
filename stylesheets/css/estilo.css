@@ -1,0 +1,7 @@
+p {text-indent: 1cm}
+
+h2 + p, div.figura + p {text-indent: 0px}
+
+h2 + p::first-letter {font-size: 80pt}
+
+body {-webkit-column-count: 2; -webkit-column-gap: 5px}

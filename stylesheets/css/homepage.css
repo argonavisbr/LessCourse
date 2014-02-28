@@ -1,0 +1,187 @@
+/* homepage.css */
+
+a {text-decoration: none}
+a:hover {text-decoration: underline}
+a:link, a:visited {color: #404040;}
+
+* {font-family: helvetica }
+p, li, td {font-size: 10pt }
+h2 {font-size: 11pt; 
+    margin-top: 0;
+    margin-bottom: 0}
+.subtitle {font-size: 7pt; margin-top: 0}
+.siteitem {margin-top: 4pt;
+    margin-bottom: 4pt;
+    margin-left: 10px}
+
+.sitemais {text-align: right;
+    font-size: 9pt}
+
+.siteicon {width: 130px; float: left; margin-right: 10px;}
+.sitecaption {width: 420px;}
+
+#menu {border: solid rgb(90%,90%,90%) 5px;
+       padding: 5px;
+       width: 420px;
+       position: relative;
+       left: 120px;
+       top: 50px;
+       overflow: hidden;
+}
+
+#social_apps .icon {position:absolute;}
+#menu .icon {
+    position:static;
+    float:left;
+    margin: 5px 7px;
+}
+
+.search {position: absolute;
+         top: -30px;
+         width: 360px;
+         right: 0px;
+         background: #404040;}
+
+.nametitle {font-weight: bold;
+		    font-size: 13pt;
+            position: absolute;
+            top: -8px;
+            left: 10px;
+            text-decoration: none;
+            color: rgb(90%,90%,90%);}
+            
+.nametitle a {text-decoration: none;
+              color: rgb(90%,90%,90%);}
+            
+.email {position: absolute;
+        top: -8px;
+        left: 160px;}
+
+#top_bar {position: absolute;
+          left: 0px;
+          top: 0px;
+          height:40px;
+          width: 950px;
+          background: #404040}
+
+#social_apps {position: absolute;
+              left: 15px;
+              top: 50px;}
+              
+#feeds {background-color: #404040;
+        padding: 5px;
+        width: 350px;
+        height: 1100px;
+		position: absolute; 
+        left: 590px; top: 40px; 
+        }
+
+#websites {
+	position: relative;
+              left: 125px;
+              top: 70px;
+}
+
+#hp_facebook {left: 50px; top: 10px;}
+#hp_instagram {left: 50px; top: 45px;}
+#hp_soundcloud {left: 50px; top: 80px;}
+
+
+#hp_vk {left: 50px; top: 190px}
+
+#hp_livemocha {left: 50px; top: 270px;}
+#hp_aboutme {left: 50px; top: 305px;}
+#hp_flickr {left: 50px; top: 340px;}
+
+#hp_google {left: 10px; top: 10px;}
+
+#hp_twitter {left: 10px; top: 80px;}
+#hp_linkedin {left: 10px; top: 115px;}
+#hp_stackoverflow {left: 50px; top: 115px;}
+#hp_seeme {left: 10px; top: 152px;}
+
+#hp_cs {left: 10px; top: 225px;}
+
+#hp_lastfm {left: 10px; top: 305px;}
+#hp_github {left: 10px; top: 340px;}
+#hp_youtube {left: 10px; top: 375px;}
+
+#hp_astronomia {left: 10px; top: 10px; enabled:false}
+#space {width: 90px; height: 90px}
+
+#hp_argonavis {left: 0px; top: 0px;}
+#hp_dante {left: 0px; top: 100px;}
+#hp_fish {left: 0px; top: 250px;}
+#hp_pterosaur {left: 0px; top: 400px;}
+
+/* disabled links */
+#hp_idiomas, #hp_idiomas_2,
+#hp_viagens
+ {
+   pointer-events: none;
+   cursor: default;
+}
+
+#hp_idiomas_2 {
+    display: none;
+}
+
+#feed_instagram {position: absolute; left: 10px; top: 0px;}
+#feed_twitter   {position: absolute; left: 10px; top: 240px;}
+#feed_blogs     {position: absolute; left: 10px; top: 610px;}
+
+@media only screen and (max-width: 480px) {
+	#feeds, #social_apps, .search {display: none}
+
+    #menu {position: relative;
+        left: 0px;
+        top: 40px;
+        width: 320px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    #websites {position: relative;
+        left: 5px;
+        top: 60px;
+        width: 320px;
+        overflow: hidden;
+    }
+    #top_bar {width: 320px}
+    body {width: 320px}
+    #space {display: none}
+    #menu .icon {margin: 5px 6px}
+
+    #hp_musica {
+        clear: both;
+    }
+
+    #hp_idiomas {
+        display: none;
+    }
+    #hp_idiomas_2 {
+        display: block;
+    }
+
+    #websites .icon {
+        width: 300px;
+        overflow: hidden;
+    }
+    .siteicon {
+        width: 300px;
+        clear: both;
+        text-align: center;
+        margin: 0;
+    }
+    .sitecaption {
+        width: 300px;
+        text-align: center;
+    }
+    .sitecaption * {
+        font-size: 110%;
+    }
+    .subtitle {
+        font-size: 100%;
+    }
+    .siteitem, .sitemais {display: none}
+}
