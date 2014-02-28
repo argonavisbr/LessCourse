@@ -14,7 +14,7 @@
 <script>
     var parser = new(less.Parser);
     var client = new XMLHttpRequest();
-    client.open('GET', 'stylesheets/variables.less');
+    client.open('GET', 'stylesheets/variables/variables.less');
     client.onreadystatechange = function() {
         var data = client.responseText;
         var varlist = document.getElementById("varlist");

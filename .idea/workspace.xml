@@ -24,7 +24,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/variables.less">
+        <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
               <folding />
@@ -35,43 +35,41 @@
       <file leaf-file-name="less-js.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less-js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="7" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="630">
-              <folding>
-                <marker date="1393360894000" expanded="true" signature="421:1111" placeholder="..." />
-              </folding>
+            <state line="16" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="630">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mixins-1.less" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheets/mixins-1.less">
+      <file leaf-file-name="mixins-1.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="26" selection-start="291" selection-end="291" vertical-scroll-proportion="0.38230884" vertical-offset="0" max-vertical-offset="667">
+            <state line="20" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="mixins-1.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/mixins-1.css">
+        <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="13" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="less-js-jquery.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="less-js-jquery.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less-js-jquery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="102" selection-start="895" selection-end="895" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="570">
+            <state line="16" column="38" selection-start="537" selection-end="537" vertical-scroll-proportion="0.4047976" vertical-offset="0" max-vertical-offset="667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="extend-1.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/extend-1.less">
+        <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.less">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
               <folding />
@@ -80,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="extend-1.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/extend-1.css">
+        <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="345">
               <folding />
@@ -89,7 +87,7 @@
         </entry>
       </file>
       <file leaf-file-name="variables.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/variables.css">
+        <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
@@ -108,11 +106,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/stylesheets/extend-1.less" />
-        <option value="$PROJECT_DIR$/less-js-jquery.html" />
         <option value="$PROJECT_DIR$/stylesheets/variables.less" />
-        <option value="$PROJECT_DIR$/less-js.html" />
         <option value="$PROJECT_DIR$/stylesheets/mixins-1.css" />
         <option value="$PROJECT_DIR$/stylesheets/mixins-1.less" />
+        <option value="$PROJECT_DIR$/less-js.html" />
+        <option value="$PROJECT_DIR$/less-js-jquery.html" />
       </list>
     </option>
   </component>
@@ -180,8 +178,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="variables.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+              <option name="myItemId" value="variables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -198,8 +210,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mixins-1.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+              <option name="myItemId" value="mixins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -216,8 +228,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="extend-1.less" />
-              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+              <option name="myItemId" value="extend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -255,6 +267,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stylesheets/variables" />
+      <recent name="$PROJECT_DIR$/stylesheets/extend" />
+      <recent name="$PROJECT_DIR$/stylesheets/mixins" />
     </key>
   </component>
   <component name="RunManager">
@@ -346,7 +363,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/variables.less">
+    <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="4" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
@@ -356,87 +373,83 @@
     <entry file="file://$PROJECT_DIR$/less-js.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="423" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="900">
-          <folding>
-            <marker date="1393360894000" expanded="true" signature="421:1111" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend-1.less">
+    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend-1.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/variables.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="55" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend-1.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="3" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend-1.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/variables.css">
+    <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/variables.less">
+    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/variables/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="238" selection-end="238" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less-js-jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="102" selection-start="895" selection-end="895" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less-js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="1120" selection-end="1120" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <marker date="1393360894000" expanded="true" signature="421:1111" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="16" column="46" selection-start="543" selection-end="543" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins-1.less">
+    <entry file="file://$PROJECT_DIR$/less-js-jquery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="291" selection-end="291" vertical-scroll-proportion="0.38230884" vertical-offset="0" max-vertical-offset="667">
+        <state line="16" column="38" selection-start="537" selection-end="537" vertical-scroll-proportion="0.4047976" vertical-offset="0" max-vertical-offset="667">
           <folding />
         </state>
       </provider>

@@ -14,7 +14,7 @@
 <script>
     $( document ).ready(function() {
         var parser = new(less.Parser);
-        $.get( "stylesheets/variables.less", function( data ) {
+        $.get( "stylesheets/variables/variables.less", function( data ) {
             parser.parse(data, function (e, tree) {
                 var variables = tree.variables();
                 console.log(variables)
