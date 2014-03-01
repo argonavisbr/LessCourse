@@ -32,6 +32,22 @@ Os seguintes parametros podem ser usados:
 ### less
 ### css
 
+
+## import e variáveis
+
+Variáveis não precisam ser declaradas antes do uso. Se houver mais de uma definição, a última definição, considerando o escopo do atual para o mais externo, é usada.
+
+```
+@base-color: green;
+@dark-color: darken(@base-color, 10%);
+
+// use of library
+@import "library.less";
+@base-color: red;
+```
+
+`@base-color` é `red`, e `@dark-color` é vermelho escuro.
+
 ##mixins condicionais (mixin guards)
 Pode-se criar mixins parametrizados que definem regras de estilo diferentes de acordo com operações condicionais realizadas sobre os valores recebidos. São chamados de _mixin guards_. Através deles é possível tomar decisões de forma similar a expressões if/else existentes em linguagens de programação.
 
