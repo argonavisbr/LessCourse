@@ -1,0 +1,8 @@
+div.sec,
+.sec.subsec,
+.sec:before,
+div.new-section,
+.new-section.subsec,
+.new-section:before {
+  color: pink;
+}

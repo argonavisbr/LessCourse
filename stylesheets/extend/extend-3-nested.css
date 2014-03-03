@@ -1,0 +1,18 @@
+t1,
+t3,
+s3,
+t4,
+s1 d1,
+s2 {
+  color: #0000ff;
+}
+n1,
+s4 {
+  content: 'nothing';
+}
+n1 d2,
+s4 d2,
+s1 d1,
+s2 {
+  font-size: 12pt;
+}

@@ -1,0 +1,41 @@
+.abs,
+.right,
+.top,
+.bottom,
+.left,
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.box,
+.right,
+.top,
+.bottom,
+.left,
+.center {
+  background-color: gray;
+  height: 50px;
+  width: 100px;
+}
+section {
+  width: 450px;
+  height: 250px;
+  border: solid black 1px;
+  position: relative;
+}
+.top {
+  top: 50%;
+}
+.bottom {
+  top: -50%;
+}
+.left {
+  left: -50%;
+}
+.right {
+  left: 50%;
+}

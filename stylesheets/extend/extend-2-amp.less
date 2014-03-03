@@ -1,0 +1,14 @@
+.capitulo{
+  font: 12pt;
+  margin: 2px;
+}
+
+.prefacio {
+  color: #111;
+  background: #eee;
+}
+
+.secao1, .secao2, .secao3 {
+  &:extend(.prefacio);
+  &:extend(.capitulo);
+}

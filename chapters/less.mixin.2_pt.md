@@ -90,6 +90,10 @@ As variáveis não precisam ter um valor fixo. Os mixins podem transformar os va
 ```
 ```
 
+## quando usar extend em vez de mixin
+combining styles
+reducing size
+
 ## exercícios
 1. Escreva um mixin para aplicar uma aparência de alto relevo em botões. O...
 2. Escreva um mixin que receba duas cores, e uma lista variável de percentagens. O mixin deve então gerar um gradiente de uma cor para a outra, usando as percentagens como indicativos de stops para cada cor.

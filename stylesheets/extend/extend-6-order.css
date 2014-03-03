@@ -1,0 +1,27 @@
+.n7 {
+  background: orange;
+}
+.n2,
+.n7 {
+  background: green;
+}
+.n1,
+.n7 {
+  color: yellow;
+  background: red;
+}
+/*
+.n3:extend(.n1) {
+  background: black;
+  color: blue;
+}
+
+.n4:extend(.n3) {
+  font-size: 24pt;
+  background: yellow;
+}
+
+.n5:extend(.n1, .n2) {}
+
+.n6:extend(.n2, .n1) {}
+*/

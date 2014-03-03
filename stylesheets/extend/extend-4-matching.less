@@ -1,0 +1,10 @@
+a:before:hover,
+p:nth-child(n+1),
+*.secao,
+*[nome]
+{
+  text-decoration: underline;
+}
+
+div:extend(a:hover:before, p:nth-child(n+1), .secao, [nome]) {color: purple;}
+

@@ -1,0 +1,14 @@
+.capitulo,
+.secao1,
+.secao2,
+.secao3 {
+  font: 12pt;
+  margin: 2px;
+}
+.prefacio,
+.secao1,
+.secao2,
+.secao3 {
+  color: #111;
+  background: #eee;
+}
