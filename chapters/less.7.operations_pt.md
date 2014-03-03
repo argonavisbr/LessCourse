@@ -94,7 +94,7 @@ O efeito multiplicador ('e' lógico) na combinação de expressões é obtido co
 ```
 ```
 
-
+## detecção de tipos
 Existem cinco funções para verificar se o tipo da variável corresponde ao esperado:
 
 - iscolor (true se valor for #rrggbb, rgb(%,%,%), rgb(r,g,b), nome-de-cor, etc.)
@@ -115,7 +115,7 @@ A função default é usada como cláusula "else" de um mixin guard. Representa 
 ```
 ```
 
-
+## detecção de unidades
 
 Para números existem ainda quatro funções que retornam true para determinadas unidades:
 

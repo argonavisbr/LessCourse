@@ -1,6 +1,8 @@
 #{6: mixin }
 ##mixins?
-Variáveis permitem armazenar valores. Mixins permitem armazenar conjuntos inteiros de regras, que podem ser reusadas em outros blocos. A declaração do conjunto de regras de um mixin não difere em nada de uma declaração normal usando seletores de classe ou id, mas esses seletores não precisam existir no HTML. Além disso, mixins podem ter parâmetros.
+Variáveis permitem armazenar valores. Mixins permitem armazenar conjuntos inteiros de regras, que podem ser reusadas em outros blocos. 
+
+A declaração de um mixin não difere em nada de uma declaração de um seletor CSS de classe ou id. A diferença é que o mixin foi criado para ser usado apenas na folha de estilos. Além disso, mixins podem ter parâmetros.
 
 O mixin abaixo agrupa várias regras usadas em diferentes seções de um documento:
 
@@ -13,7 +15,8 @@ O mixin abaixo agrupa várias regras usadas em diferentes seções de um documen
   color: rgb(240,240,240);
 }
 ```
-Expresso desta forma, o CSS gerado é praticamente o mesmo (talvez mude a forma de representação de cores, dependendo do processador). Mas o que faz esse bloco um mixin é a forma como ele é usado. Agora podemos aplicá-lo em vários outros blocos, e evitar repetir um monte de declarações:
+
+Expresso desta forma, o CSS gerado é praticamente o mesmo (talvez mude a forma de representação de cores, dependendo do processador). O que faz esse bloco um mixin é a *forma* como ele é usado. Agora podemos aplicá-lo em vários outros blocos, e evitar repetir um monte de declarações:
 
 ```
 .section {
@@ -24,7 +27,7 @@ Expresso desta forma, o CSS gerado é praticamente o mesmo (talvez mude a forma 
 }
 
 #footer {
-  .text-content-set;
+  .text-content-set;  // este é o mixin
   background-color: white;
 }
 ```
@@ -90,7 +93,7 @@ Assim apenas os elementos que usam o mixin fazem parte do CSS final:
 ```
 É uma boa prática sempre usar parênteses na declaração de mixins, mesmo que eles não tenham parâmetros. 
 
-Mixins podem também usar ids como seletores (não faz diferença). 
+Mixins podem também usar seletores de id (`#nome`) em vez de seletores de classe (`.nome`). Não faz nenhuma diferença, mas a convenção é usar seletores de classes para mixins, e seletores de id para namespaces (que veremos mais adiante).
 
 ##mixins com blocos aninhados
 Mixins podem conter blocos aninhados, por exemplo:
@@ -223,13 +226,11 @@ combining styles
 reducing size
 
 ##exercícios
-1. Veja a folha de estilos exercicio1.css. Escreva uma folha de estilos LESS que obtenha os mesmos resultados com o máximo de reuso, usando recursos que vimos até agora (variáveis, extend e mixins).
-2. xx
-3. xx
-4. ..
-5. dd
-
 1. Escreva um mixin para aplicar uma aparência de alto relevo em botões. O...
 2. Escreva um mixin que receba duas cores, e uma lista variável de percentagens. O mixin deve então gerar um gradiente de uma cor para a outra, usando as percentagens como indicativos de stops para cada cor.
+3. Veja a folha de estilos exercicio1.css. Escreva uma folha de estilos LESS que obtenha os mesmos resultados com o máximo de reuso, usando recursos que vimos até agora (variáveis, extend e mixins).
+
+
+
 
 

@@ -87,7 +87,18 @@ O arquivo CSS gerado é listado na tela. Para converter o resultado para um arqu
 lessc teste.less > teste.css
 ```
 
-Agora abra o CSS e veja o resultado.
+Agora abra o CSS e veja o resultado. Deve ser semelhante ao CSS abaixo:
+
+```
+#secao {
+  color: #ff8800;
+  border-color: #ff8800;
+  background: #ffffff;
+}
+#secao a:hover {
+  color: #663600;
+}
+```
 
 ##pré-processador estático
 
@@ -130,3 +141,5 @@ Depois deve-se incluir a folha de estilos Less usando
 ## ferramentas
 
 ## outros recursos do lessc
+
+## exercícios

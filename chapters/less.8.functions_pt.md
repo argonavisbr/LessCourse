@@ -60,6 +60,7 @@ Exemplos usando convert e funções trigonométricas
 Retornam o maior e menor valor de uma lista de valores
 ### pow e sqrt
 ### mod e abs
+
 ##detecção de tipos
 ###isnumber
 ###isstring
