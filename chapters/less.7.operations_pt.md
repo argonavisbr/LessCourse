@@ -1,4 +1,4 @@
-#{8: operações }
+#{7: operações }
 
 Retirar todos os exemplos do Less 1.3 que não funcionam mais, testar tudo, e só depois colocar de volta via GitHub.
 

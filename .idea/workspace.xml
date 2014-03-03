@@ -22,7 +22,112 @@
     <favorites_list name="LessCourse" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="less.6.mixin_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.6.mixin_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-129.44444" vertical-offset="0" max-vertical-offset="3615">
+              <caret line="233" column="0" selection-start="6911" selection-end="6911" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.9.more_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.9.more_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.2222223" vertical-offset="0" max-vertical-offset="390">
+              <caret line="13" column="81" selection-start="403" selection-end="403" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.7.operations_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.7.operations_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3900">
+              <caret line="0" column="3" selection-start="3" selection-end="3" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.4.variables_pt.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapters/less.4.variables_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.3931298" vertical-offset="0" max-vertical-offset="4050">
+              <caret line="48" column="354" selection-start="2014" selection-end="2014" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.1.intro_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.1.intro_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="180">
+              <caret line="6" column="12" selection-start="93" selection-end="93" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.2.installation_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.2.installation_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-71.666664" vertical-offset="0" max-vertical-offset="3000">
+              <caret line="129" column="3" selection-start="5336" selection-end="5347" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.3.basics_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.3.basics_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="6570">
+              <caret line="0" column="0" selection-start="0" selection-end="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="less.8.functions_pt.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapters/less.8.functions_pt.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="2010">
+              <caret line="7" column="127" selection-start="219" selection-end="219" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -32,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/extend-1.less" />
         <option value="$PROJECT_DIR$/stylesheets/variables.less" />
         <option value="$PROJECT_DIR$/stylesheets/mixins-1.css" />
         <option value="$PROJECT_DIR$/stylesheets/mixins-1.less" />
@@ -40,7 +144,6 @@
         <option value="$PROJECT_DIR$/less-js-jquery.html" />
         <option value="$PROJECT_DIR$/stylesheets/basics/aninhamento_1.less" />
         <option value="$PROJECT_DIR$/chapters/less.variables_pt.md" />
-        <option value="$PROJECT_DIR$/chapters/less.mixin.1_pt.md" />
         <option value="$PROJECT_DIR$/stylesheets/basics/comentarios.less" />
         <option value="$PROJECT_DIR$/stylesheets/basics/comentarios.css" />
         <option value="$PROJECT_DIR$/stylesheets/basics/simbolo_amp.css" />
@@ -52,7 +155,6 @@
         <option value="$PROJECT_DIR$/stylesheets/variables/variables_scope.css" />
         <option value="$PROJECT_DIR$/stylesheets/variables/variables_interpol.css" />
         <option value="$PROJECT_DIR$/stylesheets/variables/variables_interpol.less" />
-        <option value="$PROJECT_DIR$/chapters/less.operations_pt.md" />
         <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-1.less" />
         <option value="$PROJECT_DIR$/stylesheets/variables/variables.less" />
         <option value="$PROJECT_DIR$/stylesheets/variables/variables_1.less" />
@@ -81,6 +183,11 @@
         <option value="$PROJECT_DIR$/stylesheets/extend/extend-9-media.css" />
         <option value="$PROJECT_DIR$/stylesheets/extend/extend-9-media.less" />
         <option value="$PROJECT_DIR$/stylesheets/extend/extend-5-matching.less" />
+        <option value="$PROJECT_DIR$/chapters/less.mixin.2_pt.md" />
+        <option value="$PROJECT_DIR$/chapters/less.mixin.1_pt.md" />
+        <option value="$PROJECT_DIR$/chapters/less.operations_pt.md" />
+        <option value="$PROJECT_DIR$/chapters/less.functions_pt.md" />
+        <option value="$PROJECT_DIR$/chapters/less.more_pt.md" />
       </list>
     </option>
   </component>
@@ -304,27 +411,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapters/less.mixin.2_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3430321" vertical-offset="877" max-vertical-offset="1935">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.more_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445" vertical-offset="0" max-vertical-offset="360">
-          <caret line="17" column="9" selection-start="429" selection-end="429" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/basics/simbolo_amp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="0" selection-start="94" selection-end="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/basics/simbolo_amp.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="435">
@@ -419,37 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.operations_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="2985">
-          <caret line="38" column="0" selection-start="1548" selection-end="1548" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.basics_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5925">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.variables_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2394775" vertical-offset="720" max-vertical-offset="3510">
-          <caret line="48" column="354" selection-start="2014" selection-end="2014" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.extend_pt.md">
+    <entry file="file://$PROJECT_DIR$/chapters/less.5.extend_pt.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -490,28 +546,6 @@
           <caret line="35" column="17" selection-start="418" selection-end="418" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.installation_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3430572" vertical-offset="0" max-vertical-offset="3000">
-          <caret line="129" column="3" selection-start="5336" selection-end="5347" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.intro_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.105017506" vertical-offset="0" max-vertical-offset="857">
-          <caret line="6" column="12" selection-start="93" selection-end="93" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1-intro.css">
@@ -715,6 +749,94 @@
           <caret line="18" column="29" selection-start="240" selection-end="240" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.6.mixin_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-129.44444" vertical-offset="0" max-vertical-offset="3615">
+          <caret line="233" column="0" selection-start="6911" selection-end="6911" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.7.operations_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3900">
+          <caret line="0" column="3" selection-start="3" selection-end="3" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.8.functions_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888" vertical-offset="0" max-vertical-offset="2010">
+          <caret line="7" column="127" selection-start="219" selection-end="219" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.9.more_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2222223" vertical-offset="0" max-vertical-offset="390">
+          <caret line="13" column="81" selection-start="403" selection-end="403" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.1.intro_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="12" selection-start="93" selection-end="93" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.2.installation_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-71.666664" vertical-offset="0" max-vertical-offset="3000">
+          <caret line="129" column="3" selection-start="5336" selection-end="5347" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.3.basics_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5925">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.4.variables_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3931298" vertical-offset="0" max-vertical-offset="4050">
+          <caret line="48" column="354" selection-start="2014" selection-end="2014" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
