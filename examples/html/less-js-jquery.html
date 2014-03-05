@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <!--link rel="stylesheet/less" type="text/css" href="stylesheets/variables.less" /-->
-    <script src="bower_components/less/dist/less-1.6.2.min.js"></script>
+    <!--link rel="stylesheet/less" type="text/css" href="../stylesheets/variables/variables.less" /-->
+    <script src="../../bower_components/less/dist/less-1.6.2.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <meta charset="utf-8"/>
     <title></title>
@@ -14,7 +14,7 @@
 <script>
     $( document ).ready(function() {
         var parser = new(less.Parser);
-        $.get( "stylesheets/variables/variables.less", function( data ) {
+        $.get( "../stylesheets/variables/variables.less", function( data ) {
             parser.parse(data, function (e, tree) {
                 var variables = tree.variables();
                 console.log(variables)
