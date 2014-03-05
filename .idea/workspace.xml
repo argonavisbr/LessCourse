@@ -22,60 +22,7 @@
     <favorites_list name="LessCourse" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="less.9.more_pt.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapters/less.9.more_pt.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.888889" vertical-offset="0" max-vertical-offset="1455">
-              <caret line="25" column="13" selection-start="1175" selection-end="1175" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less.6.mixin_pt.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapters/less.6.mixin_pt.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="59.74074" vertical-offset="14948" max-vertical-offset="16125">
-              <caret line="889" column="0" selection-start="22713" selection-end="22713" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less.7.operations_pt.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapters/less.7.operations_pt.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-72.77778" vertical-offset="0" max-vertical-offset="3240">
-              <caret line="131" column="13" selection-start="3102" selection-end="3102" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="less.3.basics_pt.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapters/less.3.basics_pt.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5796253" vertical-offset="60" max-vertical-offset="6630">
-              <caret line="16" column="23" selection-start="1439" selection-end="1439" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -85,11 +32,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/variables/variables_scope.less" />
-        <option value="$PROJECT_DIR$/stylesheets/extend/extend-1.less" />
-        <option value="$PROJECT_DIR$/chapters/_DELETE_less.intro_pt.md" />
-        <option value="$PROJECT_DIR$/chapters/less.installation_pt.md" />
-        <option value="$PROJECT_DIR$/stylesheets/extend/extend.css" />
         <option value="$PROJECT_DIR$/stylesheets/extend/extend.less" />
         <option value="$PROJECT_DIR$/stylesheets/extend/extend-2.less" />
         <option value="$PROJECT_DIR$/stylesheets/extend/extend-3.less" />
@@ -136,6 +78,11 @@
         <option value="$PROJECT_DIR$/chapters/less.3.basics_pt.md" />
         <option value="$PROJECT_DIR$/chapters/less.7.operations_pt.md" />
         <option value="$PROJECT_DIR$/chapters/less.8.functions_pt.md" />
+        <option value="$PROJECT_DIR$/examples/html/less-js-jquery.html" />
+        <option value="$PROJECT_DIR$/examples/html/less-js.html" />
+        <option value="$PROJECT_DIR$/examples/html/extend-order.html" />
+        <option value="$PROJECT_DIR$/examples/html/css-position-less.html" />
+        <option value="$PROJECT_DIR$/examples/html/css-position.html" />
       </list>
     </option>
   </component>
@@ -219,6 +166,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -233,47 +184,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="operations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LessCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LessCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mixins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LessCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LessCourse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,11 +224,11 @@
       <recent name="$PROJECT_DIR$/stylesheets/extend" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/html" />
+      <recent name="$PROJECT_DIR$/examples" />
       <recent name="$PROJECT_DIR$/stylesheets/operations" />
       <recent name="$PROJECT_DIR$/stylesheets/more" />
       <recent name="$PROJECT_DIR$/stylesheets/mixins" />
-      <recent name="$PROJECT_DIR$/stylesheets/variables" />
-      <recent name="$PROJECT_DIR$/stylesheets/extend" />
     </key>
   </component>
   <component name="RunManager">
@@ -377,14 +288,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2315" y="-52" width="801" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254282" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -416,135 +327,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-9-media.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-8-all.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-7-dups.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-6-order.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-5-matching.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-4-matching.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-3-nested.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-2-amp.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-1-intro.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/abs-box.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-application.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/extend/extend-application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-8-parameter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="812">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-8-parameter.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22753793" vertical-offset="0" max-vertical-offset="857">
-          <caret line="12" column="1" selection-start="280" selection-end="280" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-7-parameter.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="390">
-          <caret line="20" column="1" selection-start="481" selection-end="481" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-7-parameter.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-6-parameter.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -552,23 +335,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-6-parameter.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28004667" vertical-offset="0" max-vertical-offset="857">
-          <caret line="16" column="1" selection-start="393" selection-end="393" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-6-parameter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-5-parameter.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-5-parameter.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20979021" vertical-offset="0" max-vertical-offset="858">
           <caret line="12" column="0" selection-start="307" selection-end="307" />
@@ -576,7 +343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-5-parameter.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-5-parameter.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26978418" vertical-offset="0" max-vertical-offset="834">
           <caret line="15" column="1" selection-start="419" selection-end="419" />
@@ -584,7 +351,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-9-confusing.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-9-confusing.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="16" column="0" selection-start="271" selection-end="271" />
@@ -592,7 +359,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-9-confusing.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-9-confusing.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="375">
           <caret line="17" column="0" selection-start="211" selection-end="284" />
@@ -600,7 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_gradiente.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_gradiente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="23.291666" vertical-offset="559" max-vertical-offset="1440">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -608,7 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -616,7 +383,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara_1.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -624,7 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara_2.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -632,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara_3.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_mascara_3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="390">
           <caret line="7" column="13" selection-start="153" selection-end="367" />
@@ -640,7 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_reflexo.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_reflexo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="540">
           <caret line="6" column="13" selection-start="139" selection-end="490" />
@@ -648,7 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_sombra.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_sombra.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="570">
           <caret line="7" column="17" selection-start="167" selection-end="250" />
@@ -656,7 +423,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_1_transf2d.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_1_transf2d.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -664,7 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -672,7 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao2.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625" vertical-offset="90" max-vertical-offset="1020">
           <caret line="7" column="0" selection-start="116" selection-end="823" />
@@ -680,7 +447,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao3.html">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/css/Exemplos_dia_7_anim_css/css_2_animacao3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="735">
           <caret line="17" column="14" selection-start="316" selection-end="344" />
@@ -688,7 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-10-arguments.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-10-arguments.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="29" column="0" selection-start="640" selection-end="699" />
@@ -698,7 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-11-matching.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-11-matching.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -706,7 +473,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-11-matching-imp.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-11-matching-imp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26548672" vertical-offset="0" max-vertical-offset="904">
           <caret line="16" column="0" selection-start="226" selection-end="374" />
@@ -714,7 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-10-arguments.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-10-arguments.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="900">
           <caret line="14" column="0" selection-start="273" selection-end="457" />
@@ -722,7 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-12-webkit-moz-o-ms.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-12-webkit-moz-o-ms.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="812">
           <caret line="0" column="0" selection-start="0" selection-end="410" />
@@ -730,7 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-12-webkit-moz-o-ms.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-12-webkit-moz-o-ms.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.6666665" vertical-offset="0" max-vertical-offset="357">
           <caret line="8" column="0" selection-start="187" selection-end="296" />
@@ -738,7 +505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-11-matching-imp.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-11-matching-imp.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="880">
           <caret line="22" column="1" selection-start="210" selection-end="210" />
@@ -746,7 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-11-matching.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-11-matching.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="735">
           <caret line="37" column="0" selection-start="652" selection-end="863" />
@@ -754,7 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-13-return.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-13-return.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="585">
           <caret line="25" column="0" selection-start="474" selection-end="639" />
@@ -762,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-13-return.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-13-return.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <caret line="6" column="0" selection-start="86" selection-end="224" />
@@ -770,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-14-extend.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-14-extend.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="240">
           <caret line="8" column="0" selection-start="116" selection-end="158" />
@@ -778,7 +545,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/mixins/mixins-14-extend.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-14-extend.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="812">
           <caret line="0" column="0" selection-start="0" selection-end="77" />
@@ -832,13 +599,157 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapters/less.3.basics_pt.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5796253" vertical-offset="60" max-vertical-offset="6630">
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="60" max-vertical-offset="6630">
           <caret line="16" column="23" selection-start="1439" selection-end="1439" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/variables/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/variables/variables-1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/variables/variables-2-interpol.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/variables/variables-3-scope.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/simbolo_amp.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/pseudo.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/comments.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/aninhamento_2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/aninhamento_1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/abs-box.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/extend-1-intro.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/extend-2-amp.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/extend-application.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
+          <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/less-js-jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="615">
+          <caret line="3" column="82" selection-start="122" selection-end="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/less-js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="660">
+          <caret line="3" column="82" selection-start="122" selection-end="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/extend-order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="525">
+          <caret line="4" column="36" selection-start="104" selection-end="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/css-position-less.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="435">
+          <caret line="4" column="36" selection-start="104" selection-end="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/css-position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39204547" vertical-offset="0" max-vertical-offset="880">
+          <caret line="22" column="7" selection-start="570" selection-end="570" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
