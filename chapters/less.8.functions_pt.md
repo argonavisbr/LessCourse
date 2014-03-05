@@ -31,9 +31,6 @@ Converte uma URL em um recurso embutido.
 ```
 ```
 ```
-[DEFAULT - VER EXEMPLOS - INCLUIR EM OUTRO CAPÍTULO]
-### default
-
 
 ##string
 ### escape
@@ -44,34 +41,14 @@ converte strings em formato reconhecido pelo less (similar a color, só que mais
 A função % permite  a criação de strings formatados no estilo da função printf do C. Ela recebe uma string contendo placeholders indicando o tipo, seguido pelas variáveis, valores ou strings que devem ser inseridos nos lugares onde estão os placeholders.
 (explorar as possibilidades com isto - o que pode e o que nao pode)
 
-##listas
-###length
-Retorna o número de elementos em uma lista separada por vírgulas ou por espaços. Combinado com loops e a função extract pode realizar um for
-### extract
-Retorna o valor em uma posição específica da lista
 
-##matemática
-### funções de arredondamento: ceil, floor, round
-###percentage
-Converte um número em percentagem.
-### funções trigonométricas: sin, asin, cos, acos, tan, atan, pi
-Exemplos usando convert e funções trigonométricas
-### min e max
-Retornam o maior e menor valor de uma lista de valores
-### pow e sqrt
-### mod e abs
 
-##detecção de tipos
-###isnumber
-###isstring
-###iskeyword
-###isurl
-###ispixel
-###isem
-###ispercentage
-###isunit
+
+
+
 (exemplos de uso úteis em cada caso)
 ##cores
+
 ###rgb (CSS)
 ###rgba (CSS)
 ###argb
@@ -93,6 +70,7 @@ Retornam o maior e menor valor de uma lista de valores
 ###multiply, screen, overlay
 ###softlight, hardlight
 ###difference, exclusion, average, negation
+
 ##exercícios
 1. x
 2. s

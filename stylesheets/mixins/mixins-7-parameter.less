@@ -1,0 +1,21 @@
+
+.pulo-vertical(@height;@timing-function: ease-out;) {
+  -webkit-transform: translateY(@height);
+  -webkit-animation-timing-function: @timing-function;
+}
+
+.pular(@duration;@count) {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: @duration;
+  -webkit-animation-iteration-count: @count;
+}
+
+.anim-pulos {
+  .pular(4s;3;);
+}
+
+@-webkit-keyframes roteiro-pulo {
+  0%   { .pulo-vertical(100px);}
+  50%  { .pulo-vertical(50px;ease-in;);}
+  100% { .pulo-vertical(100px);}
+}

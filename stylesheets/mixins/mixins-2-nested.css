@@ -1,0 +1,12 @@
+.container .abc {
+  color: black;
+}
+.container .xyz {
+  color: gray;
+}
+.component.abc {
+  color: blue;
+}
+.component.xyz {
+  color: navy;
+}

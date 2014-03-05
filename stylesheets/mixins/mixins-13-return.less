@@ -1,0 +1,34 @@
+.mancha(@red; @green; @blue; @alpha: 1) { // 3 ou 4 argumentos
+  @der   : 255 - @red;
+  @neerg : 255 - @green;
+  @eulb  : 255 - @blue;
+  @opacity: @alpha;
+  background: rgb(@red, @green, @blue);
+  color: rgb(@der, @neerg, @eulb);
+}
+
+.sec8 {
+  .mancha(255,128,64);
+  opacity: @opacity;
+  border-color: @neerg;
+}
+
+.polar(@x, @y) {
+  @r: sqrt(@x*@x + @y*@y);
+  @theta: convert(atan(@y / @x), deg);
+}
+
+.cartesian(@r, @theta) {
+  @x: @r * cos(@theta);
+  @y: @r * sin(@theta);
+}
+
+.sec6:before {
+  .polar(3, 4);
+  content: 'r: @{r} theta: @{theta}';
+}
+
+.sec7:before {
+  .cartesian(5, convert(53.13010235deg, rad));
+  content: 'x: @{x} y: @{y}';
+}

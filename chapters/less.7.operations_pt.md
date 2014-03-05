@@ -1,52 +1,23 @@
 #{7: operações }
 
-Retirar todos os exemplos do Less 1.3 que não funcionam mais, testar tudo, e só depois colocar de volta via GitHub.
+##operações matemáticas
 
-##operações e diretivas
-##imports
-Diretivas de import podem ser colocadas em qualquer lugar do arquivo less. A geração do CSS irá posicioná-las no início do arquivo corretamente.
-```
-```
-```
-```
-Se a extensão do arquivo for .css, o less irá tratá-lo como um @import comum do CSS, e manter no arquivo. Se for qualquer outra extensão, o arquivo será incorporado e tratado como sendo less. Se o arquivo for importado sem extensão, o less irá anexar uma extensão .less a ele e buscar incorporar o arquivo.
+tabela
 
-Pode-se sobrepor o comportamento default do import com seis opções que são passadas entre parênteses entre a diretiva @import e o nome do arquivo, da forma:
+##funções matemáticas
 
-```
-@import (parametro) "arquivo";
-```
-Os seguintes parametros podem ser usados:
+tabela
 
-- css: trata o arquivo como CSS (independente de sua extensão)
-- inline: inclui o conteúdo do arquivo no CSS final, mas não o processa
-- less: trata o arquivo como LESS (independente de sua extensão)
-- multiple: aceita que um um arquivo seja importado mais de uma vez
-- once: permite importa o arquivo uma vez e ignora outras tentativas
-- reference: inclui e usa o arquivo LESS mas não utiliza o conteúdo na saída
+### arredondamento: ceil, floor, round
+###percentage
+Converte um número em percentagem.
+### funções trigonométricas: sin, asin, cos, acos, tan, atan, pi
+Exemplos usando convert e funções trigonométricas
+### min e max
+Retornam o maior e menor valor de uma lista de valores
+### pow e sqrt
+### mod e abs
 
-### reference
-### multiple
-### once
-### inline
-### less
-### css
-
-
-## import e variáveis
-
-Variáveis não precisam ser declaradas antes do uso. Se houver mais de uma definição, a última definição, considerando o escopo do atual para o mais externo, é usada.
-
-```
-@base-color: green;
-@dark-color: darken(@base-color, 10%);
-
-// use of library
-@import "library.less";
-@base-color: red;
-```
-
-`@base-color` é `red`, e `@dark-color` é vermelho escuro.
 
 ##mixins condicionais (mixin guards)
 Pode-se criar mixins parametrizados que definem regras de estilo diferentes de acordo com operações condicionais realizadas sobre os valores recebidos. São chamados de _mixin guards_. Através deles é possível tomar decisões de forma similar a expressões if/else existentes em linguagens de programação.
@@ -97,6 +68,12 @@ O efeito multiplicador ('e' lógico) na combinação de expressões é obtido co
 ## detecção de tipos
 Existem cinco funções para verificar se o tipo da variável corresponde ao esperado:
 
+###isnumber
+###isstring
+###iskeyword
+###isurl
+
+
 - iscolor (true se valor for #rrggbb, rgb(%,%,%), rgb(r,g,b), nome-de-cor, etc.)
 - iskeyword (true se valor for uma palavra-chave do Less)
 - isnumber (true se valor for um número)
@@ -118,6 +95,11 @@ A função default é usada como cláusula "else" de um mixin guard. Representa 
 ## detecção de unidades
 
 Para números existem ainda quatro funções que retornam true para determinadas unidades:
+
+###ispixel
+###isem
+###ispercentage
+###isunit
 
 - isem (unidade é `em`)
 - ispixel (unidade é `px`)
@@ -147,6 +129,12 @@ Pode-se aplicá-las em um conjunto de seletores colocando-os dentro de um bloco 
 
 ```
 
+##funções de listas
+###length
+Retorna o número de elementos em uma lista separada por vírgulas ou por espaços. Combinado com loops e a função extract pode realizar um for
+### extract
+Retorna o valor em uma posição específica da lista
+
 ##loops
 Loops em LESS são chamadas recursivas de mixins, ou seja, o mixin chama ele mesmo. Para que o loop não seja infinito, é necessário que a cada iteração uma condição seja testada e que o valor testado mude para que em algum momento ela seja falsa, e o loop tenha fim.
 
@@ -172,17 +160,6 @@ Este exemplo ilustra o uso de loops para gerar uma seqüência para animação:
 ```
 ```
 
-##agregação de valores
-Less permite que valores de propriedades definidas em um mixin sejam agregadas aos valores existentes de propriedades dos seletores onde o mixin é usado, em uma lista separada por vírgulas. Isto é útil para propriedades que aceitam valores separados por vírgulas como 'font-family' e outros.
-
-Para usar, é necessário incluir um sinal `+` tanto da propriedade declarada no mixin, quanto na propriedade declarada no seletor afetado:
-
-```
-```
-```
-```
-```
-```
 
 
 ##exercícios

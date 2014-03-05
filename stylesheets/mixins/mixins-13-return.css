@@ -1,0 +1,12 @@
+.sec8 {
+  background: #ff8040;
+  color: #007fbf;
+  opacity: 1;
+  border-color: 127;
+}
+.sec6:before {
+  content: 'r: 5 theta: 53.13010235415598deg';
+}
+.sec7:before {
+  content: 'x: 3.0000000002901417 y: 3.9999999997823936';
+}

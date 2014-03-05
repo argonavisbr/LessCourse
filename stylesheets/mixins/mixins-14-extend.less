@@ -1,0 +1,11 @@
+.label:before > input:hover {
+  content: 'hovering';
+}
+
+.list-style() {
+  &:extend(.label:before > input:hover);
+}
+
+.menu-item, .nav-item {
+  .list-style();
+}

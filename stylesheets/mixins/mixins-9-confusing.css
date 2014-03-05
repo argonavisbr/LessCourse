@@ -1,0 +1,16 @@
+.section1 {
+  font-family: 'Times';
+  font-size: 12pt;
+}
+.section2 {
+  font-family: 'Times';
+  font-size: 10pt;
+}
+.section3 {
+  font-family: 'Times', sans-serif;
+  font-size: 10pt;
+}
+.section4 {
+  font-family: 'Times', 'Times New Roman', sans-serif;
+  font-size: 12pt;
+}

@@ -1,0 +1,3 @@
+.image3 {
+  -webkit-box-reflect: below 10px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(#000000));
+}

@@ -1,0 +1,13 @@
+
+.image3 {
+  .reflexo(@final-color: black;);
+}
+.reflexo(@begin:left top; @end: left bottom; @final-color:white) {
+  -webkit-box-reflect:
+    below
+    10px
+    -webkit-gradient(linear, @begin, @end,
+    from(transparent),
+    color-stop(0.5, transparent),
+    to(@final-color));
+}

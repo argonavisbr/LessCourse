@@ -1,0 +1,7 @@
+.photo {
+  border: none;
+  -webkit-mask-image: url(circle.svg) !important;
+  -webkit-mask-origin: padding !important;
+  -webkit-mask-position: 450px 150px !important;
+  -webkit-transform: scale(2) !important;
+}

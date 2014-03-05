@@ -1,0 +1,23 @@
+@import url(mixins-11-matching.less);
+
+@tipo-caixa: grande;
+
+.sec1 {
+  .caixa(@tipo-caixa);
+}
+
+.sec2 {
+  .caixa(pequena;red);
+}
+
+.sec3 {
+  .mancha;
+}
+
+.sec4 {
+  .mancha(32;0.5)
+}
+
+.sec5 {
+  .mancha(128;64;32)
+}

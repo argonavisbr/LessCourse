@@ -1,0 +1,25 @@
+.mixin1() {
+  .abc {
+    color: black;
+  }
+  .xyz {
+    color: gray;
+  }
+}
+
+.mixin2() {
+  &.abc {
+    color: blue;
+  }
+  &.xyz {
+    color: navy;
+  }
+}
+
+.container {
+  .mixin1;
+}
+
+.component {
+  .mixin2();
+}

@@ -1,0 +1,44 @@
+.caixa-base(@espessura: 1px; @cor:black) {
+  margin: @espessura;
+  padding: @espessura;
+  border: solid @cor @espessura;
+}
+
+.caixa(grande; @cor:black) {
+  .caixa-base(4px; @cor);
+}
+
+.caixa(media; @cor:black) {
+  .caixa-base(2px; @cor);
+}
+
+.caixa(pequena; @cor:black) {
+  .caixa-base(1px; @cor);
+}
+
+.caixa(zero; @cor:black) {
+  .caixa-base(0; @cor);
+}
+
+.caixa(@todas; @todas: xyz) {
+  position: absolute;
+  top: 0; left: 0;
+}
+
+
+.mancha(@alpha: 1){ // 0 ou 1 argumento
+  background: black;
+  color: white;
+}
+.mancha(@gray; @alpha: 1) { // 1 ou 2 argumentos
+  @yarg: 255 - @gray;
+  background: rgb(@gray,@gray,@gray);
+  color: rgb(@yarg, @yarg, @yarg);
+}
+.mancha(@red; @green; @blue; @alpha: 1) { // 3 ou 4 argumentos
+  @der   : 255 - @red;
+  @neerg : 255 - @green;
+  @eulb  : 255 - @blue;
+  background: rgb(@red, @green, @blue);
+  color: rgb(@der, @neerg, @eulb);
+}

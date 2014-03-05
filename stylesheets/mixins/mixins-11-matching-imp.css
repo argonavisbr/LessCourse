@@ -1,0 +1,28 @@
+.sec1 {
+  margin: 4px;
+  padding: 4px;
+  border: solid #000000 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sec2 {
+  margin: 1px;
+  padding: 1px;
+  border: solid #ff0000 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sec3 {
+  background: black;
+  color: white;
+}
+.sec4 {
+  background: #202020;
+  color: #dfdfdf;
+}
+.sec5 {
+  background: #804020;
+  color: #7fbfdf;
+}
