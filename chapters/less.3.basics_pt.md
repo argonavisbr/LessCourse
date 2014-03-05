@@ -15,6 +15,7 @@ A partir de um documento Less contendo CSS puro, pode-se fazer alterações grad
 ##palavras-chave e reservadas
 
 teste de palavras-chave
+tabela de palavras-chave
 
 ##aninhamento de declarações
 Less permite que declarações CSS sejam aninhadas. É uma forma alternativa de expressar relacionamentos contextuais entre seletores. Por exemplo, as duas declarações a seguir em CSS:

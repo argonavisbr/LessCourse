@@ -1,5 +1,7 @@
 #{7: operações }
 
+Neste capítulo serão explorados recursos do Less que permitem realizar operações matemática, operações de transformação de dados, operações condicionais e loops.
+
 ##operações matemáticas
 
 tabela
