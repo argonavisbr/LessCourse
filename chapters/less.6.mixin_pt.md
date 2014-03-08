@@ -882,9 +882,26 @@ Less permite que valores de propriedades definidas em um mixin sejam agregadas a
 Para usar, é necessário incluir um sinal `+` tanto da propriedade declarada no mixin, quanto na propriedade declarada no seletor afetado:
 
 ```
+.flip-coordinates() {
+  @base: scale(-1,1)
+  transform+: @base;
+  -webkit-transform+: @base;
+  -moz-transform+: @base;
+}
+
 ```
+
+
 ```
+.myclass {
+  .flip-coordinates();
+     transform+: translateX(50px) rotate(45deg);
+    -webkit-transform+:  translateX(50px) rotate(45deg);
+    -moz-transform+:  translateX(50px) rotate(45deg);
+}
 ```
+
+Resultado em CSS
 ```
 ```
 

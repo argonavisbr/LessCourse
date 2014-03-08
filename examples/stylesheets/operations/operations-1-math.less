@@ -1,0 +1,21 @@
+@parte1: 10px;
+@parte2: 20px;
+@borda: 2px;
+@margem: (((@parte1 + @parte2) / (2 * @borda)) - 0.5);
+
+.sec1 {
+  margin: @margem @margem;
+}
+
+@margem2: (@parte1 + @parte2 / 2 * @borda - 0.5);
+
+.sec1 {
+  margin: @margem2 @margem2;
+}
+
+.sec3 {
+  @tam: (@parte2 - 2 * @parte1);
+  font-size: (12pt - @parte2);
+  margin: @tam / @parte2 @parte2 / @tam - @parte1;
+}
+

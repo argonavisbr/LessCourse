@@ -184,7 +184,7 @@ Apenas os comentários de bloco são preservados no CSS:
 }
 ```
 
-##o símbolo '&'
+##o símbolo '&' (seletor pai)
 Vimos que o aninhamento cria seletores contextuais posicionando os seletores de um bloco interno como descendentes dos seletores do bloco externo. O símbolo `&` que representa o acumulado de seletores do bloco externo. 
 
 Considere a regra abaixo:
@@ -296,6 +296,29 @@ div p:first-child {
 }
 div.last {
   color: blue;
+}
+```
+
+#criando seletores com nomes semelhantes
+
+```
+.secao {
+  &-1 {}
+  &-2 {}
+```
+
+#mais concatenação com &
+
+```
+&+&
+& &
+&&
+&, &1, &2, &3
+```
+
+```
+a, b, c, d, e {
+  & > & > & {}
 }
 ```
 
