@@ -47,6 +47,8 @@ Além dos operadores ainda existem a palavra reservada `true` que pode ser usada
 ```
 ```
 
+
+
 ### detecção de tipos e unidades
 Existem cinco funções para verificar se o tipo da variável corresponde ao esperado:
 
