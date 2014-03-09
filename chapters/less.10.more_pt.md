@@ -30,6 +30,18 @@ Os seguintes parametros podem ser usados:
 ### less
 ### css
 
+### conversao data-uri
+Converte uma URL em um recurso embutido.
+
+```
+```
+
+```
+```
+
+
+
+
 
 ## import e variáveis
 

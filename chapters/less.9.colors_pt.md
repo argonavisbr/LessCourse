@@ -1,4 +1,4 @@
-#{8: funções }
+#{8: cores }
 Este é um capítulo novo! Tipo referência!
 
 ##funções?
@@ -9,9 +9,6 @@ Converte uma representação de cor expressa como string em uma cor. Parece inú
 
 Parâmetros: um valor do tipo string representando uma cor
 Retorna: um valor do tipo color
-
-
-
 
 
 

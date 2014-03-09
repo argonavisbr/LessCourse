@@ -1,0 +1,16 @@
+@comp: 255 127 64;
+@tamanhos: 36pt 24pt 18pt 16pt 12pt 10pt;
+@fontes: 'Garamond', 'Times New Roman', Times, serif;
+@steps: 0% 20% 40% 60% 80% 100%;
+
+.paragrafo {
+  font-size: min(@tamanhos);
+  duration: unit(length(@steps), s);
+  font-family: @fontes;
+}
+
+.titulo {
+  font-size: max(@tamanhos);
+  color: rgb(extract(@comp,1), extract(@comp, 2), extract(@comp, 3));
+  font-family: extract(@fontes, 1), extract(@fontes, length(@fontes));
+}

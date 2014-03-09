@@ -1,0 +1,46 @@
+@string1: %('%d %d %d %d %d %d ', 1, "(abc!) ~oui'", 3, rgb(255,0,0), 'abc', 'http://www.xyz.org?q=hi there&r=são paulo');
+@string2: %('%D %D %D %D %D %D ', 1, "(abc!) ~oui'", 3, rgb(255,0,0), 'abc', 'http://www.xyz.org?q=hi there&r=são paulo');
+@string3: %('%a %a %a %a %a %a ', 1, "(abc!) ~oui'", 3, rgb(255,0,0), 'abc', 'http://www.xyz.org?q=hi there&r=são paulo');
+@string4: %('%A %A %A %A %A %A ', 1, "(abc!) ~oui'", 3, rgb(255,0,0), 'abc', 'http://www.xyz.org?q=hi there&r=são paulo');
+@string5: %('%s %s %s %s %s %s ', 1, "(abc!) ~oui'", 3, rgb(255,0,0), 'abc', 'http://www.xyz.org?q=hi there&r=são paulo');
+@string6: %('%S %S %S %S %S %S ', 1, "(abc!) ~oui'", 3, rgb(255,0,0), 'abc', 'http://www.xyz.org?q=hi there&r=são paulo');
+
+
+.sec1 {
+  content: @string1 1;
+  content: @string3 2;
+  content: @string2 3;
+  content: @string4 4;
+}
+
+.sec2 {
+  content: @string5;
+  content: @string6;
+}
+
+@estilo: italic;
+@peso: 900;
+@mintam: 10;
+@maxtam: 36;
+@familia: Arial, Helvetica, sans-serif;
+
+@image-name: 'pattern 5.png';
+@fallback-color: rgb(0,0,0);
+@docroot: 'http://www.test.com/app';
+
+
+.sec8 {
+  @image-escaped: escape(@image-name);
+  background: url(~'@{docroot}/images/@{image-escaped}') @fallback-color;
+}
+
+.sec7 {
+  font: %(~"%d %d %dpt/%dpt %d", @estilo, @peso, @mintam, @maxtam, @familia);
+  background: %(~"url(%d/images?name=%D) %d", @docroot, @image-name, @fallback-color);
+}
+
+@old-url: ~"url(http://abc.com/logo-ABC.COM.jpg)";
+.sec9 {
+  content: replace(~"w.a.b", "a\.b", "x.k");
+  background: replace(@old-url, "abc\.com", "xyz.com.br", "gi");
+}

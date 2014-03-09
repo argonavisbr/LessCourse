@@ -1,0 +1,33 @@
+#senos {
+  transform: translateY(sin(45deg)) rotate(convert(asin(0.5px), deg));
+}
+#co-senos {
+  transform: translateX(cos(45deg)) rotate(convert(acos(0.5px), deg));
+}
+#tangentes {
+  transform: skewX(tan(45deg)) rotate(convert(atan(1px), deg));
+}
+
+#quadrados {
+  margin: pow(5px,2);
+  padding:sqrt(25cm);
+}
+
+#modulos {
+  length: mod(11px,3);
+  width: abs(-10cm);
+  @component: pow(2,7); // 50%
+  color: rgb(@component,@component,@component);
+}
+
+.circle-mixin(@radius, @x, @y) {
+  @area: pi() * pow(@radius, 2);
+  @circunference: 2 * pi() * @radius;
+}
+
+#trigonometria {
+  .circle-mixin(5, 0, 0);
+  transform: rotate(acos(0.5px)*180deg/pi());
+  content:  'area: @{area} circunference: @{circunference}';
+}
+

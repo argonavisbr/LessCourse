@@ -1,0 +1,22 @@
+#senos {
+  transform: translateY(0.70710678) rotate(30deg);
+}
+#co-senos {
+  transform: translateX(0.70710678) rotate(60deg);
+}
+#tangentes {
+  transform: skewX(1) rotate(45deg);
+}
+#quadrados {
+  margin: 25px;
+  padding: 5cm;
+}
+#modulos {
+  length: 2px;
+  width: 10cm;
+  color: #808080;
+}
+#trigonometria {
+  transform: rotate(60deg);
+  content: 'area: 78.53981633974483 circunference: 31.41592653589793';
+}
