@@ -25,22 +25,48 @@
     <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="colors-1-definition.less" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.less">
+          <file leaf-file-name="colors-1-definition.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-1-definition.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-                  <caret line="0" column="0" selection-start="0" selection-end="0" />
+                <state vertical-scroll-proportion="-9.083333" vertical-offset="547" max-vertical-offset="1020">
+                  <caret line="51" column="13" selection-start="741" selection-end="741" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="colors-1-definition.less" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.less">
+          <file leaf-file-name="colors-2-comp-rgba-hsl-hsv.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-2-comp-rgba-hsl-hsv.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="420">
+                  <caret line="6" column="1" selection-start="200" selection-end="200" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-4-comp-luma.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-4-comp-luma.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
+                  <caret line="2" column="0" selection-start="0" selection-end="122" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-5-op-saturation.less" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-5-op-saturation.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.14018692" vertical-offset="0" max-vertical-offset="1440">
+                  <caret line="3" column="4" selection-start="67" selection-end="74" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-6-op-luminance.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-6-op-luminance.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="90">
                   <caret line="0" column="0" selection-start="0" selection-end="0" />
@@ -49,11 +75,102 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="colors-1-definition.css" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.css">
+          <file leaf-file-name="saturation.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/html/saturation.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+                <state vertical-scroll-proportion="-9.666667" vertical-offset="323" max-vertical-offset="690">
+                  <caret line="37" column="7" selection-start="1073" selection-end="1073" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="css-position.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/html/css-position.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.5416667" vertical-offset="74" max-vertical-offset="465">
+                  <caret line="9" column="0" selection-start="185" selection-end="559" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="css-position-less.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/html/css-position-less.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
+                  <caret line="0" column="0" selection-start="0" selection-end="505" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="less.10.more_pt.md" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/chapters/less.10.more_pt.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.5555556" vertical-offset="708" max-vertical-offset="1815">
+                  <caret line="50" column="13" selection-start="1891" selection-end="1891" />
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="MarkdownPreviewEditor">
+                <state />
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="colors-2-comp-rgba-hsl-hsv.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-2-comp-rgba-hsl-hsv.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+                  <caret line="7" column="24" selection-start="165" selection-end="165" />
+                  <folding>
+                    <marker date="1394478966000" expanded="true" signature="174:231" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-4-comp-luma.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-4-comp-luma.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+                  <caret line="3" column="0" selection-start="59" selection-end="59" />
+                  <folding>
+                    <marker date="1394480581000" expanded="true" signature="5:58" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-5-op-saturation.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-5-op-saturation.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.38961038" vertical-offset="2025" max-vertical-offset="2445">
+                  <caret line="145" column="1" selection-start="2339" selection-end="2339" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-6-op-luminance.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-6-op-luminance.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
                   <caret line="0" column="0" selection-start="0" selection-end="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="colors-1-definition.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-1-definition.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="705">
+                  <caret line="37" column="21" selection-start="601" selection-end="626" />
                   <folding />
                 </state>
               </provider>
@@ -71,14 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/chapters/less.more_pt.md" />
-        <option value="$PROJECT_DIR$/stylesheets/installation/installation-1-test.less" />
-        <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-2-nested.less" />
-        <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-4-important.less" />
-        <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-5-parameter.less" />
-        <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-7-parameter.less" />
-        <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-8-parameter.less" />
-        <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-6-parameter.less" />
         <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-9-confusing.less" />
         <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-10-arguments.less" />
         <option value="$PROJECT_DIR$/stylesheets/mixins/mixins-11-matching.less" />
@@ -110,7 +219,6 @@
         <option value="$PROJECT_DIR$/examples/stylesheets/operations/operations-6-collections.less" />
         <option value="$PROJECT_DIR$/examples/stylesheets/operations/operations-7-text.css" />
         <option value="$PROJECT_DIR$/chapters/less.9.colors_pt.md" />
-        <option value="$PROJECT_DIR$/chapters/less.10.more_pt.md" />
         <option value="$PROJECT_DIR$/examples/stylesheets/more/more-9-data-uri.less" />
         <option value="$PROJECT_DIR$/examples/stylesheets/operations/operations-7-text.less" />
         <option value="$PROJECT_DIR$/examples/stylesheets/operations/operations-8-quirks.less" />
@@ -122,13 +230,22 @@
         <option value="$PROJECT_DIR$/examples/stylesheets/loops-guards/loops-guards-3-units.less" />
         <option value="$PROJECT_DIR$/examples/stylesheets/loops-guards/loops-guards-4-expressions.less" />
         <option value="$PROJECT_DIR$/examples/stylesheets/loops-guards/loops-guards-5-loops.less" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.css" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.less" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/functions/colors-2-comp-rgba.less" />
+        <option value="$PROJECT_DIR$/chapters/less.10.more_pt.md" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/functions/colors-4-comp-luma.less" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/functions/colors-5-op-saturation.less" />
+        <option value="$PROJECT_DIR$/examples/html/saturation.html" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/colors/colors-5-op-saturation.less" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/colors/colors-5-op-saturation.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2267" />
+    <option name="x" value="2225" />
     <option name="y" value="22" />
-    <option name="width" value="853" />
+    <option name="width" value="895" />
     <option name="height" value="1024" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -231,7 +348,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
+              <option name="myItemId" value="colors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,11 +370,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functions" />
+              <option name="myItemId" value="colors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="colors-1-definition.less" />
+              <option name="myItemId" value="colors-6-op-luminance.less" />
               <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,6 +407,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LessCourse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,14 +492,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -375,9 +502,16 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -387,8 +521,9 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -412,24 +547,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2267" y="22" width="853" height="1024" extended-state="0" />
+    <frame x="2225" y="22" width="895" height="1024" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32188842" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31565967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35052755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32012847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13519314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -452,82 +587,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/abs-box.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="689">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/extend-1-intro.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/extend/extend-2-amp.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/html/less-js-jquery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="615">
-          <caret line="3" column="82" selection-start="122" selection-end="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/html/less-js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="660">
-          <caret line="3" column="82" selection-start="122" selection-end="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/html/extend-order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="525">
-          <caret line="4" column="36" selection-start="104" selection-end="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/html/css-position-less.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="435">
-          <caret line="4" column="36" selection-start="104" selection-end="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.3.basics_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.037037" vertical-offset="2303" max-vertical-offset="7035">
-          <caret line="186" column="29" selection-start="5341" selection-end="5341" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/mixins/mixins-15-aggregation.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="881">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/basics-6-parent-selector.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
-          <caret line="0" column="0" selection-start="0" selection-end="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/basics/basics-7-parent-selector.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
@@ -561,13 +620,6 @@
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/html/css-position.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2404439" vertical-offset="0" max-vertical-offset="811">
-          <caret line="12" column="41" selection-start="313" selection-end="313" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/operations/operations-1-math.css">
@@ -636,16 +688,6 @@
           <caret line="9" column="1" selection-start="250" selection-end="250" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/less.10.more_pt.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73170733" vertical-offset="375" max-vertical-offset="1395">
-          <caret line="42" column="0" selection-start="1311" selection-end="1311" />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapters/less.9.colors_pt.md">
@@ -743,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03311258" vertical-offset="930" max-vertical-offset="3345">
           <caret line="53" column="0" selection-start="1180" selection-end="1180" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
@@ -778,7 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19315404" vertical-offset="11" max-vertical-offset="420">
           <caret line="6" column="29" selection-start="188" selection-end="188" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="432">
           <caret line="8" column="0" selection-start="124" selection-end="124" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="17" column="3" selection-start="280" selection-end="280" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,18 +884,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.css">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-1-definition.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+        <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="705">
+          <caret line="37" column="21" selection-start="601" selection-end="626" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-1-definition.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.083333" vertical-offset="547" max-vertical-offset="1020">
+          <caret line="51" column="13" selection-start="741" selection-end="741" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-2-comp-rgba-hsl-hsv.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="420">
+          <caret line="6" column="1" selection-start="200" selection-end="200" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-2-comp-rgba-hsl-hsv.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="7" column="24" selection-start="165" selection-end="165" />
+          <folding>
+            <marker date="1394478966000" expanded="true" signature="174:231" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/less.10.more_pt.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556" vertical-offset="708" max-vertical-offset="1815">
+          <caret line="50" column="13" selection-start="1891" selection-end="1891" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-4-comp-luma.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
+          <caret line="2" column="0" selection-start="0" selection-end="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-4-comp-luma.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="0" selection-start="59" selection-end="59" />
+          <folding>
+            <marker date="1394480581000" expanded="true" signature="5:58" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/css-position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5416667" vertical-offset="74" max-vertical-offset="465">
+          <caret line="9" column="0" selection-start="185" selection-end="559" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/css-position-less.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="0" column="0" selection-start="0" selection-end="505" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/html/saturation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.666667" vertical-offset="323" max-vertical-offset="690">
+          <caret line="37" column="7" selection-start="1073" selection-end="1073" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-6-op-luminance.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/stylesheets/functions/colors-1-definition.less">
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-6-op-luminance.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-5-op-saturation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38961038" vertical-offset="2025" max-vertical-offset="2445">
+          <caret line="145" column="1" selection-start="2339" selection-end="2339" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/colors/colors-5-op-saturation.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14018692" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="3" column="4" selection-start="67" selection-end="74" />
           <folding />
         </state>
       </provider>

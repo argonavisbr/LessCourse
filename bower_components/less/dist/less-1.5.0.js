@@ -573,7 +573,7 @@ less.Parser = function Parser(env) {
         },
 
         //
-        // Here in, the parsing rules/functions
+        // Here in, the parsing rules/colors
         //
         // The basic structure of the syntax tree generated is as follows:
         //
@@ -2389,7 +2389,7 @@ function number(n) {
     } else {
         throw {
             error: "RuntimeError",
-            message: "color functions take numbers as parameters"
+            message: "color colors take numbers as parameters"
         };
     }
 }
@@ -2749,12 +2749,12 @@ tree.Call.prototype = {
     },
     //
     // When evaluating a function call,
-    // we either find the function in `tree.functions` [1],
+    // we either find the function in `tree.colors` [1],
     // in which case we call it, passing the  evaluated arguments,
     // if this returns null or we cannot find the function, we 
     // simply print it out as it appeared originally [2].
     //
-    // The *functions.js* file contains the built-in functions.
+    // The *colors.js* file contains the built-in colors.
     //
     // The reason why we evaluate the arguments, is in the case where
     // we try to pass a variable to a function, like: `saturate(@color)`.
@@ -6276,7 +6276,7 @@ less.fileAsync = less.fileAsync || false;
 // Interval between watch polls
 less.poll = less.poll || (isFileProtocol ? 1000 : 1500);
 
-//Setup user functions
+//Setup user colors
 if (less.functions) {
     for(var func in less.functions) {
         less.tree.functions[func] = less.functions[func];

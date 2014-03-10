@@ -1,0 +1,90 @@
+@g: #808180; // green
+@b: #0000ff; // blue
+@r: #bf2020; // red
+@y: #ffff00; // yellow
+@colors: @r @y @b;
+
+div {
+  font-size: 9pt;
+  font-family: monospace;
+  padding: 2px;
+  text-align: center;
+}
+
+.saturate-test(@color, @steps) when (@steps > 0) {
+  .saturate-test(@color, @steps - 1);
+  .sat-@{steps} {
+    @percent-steps: 20% * @steps;
+    @saturated: saturate(@color, @percent-steps);
+    background-color: @saturated;
+    saturation: saturation(@saturated);
+    hsvsaturation: hsvsaturation(@saturated);
+    &:before {
+      color: contrast(@saturated);
+      content: 'saturate @{percent-steps}';
+    }
+  }
+}
+.saturate-test(@color, @steps) when (default()) {
+  .no-sat {
+    content: @color;
+    background-color: @color;
+    &:before {
+      color: contrast(@color);
+      content: 'color @{color}';
+    }
+  }
+}
+
+.desaturate-test(@color, @steps) when (@steps > 0) {
+  .desaturate-test(@color, @steps - 1);
+  .desat-@{steps} {
+    @percent-steps: 20% * @steps;
+    @saturated: desaturate(@color, @percent-steps);
+    background-color: @saturated;
+    saturation: saturation(@saturated);
+    hsvsaturation: hsvsaturation(@saturated);
+    &:before {
+      color: contrast(@saturated);
+      content: 'desaturate @{percent-steps}';
+    }
+  }
+}
+.desaturate-test(@color, @steps) when (default()) {
+  .no-desat {
+    content: @color;
+    background-color: @color;
+    &:before {
+      color: contrast(@color);
+      content: 'color @{color}';
+    }
+  }
+}
+
+.greyscale-test(@times) when (@times > 0) {
+   @color: extract(@colors,@times);
+   @greyscale: greyscale(@color);
+  .greyscale-test(@times - 1);
+  .gray-@{times} {
+    content: @times;
+    background-color: @greyscale;
+    &:before {
+      color: contrast(@color);
+      content: 'greyscale @{greyscale}';
+    }
+  }
+  .nogray-@{times} {
+    background-color: @color;
+    &:before {
+      color: contrast(@color);
+      content: 'color @{color}';
+    }
+  }
+}
+
+
+.saturate-test(@g, 5);
+
+.desaturate-test(@b, 5);
+
+.greyscale-test(3);

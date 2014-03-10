@@ -40,7 +40,18 @@ Converte uma URL em um recurso embutido.
 
 
 
+### conversão de cor para formato Microsoft
 
+A função `argb` converte uma cor em uma representação de cor proprietária compatível com aplicações Microsoft e Internet Explorer. Nesta representação o fator alfa é um número hexadecimal entre 00 e FF e é representado antes dos pares hexadecimais dos componentes RGB. O formato resultante é #aarrggbb.
+
+Função | Recebe | Retorna
+--|--|--
+`argb(a,r,g,b)` | `a` = número entre 0 e 1 ou percentagem, `r,g,b` = números (0-255) ou percentagem | cor em hexadecimal no formato `#aarrggbb`. Ex: `argb( rgba(255,0,0,0.5) )` gera `#80ff0000`.
+
+### contraste
+Função | Recebe | Retorna
+--|--|--
+`contrast(c,c1,c2,p)` | c |
 
 ## import e variáveis
 

@@ -1,0 +1,63 @@
+@cor: #ff8040;
+@componente: 128;
+
+.secao {
+  content: red(@cor) green(@cor) blue(@cor) alpha(fade(@cor, 50%));
+}
+
+@componente: 128;
+.secao-rgb-1 {
+  color: ~'rgb(@{componente},255,255)';
+}
+
+.secao-rgb-2 {
+  color: rgb(@componente,255,255);
+}
+
+.secao-rgba-1 {
+  color: ~'rgba(@{componente},255,255, 0.5)';
+}
+
+.secao-rgba-2 {
+  color: rgba(@componente,255,255, 0.5);
+}
+
+.secao-hsl-1 {
+  color: ~'hsl(0,1,0.5)';
+}
+
+.secao-hsl-2 {
+  color: hsl(0,1,0.5);
+}
+
+.secao-hsla-1 {
+  color: ~'hsla(0,1,0.5,0.5)';
+}
+
+.secao-hsv-1 {
+  color: hsv(0,1,1);
+}
+
+.secao-hsva-1 {
+  color: hsva(0,1,1,0.5);
+}
+
+.secao-argb {
+  color: argb( rgba(255,0,0,0.5) )
+}
+
+@color1: rgb(100%,50%,25%);
+@color2: rgba(128,255,64,0.5);
+@color3: hsl(120deg,50%,25%);
+@color4: hsla(240deg,100%,75%,75%);
+@color5: hsv(120deg,50%,50%);
+@color6: hsva(240deg,50%,50%,50%);
+
+.colors {
+  border-top-color: @color1;
+  border-right-color: @color2;
+  border-bottom-color: @color3;
+  border-left-color: @color4;
+  background-color: @color5;
+  color: @color6;
+}

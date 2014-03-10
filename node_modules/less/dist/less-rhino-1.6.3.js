@@ -137,7 +137,7 @@ less.mode = 'rhino';
     };
 
     // ---------------------------------------------------------------------------------------------
-    // private helper functions
+    // private helper colors
     // ---------------------------------------------------------------------------------------------
 
     function encodeBase64Bytes(bytes) {
@@ -831,7 +831,7 @@ less.Parser = function Parser(env) {
         },
 
         //
-        // Here in, the parsing rules/functions
+        // Here in, the parsing rules/colors
         //
         // The basic structure of the syntax tree generated is as follows:
         //
@@ -2767,7 +2767,7 @@ var colorBlendMode = {
         return cb + cs - 2 * cb * cs;
     },
 
-    // non-w3c functions:
+    // non-w3c colors:
     average: function(cb, cs) {
         return (cb + cs) / 2;
     },
@@ -2842,7 +2842,7 @@ function number(n) {
     } else {
         throw {
             error: "RuntimeError",
-            message: "color functions take numbers as parameters"
+            message: "color colors take numbers as parameters"
         };
     }
 }
@@ -3235,12 +3235,12 @@ tree.Call.prototype = {
     },
     //
     // When evaluating a function call,
-    // we either find the function in `tree.functions` [1],
+    // we either find the function in `tree.colors` [1],
     // in which case we call it, passing the  evaluated arguments,
     // if this returns null or we cannot find the function, we 
     // simply print it out as it appeared originally [2].
     //
-    // The *functions.js* file contains the built-in functions.
+    // The *colors.js* file contains the built-in colors.
     //
     // The reason why we evaluate the arguments, is in the case where
     // we try to pass a variable to a function, like: `saturate(@color)`.
@@ -6009,7 +6009,7 @@ tree.Variable.prototype = {
                 child = parent[key];
                 switch (typeof child) {
                     case "function":
-                        // ignore bound functions directly on tree which do not have a prototype
+                        // ignore bound colors directly on tree which do not have a prototype
                         // or aren't nodes
                         if (child.prototype && child.prototype.type) {
                             child.prototype.typeIndex = ticker++;
