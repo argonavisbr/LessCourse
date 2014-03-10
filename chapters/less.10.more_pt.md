@@ -1,5 +1,4 @@
 #{9: +less }
-Capítulo novo
 
 ##imports
 Diretivas de import podem ser colocadas em qualquer lugar do arquivo less. A geração do CSS irá posicioná-las no início do arquivo corretamente.

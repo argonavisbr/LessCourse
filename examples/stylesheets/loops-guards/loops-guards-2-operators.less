@@ -1,0 +1,26 @@
+@max-duration: 10s;
+@max-repeats: 2;
+
+.anim (@duration) when (@duration >= @max-duration) {
+  animation-duration: @duration;
+  animation-iteration-count:1;
+}
+
+.anim (@duration) when (@duration < @max-duration) {
+  animation-duration: @duration;
+  animation-iteration-count:@max-repeats;
+}
+
+.symbol {
+  .anim(15s);
+}
+
+@weight: bold;
+.adjust(@test) when not (false) {
+   font-weight:@weight;
+}
+
+.section {
+  font-size: 12pt;
+  .adjust(isnumber(@weight));
+}

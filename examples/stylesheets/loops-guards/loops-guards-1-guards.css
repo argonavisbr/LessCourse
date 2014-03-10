@@ -1,0 +1,22 @@
+.noite {
+  background: #000000;
+  color: white;
+}
+.dia {
+  background: #ffffff;
+  color: black;
+}
+/* media queries e mixin guards */
+@media screen and (min-width: 500px) {
+  .sec {
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sec {
+    column-count: 1;
+  }
+}
+.sec {
+  column-count: 2;
+}

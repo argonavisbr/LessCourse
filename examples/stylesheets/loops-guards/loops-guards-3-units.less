@@ -1,0 +1,25 @@
+.istest {
+  content: '1. string'  isstring('12345');
+  content: '2. string'  isstring(12345);
+  content: '3. keyword' iskeyword(flowerblue);
+  content: '4. keyword' iskeyword(cornflowerblue);
+  content: '5. number'  isnumber(12.77);
+  content: '6. number'  isnumber(~'123');
+  content: '7. color'   iscolor(cornflowerblue);
+  content: '8. color'   iscolor(~'rgba(100%,100%,100%,1)');
+  content: '9. url'     isurl(url(image.jpg));
+  content: '10.url'     isurl(~'/image/jpg');
+}
+
+@pixvalue: 1px * 30 / 2;
+@cmvalue: 10cm + 10pt + .01m;
+.istest2 {
+  content: '1. pixel'  ispixel(@pixvalue);
+  content: '2. pixel'  ispixel(convert(@pixvalue, 'pt'));
+  content: '3. em' isem(12em + 12pt);
+  content: '4. em' isem(12pt + 12em);
+  content: '5. percentage'  ispercentage(100%);
+  content: '6. percentage'  ispercentage(0.5);
+  content: '7. unit'  isunit(@cmvalue, 'cm');
+  content: '8. unit'  isunit(10ms, 's');
+}
