@@ -29,15 +29,65 @@ sudo yum install nodejs rpm
 
 A instalação MacOS é simples como a do Linux, mas o típico usuário Mac não costuma usar o terminal. Iremos necessitar do terminal para instalar o Node, NPM e Less, e posteriormente para usar o Less para gerar CSS (a menos que você use uma ferramenta de desenvolvimento). 
 
-O Terminal é uma aplicação que está localizada na pasta Utilities, que fica dentro da pasta Applications. Abra o terminal. Ele mostra um cursor piscando no final de uma linha que contém o nome de sua máquina, e o diretório em que você está no momento (o diretório raiz da sua conta). Digite ls
+O `Terminal` é uma aplicação que está localizada na pasta `Utilities`, que fica dentro da pasta `Applications`. Abra o `Terminal`. Ele mostra um cursor piscando no final de uma linha que contém o nome de sua máquina, e o diretório em que você está no momento (o diretório raiz da sua conta). Digite `ls`:
 
-A lista de arquivos e diretórios é a lista dos arquivos e diretórios da sua conta. Veja que entre eles há um chamado Desktop. Digite ls Desktop (com 'D' maiúsculo):
+```
+Last login: Tue Mar 11 09:59:45 on console
+Vaders-MacBook-Pro:~ darthvader$ ls
+Pictures                 Public
+Adlm				     Snapshots
+Applications		     WebstormProjects
+Code					 Desktop				
+Documents				 Downloads		
+Dropbox					 Library			
+MoviesMusic
+Vaders-MacBook-Pro:~ darthvader$ 
+```
 
-Agora a listagem contém o conteúdo do seu Desktop.
+A lista de arquivos e diretórios é a lista dos arquivos e diretórios da sua conta. Veja que entre eles há um chamado Desktop. Digite `cd Desktop` (com `D` maiúsculo). Você não precisa digitar o nome inteiro. Se digitar algumas letras tecle `<TAB>` e  nome vai se autocompletar:
 
-O Mac não vem com uma ferramenta nativa para instalar pacotes. É preciso instalar uma. As mais populares são Fink, MacPorts e HomeBrew. Talvez a mais fácil de usar seja HomeBrew. 
+```
+Vaders-MacBook-Pro:Desktop darthvader$ cd Desktop
+```
 
--- como instalar o home brew
+Agora digite `ls` de novo. O terminal irá listar o conteúdo da sua pasta `Desktop`:
+
+```
+Vaders-MacBook-Pro:Desktop darthvader$ ls
+2013 
+_1674193519_n.jpg
+_1375778272_o.jpg
+...
+```
+
+Agora a listagem contém o conteúdo do seu Desktop. Para voltar ao seu diretório 'home' digite simplesmente `cd`.
+
+O Mac não vem com uma ferramenta nativa para instalar pacotes. É preciso instalar uma. As mais populares são Fink, MacPorts e HomeBrew. Veja se você tem alguma dessas ferramentas instaladas da seguinte forma:
+
+macports
+fink
+brew
+
+Se tiver, você pode instalar o NPM usando uma das linhas de comando abaixo. O Fink e o MacPorts poderão pedir senha de administrador.
+
+macports
+fink
+brew
+
+### instalando o homebrew
+Se você não tem uma ferramenta de gerenciamento de pacotes instalada, talvez a mais fácil de usar seja HomeBrew. Com ela podemos instalar o Less facilmente sem precisar de privilégios de administrador.
+
+Mas para instalar o HomeBrew é preciso ter esses privilégios. Então primeiro instale o HomeBrew:
+
+instalação do home brew
+
+Depois que o HomeBrew estiver instalado, abra o terminal, mude para o seu diretório home (`cd`) e rode:
+
+```
+brew install node npm
+```
+
+Com isto o gerenciador de pacotes do Node será instalado. Agora vá para a seção seguinte para instalar o Less pelo NPM.
 
 ### Instalação do Node e NPM no Windows
 
@@ -106,7 +156,7 @@ O programa `lessc` que executamos é um pré-processador estático. Ele gera o a
 
 Você não precisa usar sempre linha de comando. Várias ferramentas de Web Design têm suporte a LESS ou permitem a instalação de plug-ins que geram automaticamente o CSS a cada alteração de um documento LESS. 
 
-Uma ferramenta que faz a conversão sem precisar da linha de comando é o Less.app (para Apple). http://incident57.com/less/
+Uma ferramenta que faz a conversão sem precisar da linha de comando é o Less.app (para Apple). <http://incident57.com/less/>
 
 ##pré-processador dinâmico
 
@@ -134,12 +184,10 @@ Depois deve-se incluir a folha de estilos Less usando
 
 É importante que as folhas de estilo Less sejam carregadas **antes** do script. Elas serão compiladas individualmente, portanto não é possível compartilhar variáveis e outros recursos do Less entre elas. Mas o CSS resultante continuará seguindo as mesmas regras de cascade, na ordem em que os estilos Less foram declarados.
 
-## watchers
-
 ## versões do Less
+Este curso foi preparado e testado com a versão 1.7 do Less. O Less não tem uma especificação formal e toda a documentação está disponível no site e no GitHub do projeto. Muitos detalhes da linguagem não estão documentados. Se você estiver usando uma versão anterior do Less, vários exemplos poderão não funcionar. Se estiver usando uma versão mais nova, alguns comandos poderão ser diferentes ou até mais simples.
 
 ## ferramentas
-
-## outros recursos do lessc
+Existem várias ferramentas que ajudam a trabalhar com Less.
 
 ## exercícios

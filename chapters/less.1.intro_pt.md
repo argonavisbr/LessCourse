@@ -1,2 +1,2 @@
 #{1: less css em 5 minutos }
-(Introdução rápida - fazer depois que terminar tudo, incluindo exemplos)
+Esta seção tem como objetivo oferecer uma rápida introdução ao Less. Para acompanhá-la é importante que o seu ambiente esteja configurado. Todos os assuntos abordados aqui serão explorados em detalhes nos capítulos seguintes.

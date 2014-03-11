@@ -28,17 +28,17 @@
           <file leaf-file-name="more-4-imports-variables.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-4-imports-variables.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+                <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
                   <caret line="6" column="1" selection-start="113" selection-end="113" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="more-1-namespace.less" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="more-1-namespace.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-1-namespace.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5706522" vertical-offset="0" max-vertical-offset="405">
+                <state vertical-scroll-proportion="0.4701087" vertical-offset="37" max-vertical-offset="405">
                   <caret line="14" column="16" selection-start="177" selection-end="177" />
                   <folding />
                 </state>
@@ -48,7 +48,7 @@
           <file leaf-file-name="more-2-accessibility.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-2-accessibility.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+                <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
                   <caret line="18" column="1" selection-start="260" selection-end="260" />
                   <folding />
                 </state>
@@ -58,7 +58,7 @@
           <file leaf-file-name="more-6-scripts.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-6-scripts.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="315">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
                   <caret line="0" column="0" selection-start="0" selection-end="0" />
                   <folding />
                 </state>
@@ -68,7 +68,7 @@
           <file leaf-file-name="more-5-data-uri.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-5-data-uri.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+                <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
                   <caret line="3" column="1" selection-start="71" selection-end="71" />
                   <folding />
                 </state>
@@ -78,7 +78,7 @@
           <file leaf-file-name="less-js.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/html/less-js.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="645">
+                <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="600">
                   <caret line="16" column="27" selection-start="548" selection-end="579" />
                   <folding />
                 </state>
@@ -88,7 +88,7 @@
           <file leaf-file-name="less-js-jquery.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/html/less-js-jquery.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
+                <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="525">
                   <caret line="16" column="55" selection-start="578" selection-end="578" />
                   <folding />
                 </state>
@@ -98,7 +98,7 @@
           <file leaf-file-name="more-3-imports-base.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-3-imports-base.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+                <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
                   <caret line="2" column="25" selection-start="74" selection-end="74" />
                   <folding />
                 </state>
@@ -109,7 +109,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="more-4-imports-variables.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="more-4-imports-variables.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-4-imports-variables.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
@@ -131,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/html/css-position-less.html" />
         <option value="$PROJECT_DIR$/chapters/less.3.basics_pt.md" />
         <option value="$PROJECT_DIR$/chapters/less.6.mixin_pt.md" />
         <option value="$PROJECT_DIR$/chapters/less.10.refs_pt.md" />
@@ -182,6 +181,7 @@
         <option value="$PROJECT_DIR$/examples/stylesheets/more/more-6-imports-variables.less" />
         <option value="$PROJECT_DIR$/examples/html/less-js.html" />
         <option value="$PROJECT_DIR$/examples/html/less-js-jquery.html" />
+        <option value="$PROJECT_DIR$/examples/stylesheets/more/more-4-imports-variables.css" />
       </list>
     </option>
   </component>
@@ -529,14 +529,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -547,9 +539,16 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -559,8 +558,9 @@
       <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -585,15 +585,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2225" y="22" width="895" height="1024" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32188842" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30128956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30832356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32939914" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -601,6 +600,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -624,6 +624,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/html/less-js-jquery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="525">
+          <caret line="16" column="55" selection-start="578" selection-end="578" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-3-imports-base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
+          <caret line="2" column="25" selection-start="74" selection-end="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-4-imports-variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="0" column="0" selection-start="0" selection-end="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapters/less.8.loops-guards_pt.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03311258" vertical-offset="930" max-vertical-offset="3345">
@@ -638,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="720">
           <caret line="16" column="1" selection-start="232" selection-end="232" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3478261" vertical-offset="59" max-vertical-offset="450">
           <caret line="13" column="0" selection-start="480" selection-end="906" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.25" vertical-offset="51" max-vertical-offset="465">
           <caret line="15" column="1" selection-start="315" selection-end="315" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="835">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.185567" vertical-offset="0" max-vertical-offset="540">
           <caret line="6" column="12" selection-start="104" selection-end="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28865978" vertical-offset="385" max-vertical-offset="915">
           <caret line="35" column="1" selection-start="589" selection-end="589" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.083333" vertical-offset="547" max-vertical-offset="1020">
           <caret line="51" column="13" selection-start="741" selection-end="741" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="420">
           <caret line="6" column="1" selection-start="200" selection-end="200" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5555556" vertical-offset="708" max-vertical-offset="1815">
           <caret line="50" column="13" selection-start="1891" selection-end="1891" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
@@ -770,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="135">
           <caret line="2" column="0" selection-start="0" selection-end="122" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036319613" vertical-offset="0" max-vertical-offset="413">
           <caret line="1" column="9" selection-start="35" selection-end="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59322035" vertical-offset="1255" max-vertical-offset="1725">
           <caret line="100" column="10" selection-start="1893" selection-end="1919" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3668478" vertical-offset="0" max-vertical-offset="368">
           <caret line="9" column="0" selection-start="199" selection-end="203" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03836317" vertical-offset="0" max-vertical-offset="391">
           <caret line="1" column="0" selection-start="1" selection-end="303" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03836317" vertical-offset="0" max-vertical-offset="391">
           <caret line="1" column="0" selection-start="1" selection-end="360" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2685422" vertical-offset="0" max-vertical-offset="391">
           <caret line="7" column="0" selection-start="160" selection-end="215" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07334963" vertical-offset="0" max-vertical-offset="4350">
           <caret line="1" column="73" selection-start="11" selection-end="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2777778" vertical-offset="0" max-vertical-offset="432">
           <caret line="8" column="0" selection-start="137" selection-end="137" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="409">
           <caret line="0" column="0" selection-start="0" selection-end="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +940,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/html/less-js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="645">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="600">
           <caret line="16" column="27" selection-start="548" selection-end="579" />
           <folding />
         </state>
@@ -944,7 +948,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/html/less-js-jquery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="615">
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="525">
           <caret line="16" column="55" selection-start="578" selection-end="578" />
           <folding />
         </state>
@@ -960,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-5-data-uri.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
           <caret line="3" column="1" selection-start="71" selection-end="71" />
           <folding />
         </state>
@@ -968,7 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-4-imports-variables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
           <caret line="6" column="1" selection-start="113" selection-end="113" />
           <folding />
         </state>
@@ -976,7 +980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-3-imports-base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
           <caret line="2" column="25" selection-start="74" selection-end="74" />
           <folding />
         </state>
@@ -984,7 +988,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-2-accessibility.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
           <caret line="18" column="1" selection-start="260" selection-end="260" />
           <folding />
         </state>
@@ -992,7 +996,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/stylesheets/more/more-1-namespace.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5706522" vertical-offset="0" max-vertical-offset="405">
+        <state vertical-scroll-proportion="0.4701087" vertical-offset="37" max-vertical-offset="405">
           <caret line="14" column="16" selection-start="177" selection-end="177" />
           <folding />
         </state>
