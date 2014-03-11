@@ -1,0 +1,19 @@
+.labeled-box(@color, @label) {
+  background-color: @color;
+  &:before {
+    content: @label;
+    color: contrast(@color);
+  }
+}
+
+.sec-1 {
+  .labeled-box(red, '#ff0000')
+}
+
+.sec-2 {
+  .labeled-box(yellow, '#ffff00')
+}
+
+.sec-3 {
+  .labeled-box(blue, '#0000ff')
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <!--link rel="stylesheet/less" type="text/css" href="../stylesheets/variables/variables.less" /-->
+    <!--link rel="stylesheet/less" type="text/css" href="../stylesheets/variables/more-6-scripts.less" /-->
     <script src="../../bower_components/less/dist/less-1.6.2.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <meta charset="utf-8"/>
@@ -14,7 +14,7 @@
 <script>
     var parser = new(less.Parser);
     var client = new XMLHttpRequest();
-    client.open('GET', '../stylesheets/variables/variables.less');
+    client.open('GET', '../stylesheets/more/more-6-scripts.less');
     client.onreadystatechange = function() {
         var data = client.responseText;
         var varlist = document.getElementById("varlist");

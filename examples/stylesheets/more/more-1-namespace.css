@@ -1,0 +1,8 @@
+.photo1 {
+  border: none;
+  -webkit-mask-image: url(circle.svg);
+}
+.photo2 {
+  border: none;
+  -webkit-mask-image: url(rectangle.svg);
+}
