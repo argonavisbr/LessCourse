@@ -1,0 +1,20 @@
+@color1: rgba(255,0,0,1);
+@color2: rgba(255,255,0,0.5);
+
+// fadein
+.appearing {
+  background-color: fadein(@color1, -10%);
+  color: fadein(@color2, 10%);
+}
+
+// fadeout
+.disappearing {
+  background-color: fadeout(@color1, 10%);
+  color: fadeout(@color2, 10%);
+}
+
+// fade
+.fade-it {
+  background-color: fade(@color1, 10%);
+  color: fade(@color2, 10%);
+}

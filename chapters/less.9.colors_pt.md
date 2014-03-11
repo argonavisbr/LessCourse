@@ -209,6 +209,29 @@ Função | Recebe | Retorna
 `lighten(c,p)` | `c` = cor, `p` = percentagem | cor com a luminância aumentada na percentagem indicada (até a máxima).
 `darken(c,p)` | `c` = cor, `p` = percentagem | cor com a luminância diminuída na percentagem indicada (até a mínima).
 
+Exemplos de `darken` e `lighten`:
+
+ ```
+ @color: #ff0000;
+.light {
+  background-color: lighten(@color, 25%);
+}
+.dark {
+  background-color: darken(@color, 25%);
+}
+ ```
+ 
+ CSS:
+ 
+ ```
+ .light {
+  background-color: #ff8080;
+}
+.dark {
+  background-color: #800000;
+}
+ ```
+
 ### matiz
 A função spin recebe um ângulo que é aplicado sobre o círculo ou cone de cores, variando a matiz.
 
@@ -216,28 +239,56 @@ Função | Recebe | Retorna
 --|--|--
 `spin(c,a)` | `c` = cor, `a` = ângulo | cor correspondente ao ângulo. Vermelho = 0 = 360. Verde = 120, Azul = -120 ou 240.
 
+Exemplo de `spin`:
+
+```
+@color: #ff0000;
+.green {
+  background-color: spin(@color, 120deg);
+}
+.blue {
+  background-color: spin(@color, -120deg);
+}
+```
+
+CSS: 
+
+```
+.green {
+  background-color: #00ff00;
+}
+.blue {
+  background-color: #0000ff;
+}
+```
+
 ### transparência
 Função | Recebe | Retorna
 --|--|--
-`fadein(c,p)` | `c` = cor, `p` = percentagem | diminui a transparência relativa (soma ao valor alfa até o máximo) da cor na percentagem indicada.
-`fadeout(c,p)` | `c` = cor, `p` = percentagem | aumenta a transparência relativa (subtrai do valor alfa até o mínimo) da cor na percentagem indicada.
-`fade(c,p)` | `c` = cor, `p` = percentagem | aplica um valor de transparência absoluto na cor (multiplica ao valor alfa existente).
-
+`fadein(c,p)` | `c` = cor, `p` = percentagem | diminui a transparência *relativa* somando a percentagem ao valor alfa (até o máximo). `fadein(rgba(255,0,0,1), -10%) `gera `rgba(255, 0, 0, 0.9)`, `fadein(rgba(255,255,0,0.5), 10%)` gera `rgba(255, 255, 0, 0.6)`.
+`fadeout(c,p)` | `c` = cor, `p` = percentagem | aumenta a transparência *relativa* subtraindo a percentagem do valor alfa (até o mínimo). `fadeout(rgba(255,0,0,1), 10%)` gera `rgba(255, 0, 0, 0.9)`, `fadeout(rgba(255,255,0,0.5), 10%)`  gera `rgba(255, 255, 0, 0.4)`.
+`fade(c,p)` | `c` = cor, `p` = percentagem | aplica um valor de transparência *absoluto* na cor (substitui o valor alfa existente). `fade(rgba(255,0,0,1), 10%)` gera `rgba(255, 0, 0, 0.1)`, `fade(rgba(255,255,0,0.5), 10%)`  gera `rgba(255, 255, 0, 0.1)`.
 
 ##operações de combinação de cores
+As operações de combinação de cores podem ser classificadas em simétricas (onde a ordem das cores não é relevante) e assimétricas (onde a ordem importa).
 
+### simétricas
 Função | Recebe | Retorna
 --|--|--
-`mix(c1, c2)` | 2 cores | mistura duas cores de forma proporcional (incluíndo canais alfa).
-`multiply(c1, c2)` | 2 cores | cor (mais escura) resultante da multiplicação das duas cores e divisão por 255. Oposto de screen.
-`screen(c1, c2)` | 2 cores | cor (mais clara) resultante da divisão das duas cores e multiplicação por 255. Oposto de multiply.
-`overlay(c1, c2)` | 2 cores | cor com canais mais escuros ou mais claros determinados pela primeira cor.
-`hardlight(c1, c2)` | 2 cores | cor com canais mais escuros ou mais claros determinados pela segunda cor.
-`softlight(c1, c2)` | 2 cores | cor resultante de overlay de menos contraste.
-`average(c1, c2)` | 2 cores | cor resultante da média de cada canal de cor.
-`difference(c1, c2)` | 2 cores | cor resultante da subtração da secunda cor da primeira, canal por canal. Subtração de branco inverte a cor.
-`exclusion(c1, c2)` | 2 cores | cor resultante de um difference de menos contraste.
-`negation(c1, c2)` | 2 cores | cor resultante da efeito inverso de difference.
+`mix(c1, c2)` | 2 cores | mistura duas cores de forma proporcional e inclui canais alfa). `mix(orange, purple)` gera `#c05340`, `mix(rgba(255,255,0,0.5), red)` gera `rgba(255, 64, 0, 0.75)`
+`average(c1, c2)` | 2 cores | mistura duas cores utilizando a média de cada canal. `average(orange, purple)` gera `#c05340`, `average(rgba(255,255,0,0.5), red)` gera `#ff4000`
+`multiply(c1, c2)` | 2 cores | cor mais escura resultante da multiplicação entre os componentes das duas cores. Oposto de `screen`. `multiply(#800080, #800080)` gera  `#400040`, `multiply(yellow, red)` gera `#ff0000` (red).
+`screen(c1, c2)` | 2 cores | cor mais clara resultante da multiplicação do valor inverso dos componentes das duas cores. Oposto de `multiply`. `screen(#800080, #800080)` gera `#c000c0`, s`creen(yellow, red)` gera `#ffff00` (yellow).
+`difference(c1, c2)` | 2 cores | cor resultante da subtração da segunda cor da primeira, canal por canal. Subtração de branco inverte a cor. `difference(#ff0000, #ffffff)` gera `#00ffff`, `difference(#ff00ff, #00ff7f)` gera `#ffff80`.
+`exclusion(c1, c2)` | 2 cores | cor resultante de um difference de menos contraste. `exclusion(#ff44ff, #44ff7f)` gera `#bbbb80`
+`negation(c1, c2)` | 2 cores | cor resultante da efeito inverso de difference. `negation(#ff0000, #ffffff)` gera `#00ffff`, `negation(#ff00ff, #00ff7f)` gera `#ffff80`.
+
+### assimétricas
+Função | Recebe | Retorna
+--|--|--
+`overlay(c1, c2)` | 2 cores | cor com canais mais escuros ou mais claros determinados pela primeira cor. `overlay(red, yellow)` gera `#ff0000` (red), `overlay(yellow, red)` gera `#ffff00` (yellow).
+`hardlight(c1, c2)` | 2 cores | cor com canais mais escuros ou mais claros determinados pela segunda cor. Oposto de `overlay`. `hardlight(red, yellow)` gera `#ffff00` (yellow), `hardlight(yellow, red)` gera `#ff0000` (red).
+`softlight(c1, c2)` | 2 cores | cor resultante de overlay de menos contraste. `softlight(#400000, #808000)` gera `#400000`, `softlight(#808000, #400000)` gera `#604000`.
 
 ##exercícios
 1. x
