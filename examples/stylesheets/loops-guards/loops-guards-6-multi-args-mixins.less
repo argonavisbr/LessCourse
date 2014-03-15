@@ -1,0 +1,82 @@
+// from http://stackoverflow.com/questions/22396150/is-it-possible-with-less-css-to-store-multiple-arguments-in-a-variable
+
+// can send as list, as separate properties, as individual (ordered) properties
+.multi-property-border(@args...) {
+  .temp() {
+    @style: solid;
+    @width: 1px;
+    @color: black;
+  }
+  .temp();
+
+  @arg1: extract(@args, 1);
+  @arg2: extract(@args, 2);
+  @arg3: extract(@args, 3);
+
+  .temp() when (length(@args) > 0) and (iskeyword(@arg1)) {
+       @style: @arg1;
+  }
+  .temp() when (length(@args) > 0) and (iscolor(@arg1)) {
+       @color: @arg1;
+  }
+  .temp() when (length(@args) > 0) and (isnumber(@arg1)) {
+       @width: @arg1;
+  }
+  .temp() when (length(@args) > 1) and (iskeyword(@arg2)) {
+    @style: @arg2;
+  }
+  .temp() when (length(@args) > 1) and (iscolor(@arg2)) {
+    @color: @arg2;
+  }
+  .temp() when (length(@args) > 1) and (isnumber(@arg2)) {
+    @width: @arg2;
+  }
+  .temp() when (length(@args) > 2) and (iskeyword(@arg3)) {
+    @style: @arg3;
+  }
+  .temp() when (length(@args) > 2) and (iscolor(@arg3)) {
+    @color: @arg3;
+  }
+  .temp() when (length(@args) > 2) and (isnumber(@arg3)) {
+    @width: @arg3;
+  }
+
+  border-style: @style;
+  border-width: @width;
+  border-color: @color;
+}
+
+@debug-border: solid 1px red;
+
+.sec {
+  .multi-property-border;
+}
+.sec1 {
+  .multi-property-border(dashed);
+}
+.sec2 {
+  .multi-property-border(dashed, 5px);
+}
+.sec3 {
+  .multi-property-border(outset, 4px, purple);
+}
+.sec4 {
+  .multi-property-border(inset 2px green);
+}
+.sec5 {
+  .multi-property-border(@debug-border);
+}
+
+.sec6 {
+  .multi-property-border(outset);
+}
+.sec7 {
+   .multi-property-border(pink);
+ }
+.sec8 {
+  .multi-property-border(orange, 10px);
+}
+
+.sec9 {
+  .multi-property-border(orange 15px solid);
+}

@@ -1,5 +1,5 @@
-#{6: mixin }
-##mixins?
+#{5: mixin }
+##mixins
 Variáveis permitem armazenar valores. Mixins permitem armazenar conjuntos inteiros de regras, que podem ser reusadas em outros blocos. 
 
 A declaração de um mixin não difere em nada de uma declaração de um seletor CSS de classe ou id. A diferença é que o mixin foi criado para ser usado apenas na folha de estilos. Além disso, mixins podem ter parâmetros.

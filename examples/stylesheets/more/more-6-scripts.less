@@ -7,9 +7,24 @@
 
 @tipologia: "Times New Roman", serif;
 @largura: 15em;
+@texto: "Digite aqui!";
 
-h1 {
+
+p.editor {
      font-family: @tipologia;
      height: @largura * 2;
      width: @largura;
-   }
+  &:before {
+    content: `@{texto}.toUpperCase()`;
+  }
+}
+
+@coords: "TOP LEFT BOTTOM RIGHT";
+.center(@position) {
+  margin: auto !important;
+  position: ~`'@{position};\n  ' + @{coords}.toLowerCase().split(' ').join(': 0;\n  ') + ': 0'`;
+}
+
+.section {
+  .center(absolute);
+}

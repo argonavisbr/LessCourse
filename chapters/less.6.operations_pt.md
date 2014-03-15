@@ -1,4 +1,4 @@
-#{7: operações e funções }
+#{6: operações e funções }
 
 Neste capítulo serão explorados recursos do Less que permitem realizar operações matemáticas e de transformação de dados, operações condicionais e loops.
 

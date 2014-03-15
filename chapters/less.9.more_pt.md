@@ -1,4 +1,4 @@
-#{10: +less }
+#{9: +less }
 Este capítulo contém tópicos que não foram abordados em módulos anteriores.
 
 ##imports
@@ -63,6 +63,15 @@ O valor de `@base` foi redefinido, mas `@background` e `@foreground` não foram 
   color: #6666ff;
 }
 ```
+
+### Bibliotecas úteis: less elements
+A biblioteca less elements contém vários mixins prontos que podem ser usados em projetos Less, evitando a necessidade de se criar mixins óbvios como os que suportam recursos do CSS3. Para usar, baixe o JS de XXX, e importe nas suas folhas de estilo usando:
+
+```
+@import "elements.less";
+```
+Com isso pode-e usar...
+Por exemplo...
 
 ## acessibilidade, performance e suporte multi-plataforma
 Esta seção aborda algumas funções que ajudam a desenvolver Web sites accessíveis, mais eficientes e independentes de browser.
@@ -201,9 +210,70 @@ Resultado em CSS:
   -webkit-mask-image: url(rectangle.svg);
 }
 ```
+##less com trechos de javascript
+Existe um recurso não documentado que permite escapar blocos no Less e executar trechos de JavaScript. Não é possível executar trechos grandes nem funções externas (a menos que se esteja usando Less no browser ou em uma aplicação Node.js). Como é um recurso que não está mais documentado no site (desde Less 1.6), é possível que sofra modificações ou deixe de ser suportado no futuro.
+
+Para executar JavaScript dentro de uma folha de estilos Less, chame o JavaScript dentro de crases:
+
+```
+@texto: "Digite aqui!";
+p.editor {
+  &:before {
+    content: `@{texto}.toUpperCase()`;
+  }
+}
+```
+
+As variáveis podem ser passadas de forma interpolada, como em strings. O método `toUpperCase()` em JavaScript põe a string em caixa alta. O resultado em CSS é:
+
+```
+p.editor:before {
+  content: "DIGITE AQUI!";
+}
+```
+
+É possível fazer coisas bem mais sofisticadas, e contornar diversas limitações do Less, pagando o preço do aumento da complexidade. 
+
+Este outro exemplo é um mixin que gera propriedades e valores:
+
+```
+@coords: "TOP LEFT BOTTOM RIGHT";
+.center(@position) {
+  margin: auto !important;
+  position: ~`'@{position};\n  ' + @{coords}.toLowerCase().split(' ').join(': 0;\n  ') + ': 0'`;
+}
+```
+
+Uso do mixin:
+
+```
+.section {
+  .center(absolute);
+}
+```
+Resultado em CSS:
+
+```
+.section {
+  margin: auto !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+```
+
+JavaScript em Less *não* dá acesso ao DOM, apenas ao *core* Javascript. Pode-se transformar strings, arrays, gerar datas e fazer contas matemáticas, mas não é possível ler variáveis do modelo de objetos:
+
+```
+@variavel: `document.images.length`;  // NAO FUNCIONA!
+```
+
+É fácil compreender isto quando se executa o pré-processador Less no servidor ou em linha de comando, já que não existe página e Less precisa gerar um CSS estático. Mas no browser também não vai funcionar. Less não é JavaScript, apenas *permite* o uso de JavaScript para gerar uma folha de estilos. Não há garantia que os objetos do DOM estejam disponíveis quando a página Less gerar o CSS.
 
 ##scripting com less
-Pode-se ter acesso ao parser do Less e configurá-lo, ler componentes de uma folha de estilos e alterar variáveis usando os recursos de scripting do Less, acessíveis tanto no servidor via Node.js, quanto no browser.
+Pode-se ter acesso ao parser do Less e configurá-lo, ler componentes de uma folha de estilos e alterar variáveis usando os recursos de scripting do Less, acessíveis tanto no servidor via Node.js, quanto no browser. 
 
 ### no browser
 Less pode ser carregado no browser através do módulo less.js que pode ser baixado do site <http://lesscss.org> ou vinculando com o `less.js` disponível na nuvem:

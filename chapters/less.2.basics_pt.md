@@ -1,4 +1,4 @@
-#{3: fundamentos }
+#{2: fundamentos }
 
 Nesta seção ilustraremos algumas características da sintaxe do Less e comparações com CSS. Alguns tópicos que serão abordados aqui em um primeiro momento serão detalhados em módulos futuros.
 
@@ -11,11 +11,6 @@ Por outro lado, CSS não é Less. Less é usado para gerar um CSS novo, que pode
 Pode-se criar uma folha de estilos Less partindo-se de uma folha de estilos CSS existente. A forma mais simples é mudar a extensão do arquivo para `.less`. Quando o arquivo for lido pelo processador Less será gerado um CSS funcionalmente idêntico. Ele talvez substitua algumas representações por outras equivalentes (por exemplo, `rgb(255,0,0)` será substituído por `#ff0000`), mas o arquivo gerado será equivalente.
 
 A partir de um documento Less contendo CSS puro, pode-se fazer alterações gradualmente, aplicando recursos do Less como aninhamento de declarações, variáveis, funções, etc. Este processo é chamado de refatoração: ele altera a forma de se expressar regras de estilo sem alterar o resultado. A melhor maneira de fazer refatoração é usando um editor que gere automaticamente o CSS, como os que foram apresentados no capítulo anterior.
-
-##palavras-chave e reservadas
-
-teste de palavras-chave
-tabela de palavras-chave
 
 ##aninhamento de declarações
 Less permite que declarações CSS sejam aninhadas. É uma forma alternativa de expressar relacionamentos contextuais entre seletores. Por exemplo, as duas declarações a seguir em CSS:

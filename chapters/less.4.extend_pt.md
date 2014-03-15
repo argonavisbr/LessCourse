@@ -1,6 +1,5 @@
-#{5: extend }
-##:extend?
-
+#{4: extend }
+##:extend
 `:extend` é uma pseudo-classe exclusiva do Less que copia o conjunto de regras do seletor no qual é aplicado aos conjuntos de regras de outros seletores passados como parâmetro. Evita que seletores sejam repetidos muitas vezes. 
 
 Vejamos um exemplo simples. Considere a folha de estilos abaixo, em CSS puro:
@@ -118,7 +117,7 @@ Que tem como resultado em CSS:
 }
 ```
 
-## extend com seletores aninhados
+## extensão com seletores aninhados
 Mais um exemplo com `:extend` usando seletores contextuais e aninhamento. O código abaixo:
 
 ```
@@ -176,7 +175,7 @@ n1, s4 {
 
 Os blocos vazios, se não tiverem propriedades, são removidos.
 
-## :extend e sobreposição de propriedades
+## sobreposição de propriedades
 
 `:extend` não impede a criação de propriedades duplicadas. Elas podem ocorrer no mesmo bloco ou em blocos diferentes aplicadas ao mesmo seletor. As regras sobre qual terá precedência são as mesmas do CSS: dentro de um mesmo bloco, se houver duas declarações afetando a mesma propriedade, vale a que foi definida por último; dentro do mesmo documento, propriedades aplicadas a seletores idênticos em blocos diferentes, também vale a última.
 
@@ -239,7 +238,7 @@ Este é o resultado:
 
 Isto não altera o funcionamento do CSS, embora seja uma duplicação desnecessária. 
 
-## uso com pseudo-elementos e variáveis
+## pseudo-elementos e variáveis
 
 Um seletor pode ter outras pseudo-classes além de extend, mas `:extend` tem sempre que ser a última:
 
@@ -262,7 +261,7 @@ Mas `:extend` não suporta (até o Less 1.6) variáveis como argumentos. Elas s�
 div:extend(@{var}) {} // ISTO NAO FUNCIONA!
 ```
 
-## correspondência exata e limitações do :extend
+## correspondência exata
 Para aplicar as extensões, `:extend` precisa localizar seletores que combinem com os que foram passados como argumentos. Por default, essa correspondência precisa ser *exata*. A forma importa. Dois seletores diferentes que têm o mesmo efeito ou significado em CSS, como por exemplo `p:before:hover` e `p:hover:before` *não são considerados iguais* para `:extend`. A única exceção é conteúdo entre aspas em predicados: `[nome=abc]`, `[nome='abc']` e `[nome="abc"]` são considerados equivalentes.
 
 Tipos de expressões com seletores que são equivalentes em CSS mas não são consideradas correspondências equivalentes em parâmetros de `:extend` incluem:
@@ -310,7 +309,7 @@ div {
 }
 ```
 
-## correspondência parcial com `all`
+## correspondência parcial
 Se um seletor do tipo `.a` for usado como argumento de `:extend`, ele encontrará correspondência apenas com seletores idênticos `.a`. Seletores `c.a` ou `.a.b` não serão considerados equivalentes. O seletor .new-section não será estendido pois .sec não tem correspondência exata com nenhum dos seletores do primeiro bloco:
 
 ```

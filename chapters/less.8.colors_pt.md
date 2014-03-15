@@ -1,4 +1,4 @@
-#{9: cores }
+#{8: cores }
 Less possui várias funções para geração, combinação, filtragem e mesclagem de cores. A maioria gera como resultado uma representação de cor em CSS no formato hexadecimal `#rrggbb`.
 
 ##definição de cores

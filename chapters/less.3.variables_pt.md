@@ -1,5 +1,4 @@
-#{4: variáveis }
-##variáveis?
+#{3: variáveis }
 
 Variáveis permitem armazenar valores que serão reusados muitas vezes. É muito comum que certos valores como cores, fontes, dimensões, etc. sejam repetidas várias vezes em uma folha de estilo CSS. As variáveis do Less permitem eliminar essa repetição. É possível ainda realizar operações com variáveis, passá-las como argumentos para funções, etc.
 
