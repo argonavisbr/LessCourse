@@ -1,0 +1,41 @@
+/* This script only works in the browser with less-with-dom.html */
+// DOM variables - will only work in browser!
+@win-height:`$(window).height()`;
+@win-width:`$(window).width()`;
+
+//@win-height:960;
+//@win-width:1024;
+
+@div-width: (@win-width / 2px);
+@div-height: (@win-height / 2px);
+@div-left-position: (@win-width - @div-width) / 2px;
+@div-top-position: (@win-height - @div-height) / 2px;
+
+* {
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 5px;
+  margin: auto;
+  overflow: hidden;
+  background: red;
+  height: @div-height;
+  width: @div-width;
+  position: absolute;
+  top: @div-top-position;
+  left: @div-left-position;
+}
+
+.box:before {
+  color: white;
+  @text: 'height: @{div-height}, width: @{div-width}';
+  content: '@{text}';
+}
+
+body:before {
+  color: black;
+  @text: 'height: @{win-height}, width: @{win-width}';
+  content: '@{text}';
+}
+

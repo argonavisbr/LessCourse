@@ -1,0 +1,14 @@
+.secao1,
+.lateral,
+.secao2 {
+  background: url(images/bg.svg);
+  color: #f789a1;
+}
+.tabela td td > p,
+.secao2 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.secao2 {
+  border: solid blue 1px;
+}

@@ -1,0 +1,9 @@
+.secao {
+  position: absolute;
+}
+.secao > div {
+  width: 560px;
+}
+.secao > div .item {
+  color: blue;
+}

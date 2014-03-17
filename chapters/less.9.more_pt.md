@@ -64,14 +64,21 @@ O valor de `@base` foi redefinido, mas `@background` e `@foreground` não foram 
 }
 ```
 
-### Bibliotecas úteis: less elements
-A biblioteca less elements contém vários mixins prontos que podem ser usados em projetos Less, evitando a necessidade de se criar mixins óbvios como os que suportam recursos do CSS3. Para usar, baixe o JS de XXX, e importe nas suas folhas de estilo usando:
+### Bibliotecas úteis
+Existem várias bibliotecas de mixins para o Less que podem ser incorpodados em quaisquer projetos Less, evitando a necessidade de se criar mixins óbvios como os que suportam recursos do CSS3 em múltiplos browsers. A maioria consiste de apenas um arquivo `.less` que deve ser importado. O mais simples é o **less elements**. Para usar, baixe-o do site <http://lesselements.com> e importe no seu projeto:
 
 ```
 @import "elements.less";
 ```
-Com isso pode-e usar...
-Por exemplo...
+Com isso pode-se usar qualquer mixin disponível, por exemplo:
+
+```
+.secao {
+    .opacity(0.9); // usando mixin do less elements
+    background-color: blue;
+```
+
+Se você precisar de mais mixins, há pelo menos três outras opções mais completas (2014): **Less Hat**, **Clearless** e **Preboot**, além do próprio **Twitter Bootstrap** que inclui mixins reutilizáveis em vários arquivos `.less` que podem ser importados.
 
 ## acessibilidade, performance e suporte multi-plataforma
 Esta seção aborda algumas funções que ajudam a desenvolver Web sites accessíveis, mais eficientes e independentes de browser.
@@ -210,7 +217,30 @@ Resultado em CSS:
   -webkit-mask-image: url(rectangle.svg);
 }
 ```
-##less com trechos de javascript
+
+## uso de less no browser
+Less pode ser carregado no browser através do módulo less.js que pode ser baixado do site <http://lesscss.org> ou vinculando com o `less.js` disponível na nuvem:
+
+```
+ <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js">
+ </script>
+```
+Quaisquer folhas de estilo Less em uso na página que precisem ser processadas pelo script, devem ser carregadas na página *antes* dessa chamada:
+
+```
+<link rel="stylesheet/less" type="text/css" href="estilo1.less" />
+<link rel="stylesheet/less" type="text/css" href="estilo2.less" />
+```
+
+### desenvolvimento e depuração no browser
+Para trabalhar com Less em tempo de desenvolvimento, e ver os resultados no browser sempre que uma alteração for feita na folha de estilos, ligue o modo `watch`  chamando `less.watch()` *depois* de carregar o `less.js`:
+
+```
+ <script>less.watch()</script>
+```
+Uma extensão para o FireBug, o [FireLess](https://addons.mozilla.org/en-us/firefox/addon/fireless/) permite obter informações detalhadas de erros, números de linha onde os erros ocorreram, etc. quando se trabalha com Less.
+
+##execução de javascript via less
 Existe um recurso não documentado que permite escapar blocos no Less e executar trechos de JavaScript. Não é possível executar trechos grandes nem funções externas (a menos que se esteja usando Less no browser ou em uma aplicação Node.js). Como é um recurso que não está mais documentado no site (desde Less 1.6), é possível que sofra modificações ou deixe de ser suportado no futuro.
 
 Para executar JavaScript dentro de uma folha de estilos Less, chame o JavaScript dentro de crases:
@@ -264,30 +294,58 @@ Resultado em CSS:
 }
 ```
 
-JavaScript em Less *não* dá acesso ao DOM, apenas ao *core* Javascript. Pode-se transformar strings, arrays, gerar datas e fazer contas matemáticas, mas não é possível ler variáveis do modelo de objetos:
+### acesso ao DOM do browser via JavaScript
+
+JavaScript em Less *não* garante acesso ao DOM, apenas ao *core* Javascript. Pode-se transformar strings, arrays, gerar datas e fazer contas matemáticas, mas não é possível ler variáveis do modelo de objetos:
 
 ```
-@variavel: `document.images.length`;  // NAO FUNCIONA!
+@variavel: `document.images.length`;  // INEFICIENTE E PODE NÃO FUNCIONAR!
 ```
 
-É fácil compreender isto quando se executa o pré-processador Less no servidor ou em linha de comando, já que não existe página e Less precisa gerar um CSS estático. Mas no browser também não vai funcionar. Less não é JavaScript, apenas *permite* o uso de JavaScript para gerar uma folha de estilos. Não há garantia que os objetos do DOM estejam disponíveis quando a página Less gerar o CSS.
+É fácil compreender isto quando se executa o pré-processador Less no servidor ou em linha de comando, já que não existe página e Less precisa gerar um CSS estático. Mas no browser também poderá não funcionar. Não há garantia que os objetos do DOM estejam disponíveis quando a página Less gerar o CSS. 
 
-##scripting com less
-Pode-se ter acesso ao parser do Less e configurá-lo, ler componentes de uma folha de estilos e alterar variáveis usando os recursos de scripting do Less, acessíveis tanto no servidor via Node.js, quanto no browser. 
-
-### no browser
-Less pode ser carregado no browser através do módulo less.js que pode ser baixado do site <http://lesscss.org> ou vinculando com o `less.js` disponível na nuvem:
+Uma maneira de contornar essa limitação é reprocessar toda a folha de estilos *após* a carga, o que pode ser feito com  `less.watch()` e configurando as opções do browser para que o próximo reprocessamento demore muito:
 
 ```
- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js">
+ <script>
+  less.poll = 86400000; 
+  less.watch(); // reprocessa uma vez a cada 86400 segundos.
  </script>
 ```
-Quaisquer folhas de estilo Less em uso na página que precisem ser processadas pelo script, devem ser carregadas na página *antes* dessa chamada:
+
+Se o objetivo for usar informações dinâmicas do browser para reconfigurar a folha de estilos, pode-se fazer o contrário: diminuir ao máximo o tempo entre os reprocessamentos. Assim, se o usuário redimensionar uma janela, por exemplo, o Less poderá usar esse dado para reposicionar os objetos. Por exemplo, o código abaixo (que só funciona no browser, pois depende do DOM) usa a altura e largura da janela obtida via JavaScript do DOM para posicionar um DIV no centro da janela:
 
 ```
-<link rel="stylesheet/less" type="text/css" href="estilo1.less" />
-<link rel="stylesheet/less" type="text/css" href="estilo2.less" />
+// Variaveis DOM  - funciona apenas no browser!
+@win-height:`$(window).height()`;
+@win-width:`$(window).width()`;
+
+@div-width: (@win-width / 2px);
+@div-height: (@win-height / 2px);
+@div-left-position: (@win-width - @div-width) / 2px;
+@div-top-position: (@win-height - @div-height) / 2px;
+
+.box {
+  background: red;
+  height: @div-height;
+  width: @div-width;
+  position: absolute;
+  top: @div-top-position;
+  left: @div-left-position;
+}
 ```
+
+Usando:
+
+```
+ <script>less.poll = 10; less.watch()</script>
+```
+no browser, o Less será reprocessado a cada dez milissegundos, fazendo com que as posições mudem dinamicamente.
+
+##interagindo com o parser
+Pode-se ter acesso ao parser do Less e configurá-lo, ler componentes de uma folha de estilos e alterar variáveis usando os recursos de scripting do Less, acessíveis tanto no servidor via Node.js, quanto no browser. Poucos recursos são documentados, portanto, devem ser usados com reserva. 
+
+###substituição de variáveis no browser
 Variáveis globais podem ser modificadas via JavaScript. A alteração não altera nem recarrega a folha de estilo mas força a recompilação. As variáveis alteradas irão valer para todo o escopo da folha de estilos na página. 
 
 Para modificar use um script carregado *após* o `less.js` definindo um objeto `less.modifyVars` contendo a lista das variáveis a serem redefinidas:
@@ -304,29 +362,40 @@ Para modificar use um script carregado *após* o `less.js` definindo um objeto `
 
 Variáveis globais novas (que não existem na folha de estilos) podem ser inseridas de forma similar usando `less.globalVars`.
 
-Pode-se também criar funções em JavaScript que serão usadas dentro de folhas de estilo Less. Essas funções devem ser definidas em `less.functions`:
+### funções customizadas
+Pode-se também criar funções em JavaScript que serão usadas dentro de folhas de estilo Less carregadas no browser. Essas funções devem ser definidas em `less.functions` e dependem do uso de tipos não-documentados para funcionar. Podem ser declaradas como parte do objeto `less` *antes* de carregar o `less.js`:
 
 ```
  <script>
- less = { 
-     functions: { 
-         calcular-media: function(a, b) { 
-             return a + b / 2; 
-         }
-     } 
- };
+       less = {
+            functions: {
+                media: function(a, b) {
+                    return new less.tree.Dimension((a.value + b.value) / 2);
+                }
+            }
+        }; 
  </script>
 ```
+Ou *depois* de carregar o `less.js` desta forma:
+
+```
+ <script>
+        less.tree.functions.media = function(a, b) {
+            return new less.tree.Dimension((a.value + b.value) / 2);
+        };
+ </script>
+```
+
 Uma vez definida, pode ser chamada dentro da folha de estilos Less:
 
 ```
 .centralizar(@left, @right) {
-    @a: unit(@left);
-    @b: unit(@right);
-    margin-left: unit(calcular-media(@a, @b), 'px');
+  @a: unit(@left);
+  @b: unit(@right);
+  margin-left: unit(media(@a, @b), px);
 }
 .section {
-    .centralizar(25px, 35px;);
+  .centralizar(25px; 35px;);
 }
 ```
 CSS gerado:
@@ -336,6 +405,8 @@ CSS gerado:
     margin-left: 30px;
 }
 ```
+
+### leitura de variáveis
 O parser do Less pode ser usado para carregar uma folha de estilos e ter acesso ao seu conteúdo. A folha de estilos pode ser uma string gerada na hora por JavaScript, ou mesmo um documento externo que não seja carregado na folha como Less.
 
 O script JQuery abaixo carrega uma folha de estilos Less localizada no servidor e imprime uma lista de suas variáveis e valores:
@@ -359,9 +430,9 @@ O script JQuery abaixo carrega uma folha de estilos Less localizada no servidor 
  </script>
   ```
   
-Estes recursos do Less ainda são pouco documentados e podem mudar, portanto evite usá-los em produção. O processamento Less no browser também é pouco performático, sendo ideal gerar as folhas de estilo CSS offline. Processamento Less online deve apenas ser usado em desenvolvimento ou em sites com movimento muito baixo.
+Vários desses recursos do Less ainda são pouco documentados e podem mudar, portanto evite usá-los em produção. O processamento Less no browser também é pouco performático, sendo ideal gerar as folhas de estilo CSS offline. Processamento Less online deve apenas ser usado em desenvolvimento ou em sites com movimento muito baixo.
 
-### em aplicações node.js
+### uso em aplicações node.js
 Em aplicações JavaScript lado-servidor como aplicações node.js, o Less pode ser instalado localmente em um projeto usando o Node Package Manager `npm`:
 
 ```
@@ -417,14 +488,6 @@ será gerado em CSS como:
    margin: 22cm;
 }
 ```
-
-## desenvolvimento e depuração no browser
-Para trabalhar com Less em tempo de desenvolvimento, e ver os resultados no browser sempre que uma alteração for feita na folha de estilos, ligue o modo `watch`  chamando `less.watch()` *depois* de carregar o `less.js`:
-
-```
- <script>less.watch()</script>
-```
-Uma extensão para o FireBug, o [FireLess](https://addons.mozilla.org/en-us/firefox/addon/fireless/) permite obter informações detalhadas de erros, números de linha onde os erros ocorreram, etc. quando se trabalha com Less.
 
 ##exercícios
 1. x

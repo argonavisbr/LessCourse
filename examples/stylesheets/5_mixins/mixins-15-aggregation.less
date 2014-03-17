@@ -1,0 +1,13 @@
+.flip-coordinates() {
+  @base: scale(-1,1);
+  transform+: @base;
+  -webkit-transform+: @base;
+  -moz-transform+: @base;
+}
+
+.myclass {
+  .flip-coordinates();
+  transform+: translateX(50px) rotate(45deg);
+  -webkit-transform+:  translateX(50px) rotate(45deg);
+  -moz-transform+:  translateX(50px) rotate(45deg);
+}

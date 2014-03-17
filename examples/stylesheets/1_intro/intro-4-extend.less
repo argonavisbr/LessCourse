@@ -1,0 +1,11 @@
+.secao1, .lateral {
+  background: url(images/bg.svg);
+  color: #f789a1;
+}
+.tabela td td > p {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.secao2:extend(.lateral, .tabela td td > p) {
+  border: solid blue 1px;
+}

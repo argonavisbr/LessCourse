@@ -8,30 +8,139 @@ Less não é necessário, mas Less também não quebra os padrões existentes (n
 Documentos Less são bem mais curtos que documentos CSS e geralmente têm muito menos repetição de código. Alguns dos recursos que Less acrescenta ao CSS incluem funções, variáveis, mixins, condicionais, escopo, aninhamento de blocos e outros recursos comuns em linguagens de programação. Less também facilita a criação de folhas de estilo independentes de browser e plataforma.
 
 ### variáveis
-Less suporta constantes (que são chamadas de variáveis). Através delas é possível declarar um valor (ex: uma cor, url ou fonte) e reusar esse valor várias vezes na folha de estilos, evitando a repetição e facilitando a alteração.
+Less suporta constantes (que são chamadas de variáveis). Através delas é possível declarar um valor (ex: uma cor, url ou fonte) e reusar esse valor várias vezes na folha de estilos, evitando a repetição e facilitando a alteração. Por exemplo?
 
 ```
-```
-
-```
+@cor-base: #f74020;
+.sec1 {
+    color: @cor-base;
+    border-color: @cor-base;
+}
 ```
 
 ### mixins
 Com Less é possível utilizar uma coleção de propriedades declaradas para um seletor várias vezes, simplesmente incluindo o nome do seletor dentro de outro bloco. Esses seletores são chamados de mixins. Pode-se ainda criar mixins que recebem parâmetros, mixins que definem variáveis de retorno, mixins condicionais e mixins recursivos que funcionam como loops.
 
-```
-```
+O primeiro seletor abaixo está sendo usado no segundo como um mixin.
 
 ```
+.girar-90-graus {
+   transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+}
+
+.titulo-lateral {
+    font-weight: 900;
+    .girar-90-graus; // as propriedades de .gerar-90-graus serão inseridas aqui
+}
 ```
+
+`//` representa um bloco de comentário em Less.
+
 ### aninhamento e escopo
 
+Para aplicar um estilo em um elemento de acordo com seu contexto, CSS define uma sintaxe compacta:
 
-Less permite aninhar elementos. CSS declara os elementos todos no mesmo nível. Less também é CSS, então podemos usar das duas formas. Quando houver muitos elementos contextuais, aninhamos. Quando tivermos estilos aplicados de forma global, mantemos no mesmo nível.
+```
+.secao > div .item {
+    color: blue;
+}
+```
+
+Mas que causa repetição de código se também for necessário aplicar estilos nos outros elementos do contexto:
+
+```
+.secao > div {
+    width: 560px;
+}
+
+.secao {
+    position: absolute;
+}
+```
+
+Less acrescenta uma segunda que evita a repetição de código em situações como esta, e também cria um escopo onde podem ser usadas variáveis locais. Os três blocos acima podem ser reduzidos a um só bloco com declarações aninhadas em Less:
+
+ ```
+ .secao {
+     position: absolute;
+     > div {
+        width: 560px;
+        .item {
+           color: blue;
+        }
+    }
+}
+ ```
 
 ### extensão
+Suponha que você tenha o seguinte CSS:
+
+```
+.secao1, .lateral {
+   background: url(images/bg.svg);
+   color: #f789a1;
+}
+.tabela td td > p {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.secao2 {
+    border: solid blue 1px;
+}
+```
+
+Agora você necessita que um novo seletor `.secao2` tenha todos os estilos de `.lateral` e `.tabela td td > p` . Isto pode ser feito acrescentando `.secao2` nas outras duas declarações acima:
+
+```
+.secao2, .secao1, .lateral {
+   background: url(images/bg.svg);
+   color: #f789a1;
+}
+.secao2, .tabela td td > p {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.secao2 {
+    border: solid blue 1px;
+}
+```
+
+Less faz isto automaticamente com o pseudo-seletor `:extend`, gerando o CSS acima:
+
+```
+.secao2:extend(.lateral, .tabela td td > p) {
+    border: solid blue 1px;
+}
+```
 
 ### operadores e funções
+Muitas vezes precisamos fazer contas em CSS para alterar posicionamentos e cores. Less facilita isto acrescentando ao CSS a possibilidade de se usar operações aritméticas, blocos condicionais, blocos de repetição, funções matemáticas e funções de manipulação de cores. Combinado com o uso de variáveis e mixins pode-se automatizar diversas tarefas repetitivas e evitar usar outras linguagens de programação para gerar cores e dimensões.
+
+```
+@largura-total: 1024px;
+@largura-bloco: 960px;
+@margem-esquerda: (@largura-total - @largura-bloco) / 2;
+@cor-base: #800080;
+.secao3 {
+  left: @margem-esquerda;
+  background: darken(@cor-base + #008000, 20%); // soma inverso e escurece
+  color: spin(@cor-base, 180deg); // inverte a cor
+}
+```
+
+O código acima gera o seguinte CSS:
+
+```
+.secao3 {
+  left: 32px;
+  background: #4d4d4d;
+  color: #008000;
+}
+```
 
 ##como usar
 O desenvolvimento com Less possui duas etapas:
@@ -141,7 +250,7 @@ Para usar Less no browser, é preciso carregar o script `less.js`, que pode ser 
 Pode-se também usar o `less.js` disponível em um repositório de código na nuvem (CDN):
 
 ```
- <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.6.3/less.min.js"></script>
+ <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
 ```
 
 Agora pode-se incluir folhas de estilos Less diretamente usando:

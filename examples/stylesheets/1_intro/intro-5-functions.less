@@ -1,0 +1,9 @@
+@largura-total: 1024px;
+@largura-bloco: 960px;
+@margem-esquerda: (@largura-total - @largura-bloco) / 2;
+@cor-base: #800080;
+.secao3 {
+  left: @margem-esquerda;
+  background: darken(@cor-base + #008000, 20%); // soma inverso e escurece
+  color: spin(@cor-base, 180deg); // inverte a cor
+}

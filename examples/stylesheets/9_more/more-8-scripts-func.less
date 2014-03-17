@@ -1,0 +1,16 @@
+/* this script only works in the browser, with less-with-js-functions.html */
+
+.centralizar(@left, @right) {
+  @a: unit(@left);
+  @b: unit(@right);
+  margin-left: unit(media(@a, @b), px);
+}
+.section {
+  .centralizar(25px; 35px;);
+}
+
+h1:after {
+  .centralizar(100px; 50px;);
+  @media: unit(media(@a, @b), px);
+  content: '@{media}';
+}
