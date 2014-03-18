@@ -1,0 +1,17 @@
+.a > .a,
+.a > .b,
+.b > .a,
+.b > .b {
+  color: darkgreen;
+}
+.a + .a,
+.a + .b,
+.b + .a,
+.b + .b {
+  color: olive;
+}
+.a.a .a, .a.a .b, .a.b .a,
+.a.b .b, .b.a .a, .b.a .b,
+.b.b .a, .b.b .b {
+  color: darkred;
+}

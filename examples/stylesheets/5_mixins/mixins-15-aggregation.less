@@ -1,13 +1,12 @@
-.flip-coordinates() {
-  @base: scale(-1,1);
-  transform+: @base;
-  -webkit-transform+: @base;
-  -moz-transform+: @base;
+
+.transform-transition(@arg) {
+  @duration: @arg;
+  -webkit-transition-property+: -webkit-transform, -moz-transform, transform;
+  -webkit-transition-duration+: @duration, @duration, @duration;
 }
 
-.myclass {
-  .flip-coordinates();
-  transform+: translateX(50px) rotate(45deg);
-  -webkit-transform+:  translateX(50px) rotate(45deg);
-  -moz-transform+:  translateX(50px) rotate(45deg);
+.secao1 {
+  .transform-transition(2s);
+  -webkit-transition-property+: opacity;
+  -webkit-transition-duration+: @duration;
 }
