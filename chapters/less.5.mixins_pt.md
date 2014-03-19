@@ -375,6 +375,7 @@ Como o segundo argumento possui um valor *default*, é possível omiti-lo caso o
 }
 ```
 E o resultado também será o esperado:
+
 ```
 .section2 {
   font-family: 'Times';
@@ -389,6 +390,7 @@ Mas, e se o mixin for chamado com uma lista de fontes?
 }
 ```
 O compilador Less não vai reclamar, no entanto vai gerar o CSS incorreto:
+
 ```
 .section3 {
   font-family: 'Times';
@@ -503,6 +505,7 @@ A chamada pode conter de zero a muitos argumentos:
 }
 ```
 O CSS resultante contém os argumentos na ordem em que foram enviados:
+
 ```
 .sec4 {
   margin: 1 2;
@@ -879,37 +882,24 @@ Resultado em CSS:
 ##agregação de valores
 Less permite que valores de propriedades definidas em um mixin sejam *agregadas* aos valores existentes de propriedades dos seletores onde o mixin é usado, em uma lista separada por vírgulas. Isto é útil para propriedades que aceitam valores separados por vírgulas como `font-family` e outros.
 
-Para usar, é necessário incluir um sinal `+` tanto na propriedade declarada no mixin, quanto na propriedade declarada no seletor afetado. Por exemplo, o mixin abaixo inverte o sistema de coordenadas.
+Para usar, é necessário incluir um sinal `+` tanto na propriedade declarada no mixin, quanto na propriedade declarada no seletor afetado. 
+
+Por exemplo, o mixin abaixo define uma transição multi-plataforma sobre a propriedade `transform` do CSS3:
 
 ```
-.flip-coordinates() {
-  @base: scale(-1,1);
-  transform+: @base;
-  -webkit-transform+: @base;
-  -moz-transform+: @base;
-}
-
+.transform-transition(@arg) {    @duration: @arg;    -webkit-transition-property+: -webkit-transform, -moz-transform,  transform;    -webkit-transition-duration+: @duration, @duration, @duration;}
 ```
 
-Aqui ele é usado como base para adicionar outras transformações:
+Aqui ele é usado como base para adicionar mais um atributo à transição:
 
 ```
-.myclass {
-  .flip-coordinates();
-     transform+: translateX(50px) rotate(45deg);
-    -webkit-transform+:  translateX(50px) rotate(45deg);
-    -moz-transform+:  translateX(50px) rotate(45deg);
-}
+.secao1 {   .transform-transition(2s);   -webkit-transition-property+: opacity;   -webkit-transition-duration+: @duration;} 
 ```
 
-Resultado em CSS:
+O resultado em CSS acrescenta os atributos adicionados no fim da lista separada por vírgulas:
 
 ```
-.myclass {
-  transform: scale(-1, 1), translateX(50px) rotate(45deg);
-  -webkit-transform: scale(-1, 1), translateX(50px) rotate(45deg);
-  -moz-transform: scale(-1, 1), translateX(50px) rotate(45deg);
-}
+.secao1 {  -webkit-transition-property: -webkit-transform, -moz-transform,  transform, opacity;  -webkit-transition-duration: 2s, 2s, 2s, 2s;} 
 ```
 
 ##exercícios
