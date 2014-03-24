@@ -1,0 +1,89 @@
+// a) mixin .box recebe:
+// - margem/padding horizontal - obrigatorio
+// - margem/padding vertical (opcional - default valor horizontal)
+// - cor de fundo (opcional - default transparent)
+// - borda (opcional - default 0px)
+
+// b) mixin .column recebe os seguintes parametros (todos opcionais)
+// - contagem (default = 2)
+// - gap (default 20px);
+// - largura da linha (default 1px)
+// - cor da linha (default black)
+
+// c) mixin .numerar recebe um parametro obrigatorio
+// - numero do artigo
+
+// d) mixin .append-number recebe os seguintes parametros
+// - nome do contador (obrigatorio)
+// - separador (opcional - default eh um espaco
+
+@base-color: #a030b0;
+
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+  color: @base-color;
+
+  article {
+    // a) substitua aqui chamada para mixin box, com parâmetros de margem, padding, cor de fundo e borda
+    padding: 20px;
+    margin: 10px 20px;
+    border: solid @base-color 1px;
+    background: lighten(@base-color, 50%);
+
+    counter-reset: secoes;
+
+    .contents {
+      // b) substitua aqui chamada para o mixin .column
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+      -webkit-column-rule: solid black 1px;
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      -moz-column-rule: solid black 1px;
+      column-count: 2;
+      column-gap: 20px;
+      column-rule: solid black 1px;
+      /////
+
+      section {
+        // a) substitua aqui outro mixin box, apenas com um paramentro - dimensao horizontal 10px
+        padding: 10px;
+        margin: 10px 10px;
+        border: solid @base-color 0px;
+        background: transparent;
+        /////
+
+        h1 {
+          // d) substitua aqui o mixin .append-number para numerar `secoes`
+          counter-increment: secoes;
+          &:after {
+            content: ' ' counter(secoes);
+          }
+          /////
+        }
+      }
+    }
+
+    // c) inclua aqui chamadas ao mixin .numerar(n) para numerar artigos 1 e 2.
+    &:nth-of-type(1) {
+      > h1 {
+        text-align: center;
+        &:after {
+          content: ' 1';
+        }
+      }
+    }
+    /////
+    &:nth-of-type(2) {
+      > h1 {
+        text-align: center;
+        &:after {
+          content: ' 2';
+        }
+      }
+    }
+    /////
+  }
+}
+

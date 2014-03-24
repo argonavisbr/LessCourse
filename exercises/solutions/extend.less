@@ -1,0 +1,12 @@
+@import '../solutions/basics.less';
+
+.article:extend(body article) {
+  .contents:extend(body article .contents) {
+    .section:extend(body article .contents section) {
+      h1:extend(body article .contents section h1) {}
+    }
+  }
+}
+.nav li:extend(body nav li) {
+  a:hover:extend(body nav li a:hover) {}
+}

@@ -1,0 +1,21 @@
+.gradient(@colors...) {
+  .gradient {.set-gradient('-moz-', @colors);}
+  .gradient {.set-gradient('-webkit-', @colors);}
+  .gradient {.set-gradient('-ms-', @colors);}
+  .gradient {.set-gradient('-o-', @colors);}
+  .gradient {.set-gradient('', @colors);}
+}
+.set-gradient(@prefix; @colors...) {
+  @position: length(@colors);
+  @step: 100% / (@position - 1);
+  background+:    ~'@{prefix}linear-gradient(left';
+  .build-gradient(@colors; @step; @position - 1);
+  @last-stop: extract(@colors, @position) 100%;
+  background+: ~'@{last-stop})';
+}
+.build-gradient(@colors; @step; @position) when (@position > 0) {
+  .build-gradient(@colors; @step; @position - 1);
+  @color-stop: @step * (@position - 1);
+  @color: extract(@colors, @position);
+  background+: @color @color-stop;
+}

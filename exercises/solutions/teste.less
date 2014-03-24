@@ -1,0 +1,21 @@
+@color: #2790d6;
+
+.sec1 {
+  p {
+    color: @color;
+  }
+  h1 {
+    font-family: "Helvetica Neue", sans-serif;
+  }
+}
+
+.sec2 {
+  > div {
+    border: solid @color 1px;
+    li {
+      &:hover {
+        color: @color;
+      }
+    }
+  }
+}

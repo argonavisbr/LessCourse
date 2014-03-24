@@ -1,0 +1,23 @@
+article {
+  width: 1024px;
+  color: navy;
+  background-color: #8080d0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+section {
+  color: white;
+  background-size: 1024px;
+  background-image: url('http://localhost:8090/LessCourse/exercises/images/catfish.jpg');
+}
+.sec1 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-image: url('http://localhost:8090/LessCourse/exercises/images/roraima.jpg');
+}

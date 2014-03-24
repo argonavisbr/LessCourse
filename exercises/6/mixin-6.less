@@ -1,0 +1,88 @@
+table, h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+}
+
+// escreva um mixin para remover a duplicação das declarações a seguir
+
+#t1 {
+  table {
+    border: solid violet 1px;
+    width: 300px;
+    tfoot {
+      background: darken(violet, 10%);
+      color: lighten(violet, 10%);
+    }
+    thead {
+      background: lighten(violet, 10%);
+      color: darken(violet, 30%);
+    }
+    tbody {
+      td {
+        background: darken(violet, 30%);
+        color: lighten(violet, 20%);
+      }
+    }
+  }
+}
+#t2 {
+  table {
+    border: solid cornflowerblue 1px;
+    width: 400px;
+    tfoot {
+      background: darken(cornflowerblue, 10%);
+      color: lighten(cornflowerblue, 10%);
+    }
+    thead {
+      background: lighten(cornflowerblue, 10%);
+      color: darken(cornflowerblue, 30%);
+    }
+    tbody {
+      td {
+        background: darken(cornflowerblue, 30%);
+        color: lighten(cornflowerblue, 20%);
+      }
+    }
+  }
+}
+#t3 {
+  table {
+    border: solid orange 1px;
+    width: 500px;
+    tfoot {
+      background: darken(orange, 10%);
+      color: lighten(orange, 10%);
+    }
+    thead {
+      background: lighten(orange, 10%);
+      color: darken(orange, 30%);
+    }
+    tbody {
+      td {
+        background: darken(orange, 30%);
+        color: lighten(orange, 20%);
+      }
+    }
+  }
+}
+#t4 {
+  table {
+    border: solid chartreuse 1px;
+    width: 600px;
+    tfoot {
+      background: darken(chartreuse, 10%);
+      color: lighten(chartreuse, 10%);
+    }
+    thead {
+      background: lighten(chartreuse, 10%);
+      color: darken(chartreuse, 30%);
+    }
+    tbody {
+      td {
+        background: darken(chartreuse, 30%);
+        color: lighten(chartreuse, 20%);
+      }
+    }
+  }
+}
+

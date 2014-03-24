@@ -1,0 +1,20 @@
+.gradient {
+  background: -moz-linear-gradient(left, #1e5799 0%, #ce218e 25%, #dbb323 50%, #0f5423 75%, #ff8989 100%);
+}
+.gradient {
+  background: -webkit-linear-gradient(left, #1e5799 0%, #ce218e 25%, #dbb323 50%, #0f5423 75%, #ff8989 100%);
+}
+.gradient {
+  background: -ms-linear-gradient(left, #1e5799 0%, #ce218e 25%, #dbb323 50%, #0f5423 75%, #ff8989 100%);
+}
+.gradient {
+  background: -o-linear-gradient(left, #1e5799 0%, #ce218e 25%, #dbb323 50%, #0f5423 75%, #ff8989 100%);
+}
+.gradient {
+  background: linear-gradient(left, #1e5799 0%, #ce218e 25%, #dbb323 50%, #0f5423 75%, #ff8989 100%);
+}
+div {
+  width: 600px;
+  height: 200px;
+  border: solid black 1px;
+}
