@@ -1,0 +1,64 @@
+@number: pi();
+@dimension: 254cm;
+
+table {
+  width: 100%;
+}
+
+//a) Use @dimension e converta os valores em metros e polegadas
+#unit {
+  td:nth-child(1):before {
+    content: '@{dimension}';
+  }
+  td:nth-child(2):before  {
+    @conversion: 2.54m; // converta para metros
+    content: '@{conversion}';
+  }
+  td:nth-child(3):before  {
+    @conversion: 100in; // converta para polegadas
+    content: '@{conversion}';
+  }
+}
+
+// b) Arredonde o valor de @number usando as tres tecnicas
+#round {
+  td:nth-of-type(1):after {
+    content: '@{number}';
+  }
+  td:nth-of-type(2):after  {
+    @result: 3; // use round
+    content: '@{result}';
+  }
+  td:nth-of-type(3):after  {
+    @result: 3; // use floor
+    content: '@{result}';
+  }
+  td:nth-of-type(4):after  {
+    @result: 4; // use ceil
+    content: '@{result}';
+  }
+}
+
+// c) Usando *apenas* a variavel @number, obtenha angulo, seno, cosseno, tangente e (cos * 2)^2
+#trig {
+  @angulo: 45deg; // calcule este angulo (obtenha 45deg a partir de @number)
+  td:nth-of-type(1):after {
+    content: '@{angulo}';
+  }
+  td:nth-of-type(2):after  {
+    @result: 0.7071;  // calcule o seno
+    content: '@{result}';
+  }
+  td:nth-of-type(3):after  {
+    @result: 0.7071;  // calcule o cosseno
+    content: '@{result}';
+  }
+  td:nth-of-type(4):after  {
+    @result: 1;  // calcule a tangente
+    content: '@{result}';
+  }
+  td:nth-of-type(5):after  {
+    @result: 2;  // calcule (2 * cosseno) elevado ao quadrado
+    content: '@{result}';
+  }
+}

@@ -1,0 +1,42 @@
+@width: 100px;
+@height: 100px;
+@gap: 10px;
+
+div {
+  width: (@width + @gap * 2) * 4;
+  height: (@height + @gap * 2) * 4;
+  background: black;
+  display: block;
+  position: absolute;
+
+  div {
+    background: gray;
+    width: (@width + @gap * 1.5) * 2;
+    height: (@height + @gap * 1.5) * 2;
+    left: @gap;
+    top: @gap;
+    &:nth-of-type(2) {
+      left: (@width + @gap * 2) * 2;
+      top: (@height + @gap * 2) * 2;
+    }
+    div {
+      background: yellow;
+      width: @width;
+      height: @height;
+      left: @gap;
+      top: @gap;
+      &:nth-of-type(n+2) {
+        left: @width + @gap * 2;
+        top: @gap;
+      }
+      &:nth-of-type(n+3) {
+        left: @gap;
+        top: @height + @gap * 2;
+      }
+      &:nth-of-type(n+4) {
+        left: @width + @gap * 2;
+        top: @height + @gap * 2;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+table {
+  width: 100%;
+}
+#unit td:nth-child(1):before {
+  content: '254cm';
+}
+#unit td:nth-child(2):before {
+  content: '2.54m';
+}
+#unit td:nth-child(3):before {
+  content: '100in';
+}
+#round td:nth-of-type(1):after {
+  content: '3.141592653589793';
+}
+#round td:nth-of-type(2):after {
+  content: '3';
+}
+#round td:nth-of-type(3):after {
+  content: '3';
+}
+#round td:nth-of-type(4):after {
+  content: '4';
+}
+#trig td:nth-of-type(1):after {
+  content: '45deg';
+}
+#trig td:nth-of-type(2):after {
+  content: '0.7071';
+}
+#trig td:nth-of-type(3):after {
+  content: '0.7071';
+}
+#trig td:nth-of-type(4):after {
+  content: '1';
+}
+#trig td:nth-of-type(5):after {
+  content: '2';
+}
