@@ -1,0 +1,25 @@
+
+// crie aqui um mixin recursivo .loop que receba um argumento opcional
+// (default: 1), teste se o argumento > 0 e chame ele mesmo com
+// o argumento subtraido de 1. Dentro do loop o mixin deve imprimir
+// um seletor item-numero onde numero = @contador * 100, e declarar um
+// atributo top com @contador * 50 e unidade em pixels.
+.loop(@contador: 1) when (@contador > 0) {
+  .loop(@contador - 1);
+  @variavel: @contador * 100;
+  .item-@{variavel} {
+    top: unit(@contador * 50, px);
+  }
+}
+
+// chame o mixin aqui passando '5' como argumento.
+.loop(5);
+
+div {
+  border: solid black 1px;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}

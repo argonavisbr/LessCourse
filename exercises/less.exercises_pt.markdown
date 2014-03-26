@@ -44,8 +44,106 @@
     
 11. [*Loops e guards*] Utilize o documento `conditional.less` e escreva um mixin condicional para gerar colunas de acordo com a largura maxima da pagina e de cada coluna. Multiplique o numero de colunas pela largura de cada coluna e some os espacos entre as colunas. Se este valor for menor que a largura total, gere as propriedades CSS para construir o numero de colunas indicado. Se o valor for maior, calcule o maior numero de colunas que pode ser inserido. Veja exemplos nos comentarios.
 
-12. [*Loops e guards*] loops - geracao de figuras
-13. [*Cores*] key frames animacao com spin
-14. [*+Less*] contrast
-15. [*+Less*] import
-16. [*+Less*] script test
+12. [*Loops e guards*] Crie um mixin recursivo `.loop` para gerar o seguinte CSS quando chamado da forma `.loop(5)`:
+
+```
+.item-100 {
+  top: 50px;
+}
+.item-200 {
+  top: 100px;
+}
+.item-300 {
+  top: 150px;
+}
+.item-400 {
+  top: 200px;
+}
+.item-500 {
+  top: 250px;
+}
+```
+
+O mixin deve ser chamado com ou sem argumentos. Os nomes dos seletores e o valor de `top:` devem ser calculados em cada repetição com base no valor do contador. Se o loop for chamado sem argumentos, ele deve executar pelo menos uma vez. 
+
+13. [*Loops e guards*] O documento `loops-13.less` contém uma variável com uma lista de cores `@cores: red green blue yellow violet;`. Escreva um mixin recursivo que receba como argumento a quantidade de itens da variável `@cores`, e a cada iteração extraia a cor correspondente. Use `&:nth-of-type` para que o mixin possa ser chamado dentro de um seletor, da forma:
+
+```
+div {
+  .loop3(length(@cores));
+}
+```
+
+O resultado deve ser o CSS abaixo:
+
+```
+div:nth-of-type(1) {
+  background-color: #ff0000;
+}
+div:nth-of-type(2) {
+  background-color: #008000;
+}
+div:nth-of-type(3) {
+  background-color: #0000ff;
+}
+...
+```
+
+Verifique o resultado no CSS e na página `loops-13.html`.
+
+14. Abra o documento `loops-14-mixins.less`. Este documento possui:
+      a. um mixin `animate(@nome; duracao)` que gera propriedades de animação para vários browsers recebendo o nome do key-frame.
+      b. um mixin `palette(@x; @y; @cor1; @cor3)` que gera cores para cada um dos divs da matriz de cores.
+      c. uma variável `@frames` contendo uma lista de percentagens (para animação).
+      d. uma variável `@turns` contendo uma lista de ângulos (para cores).
+      
+Este documento é importado pelo documento `loops-14.less` que define o tamanho de cada `div`, um bloco que chama os dois mixins em diferentes contextos e blocos de `keyframes` para Chrome e Firefox. Os `keyframes` chamam um mixin `.make-frames` que precisa ser implementado. O mixin `.make-frames` precisa extrair os dados de `@frames` e `@turns` para gerar a seguinte seqüência:
+      
+ ```
+ 0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+ ```
+ Implemente o mixin recursivo `.make-frames` dentro de `loops-14-mixins.less`. Quando terminar, descomente as linhas `//.make-frames;` em `loops-14.less` e veja o resultado no CSS e na página HTML.
+
+15. [*Cores*] Adapte o loop do exercício 13 para que a cor gerada seja criada através da função `spin`. O mixin deve receber como argumentos opcionais: um número (`@contador`), uma cor inicial (`@cor`) e um *incremento* de ângulo (`@angulo`) que deve ter como valor *default* `360deg / @contador`. O loop deve a cada iteração gerar uma cor incrementando o ângulo. Por exemplo, se o valor máximo de `@contador` for 4, os ângulos gerados deverão ser `0deg`, `90deg`, `180deg`, `270deg`. Isto pode ser obtido somando `360deg/4` = `90deg` a cada repetição. As cores devem ser criadas com `spin(@cor, @angulo * (@contador - 1))`. Se o mixin for chamado da seguinte forma:
+ 
+```
+.div {
+   .colorir(3);
+}
+```
+(supondo uma `@cor` default de `#ff0000`), o resultado deve ser:
+
+```
+div:nth-of-type(1) {
+  background: #ff0000;
+}
+div:nth-of-type(2) {
+  background: #00ff00;
+}
+div:nth-of-type(3) {
+  background: #0000ff;
+}
+```
+Teste com diferentes valores.
+
+16. No documento `colors-16.less` existe um mixin chamado `.palette` que gera uma paleta de cores usando a função `difference`. Experimente este mixin com diferentes funções como `multiply`, `softlight`, `mix`, etc. e também com cores diferentes (mais ou menos saturadas) e veja o resultado na página `colors-16.html`.
+ 
+17. [*+Less*] Abra o arquivo `more-17.html` no browser. O texto das cores nem sempre está legível pois a cor de fundo é clara demais. A cor está especificada no mixin em `more-17.less`. Altere a variável `@text-color` de tal maneira que ela sempre tenha uma cor que faça contraste com o fundo.
+
+18. [*+Less*] Experimente com algumas bibliotecas de mixins importando os seus arquivos `.less` e aplicando em alguns elementos. Utilize o arquivo `more-18.less` e a página `more-18.html` ou outros arquivos usados no curso.
+
+19. [*+Less*] Use o método `.toUpperCase()` do JavaScript para fazer com que as cores exibidas na página `more-19.html` apareçam em caixa-alta.

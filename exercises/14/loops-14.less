@@ -1,0 +1,27 @@
+@import url(loops-14-mixins.less);
+
+.mid div {
+  border: solid black 1px;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.top {
+  .animate(turn; 6s);
+  .mid {
+    .palette(5; yellow; cyan);
+    .animate(turn; 4s);
+    div {
+      .animate(turn; 2s);
+    }
+  }
+}
+
+@-webkit-keyframes turn {
+  //.make-frames;
+}
+@-moz-keyframes turn {
+  //.make-frames;
+}

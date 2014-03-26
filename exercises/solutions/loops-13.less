@@ -1,0 +1,27 @@
+// use as cores abaixo
+@cores: red green blue yellow violet;
+
+// em um mixin recursivo que repita o numero de vezes correspondente ao numero de
+// elementos de @cores, extraia uma cor diferente em cada repeticao e aplique em
+// background-color
+.loop3(@contador: 1) when (@contador > 0) {
+  .loop3(@contador - 1);
+  &:nth-of-type(@{contador}) {
+    background-color: extract(@cores, @contador);
+  }
+}
+
+// chame o mixin aqui dentro de um div (e verifique o HTML - deve haver um quadrado de cada cor)
+div {
+  .loop3(length(@cores));
+}
+
+
+div {
+  border: solid black 1px;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}

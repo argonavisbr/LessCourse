@@ -1,0 +1,41 @@
+.animate(@nome; @duracao) {
+  -webkit-animation: @nome @duracao linear infinite alternate;
+  -moz-animation: @nome @duracao linear infinite alternate;
+  -o-animation: @nome @duracao linear infinite alternate;
+  -ms-animation: @nome @duracao linear infinite alternate;
+  animation: @nome @duracao linear infinite alternate;
+}
+
+.palette(@dim; @cor1; @cor2; @x: @dim; @y: @dim) when (@x > 0) and (@y > 0) {
+  @p1: (@x)/@dim;
+  @p2: (@y)/@dim;
+  @color-1: hsl(hue(@cor1), saturation(@cor1), lightness(@cor1) * @p1);
+  @color-2: hsl(hue(@cor2), saturation(@cor2), lightness(@cor2) * @p2);
+
+  .palette(@dim; @color-1; @color-2; @x - 1; @y;);
+  .palette(@dim; @color-1; @color-2; @x; @y - 1;);
+
+  &:nth-of-type(@{x}) div:nth-of-type(@{y}) {
+    background: difference(@color-1, @color-2);
+  }
+}
+
+@frames: 0% 25% 50% 75% 100%;
+@turns:  0deg 90deg 180deg 270deg 360deg;
+
+
+// crie aqui o mixin recursivo .make-frames
+// ele deve receber um unico parametro opcional, inicializado com
+// um valor default: a quantidade de elementos de @frames: length(@frames)
+// e chamar ele mesmo decrementando o número passado enquanto o mesmo
+// for maior que zero; para cada repetição, gere um bloco com 0
+// @frame { -webkit-transform: rotate(@turn); } onde @frame é um
+// elemento de @frames, e @turn um elemento de @turns.
+.make-frames(@position: length(@frames)) when (@position > 0) {
+  .make-frames(@position - 1);
+  @frame: extract(@frames, @position);
+  @turn: extract(@turns, @position);
+  @{frame} {
+    -webkit-transform: rotate(@turn);
+  }
+}
