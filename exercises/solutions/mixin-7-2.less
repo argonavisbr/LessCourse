@@ -1,0 +1,42 @@
+// b) Crie um mixin .column com os seguintes argumentos (todos opcionais)
+// 1. contagem (default = 2)
+// 2. gap (default = 20px);
+// 3. largura da linha (default = 1px)
+// 4. cor da linha (default = black)
+.column(@count: 2; @gap: 20px; @rule-width: 1px; @rule-color: black) {
+  -webkit-column-count: @count;
+  -webkit-column-gap: @gap;
+  -webkit-column-rule: solid @rule-color @rule-width;
+  -moz-column-count: @count;
+  -moz-column-gap: @gap;
+  -moz-column-rule: solid @rule-color @rule-width;
+  column-count: @count;
+  column-gap: @gap;
+  column-rule: solid @rule-color @rule-width;
+}
+
+@base-color: #a030b0;
+
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+  color: @base-color;
+
+  article {
+    .box(20px; 10px; lighten(@base-color, 50%); 1px);
+    .contents {
+      .column;
+
+      section {
+        .box(10px);
+      }
+    }
+  }
+}
+
+.box(@horiz; @vert: @horiz; @bg: transparent; @border: 0px) {
+  padding: @horiz;
+  margin: @vert @horiz;
+  border: solid @base-color @border;
+  background: @bg;
+}

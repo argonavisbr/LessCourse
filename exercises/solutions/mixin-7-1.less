@@ -1,0 +1,28 @@
+// a) Crie um mixin .box, com os seguintes argumentos:
+// 1. margem/padding horizontal - obrigatorio
+// 2. margem/padding vertical (opcional - default: valor horizontal)
+// 3. cor de fundo (opcional - default: transparent)
+// 4. borda (opcional - default: 0px)
+
+.box(@horiz; @vert: @horiz; @bg: transparent; @border: 0px) {
+  padding: @horiz;
+  margin: @vert @horiz;
+  border: solid black @border;
+  background: @bg;
+}
+
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+
+  article {
+    // a) substitua aqui o mixin box com quatro parametros
+    .box(20px; 10px; lighten(green, 50%); 1px);
+    .contents {
+      section {
+        .box(10px); // a) substitua aqui outro mixin box, apenas com um parametro
+      }
+    }
+  }
+}
+

@@ -1,0 +1,16 @@
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+}
+body article {
+  padding: 20px;
+  margin: 10px 20px;
+  border: solid #000000 1px;
+  background: #80ff80;
+}
+body article .contents section {
+  padding: 10px;
+  margin: 10px 10px;
+  border: solid #000000 0px;
+  background: transparent;
+}

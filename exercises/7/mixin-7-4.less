@@ -1,3 +1,8 @@
+// d) Crie um mixin .append-number que usa um contador CSS, com os seguintes parametros
+// 1. nome do contador (obrigatorio)
+// 2. separador (opcional - default eh um espaco
+
+
 @base-color: #a030b0;
 
 body {
@@ -6,22 +11,24 @@ body {
   color: @base-color;
 
   article {
-    // a) inclua aqui o mixin box, com parâmetros de margem, padding, cor de fundo e borda
     .box(20px; 10px; lighten(@base-color, 50%); 1px);
-    counter-reset: secoes;
+    counter-reset: secoes; // este eh o contador - use este nome!
 
     .contents {
-      .column(); // b) inclua aqui o mixin para criar colunas
+      .column();
 
       section {
-        .box(10px); // a) inclua aqui outro mixin box, apenas com uma dimensao
+        .box(10px);
         h1 {
-          .append-number(secoes; '-'); // c) inclua aqui o mixin para numerar secoes
+          // d) substitua o CSS abaixo pelo mixin .append-number para numerar `secoes`
+          counter-increment: secoes;
+          &:after {
+            content: ' ' counter(secoes);
+          }
         }
       }
     }
-
-    .numerar(1); // d) inclua aqui chamadas ao mixin para numerar artigos 1 e 2.
+    .numerar(1);
     .numerar(2);
   }
 }
@@ -54,12 +61,5 @@ body {
         content: ' @{numero}';
       }
     }
-  }
-}
-
-.append-number(@counter, @separator: ' ') {
-  counter-increment: @counter;
-  &:after {
-    content: @separator counter(@counter);
   }
 }
