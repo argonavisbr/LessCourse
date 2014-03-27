@@ -106,7 +106,7 @@ Se os números de uma expressão tiverem mais de uma unidade, e as unidades fore
 
 Unidades | Tipo
 --|--
-px, m, cm, mm, in, pt, px | Comprimentos
+pc, m, cm, mm, in, pt | Comprimentos
 s, ms | Tempo
 deg, rad, grad, turn | Ângulos
 
@@ -443,7 +443,7 @@ Há outras formas de obter o mesmo resultado. Na tabela abaixo estão as funçõ
 Função/operador | O que recebe | O que faz
 --|--|--
 `e('s')` ou `~'s'` | `'s'`&nbsp;=&nbsp;string | Converte string em representação nativa do Less. Ex: `~"12px"` ou `~'12px'` ou `e("12px")` resulta em `abc` em CSS. Sem usar o operador, o resultado em CSS mantém as aspas.
-`escape('s')` | `'s'`&nbsp;=&nbsp;string | Codifica string em formato url-encoded, que atribui códigos unicode no formato `%hh` para caracteres que são reservados em URLs, onde `h` é um dígito hexadecimal entre `0` e `f`. URL-encoding *não* substitui: `,`, `/`, `?`, `@`, `&`, `+`, `'`, `~`, `!`, `$`. Exemplo: `encode('São Paulo')` = `S%C3%A3o%20Paulo`
+`escape('s')` | `'s'`&nbsp;=&nbsp;string | Codifica string em formato url-encoded, que atribui códigos unicode no formato `%hh` para caracteres que são reservados em URLs, onde `h` é um dígito hexadecimal entre `0` e `f`. URL-encoding *não* substitui: `,`, `/`, `?`, `@`, `&`, `+`, `'`, `~`, `!`, `$`. Exemplo: `escape('São Paulo')` = `S%C3%A3o%20Paulo`
 `%('s', args...)` | `'s'` = string contendo parâmetros de substituição, `args...` = valores de substituição `%a`, `%A`, `%s`, `%S`, `%d`, `%D` | Permite  a criação de strings formatados com parâmetros de substituição (uma versão ultra-simplificada do `printf` do C). Os parâmetros de substituição maiúsculos fazem `escape()` automático. `%a`/`%A` e `%d`/`%D` são equivalentes (Less 1.7) mas `%s`/`%S` retornam `undefined` se o valor for uma cor. Exemplo: `%(~'url(%a) url(%A)', a b, a b)` gera `url(a b) url(a%20b)`
 replace(s1, p, s2, f) | `s1` = string,<br/>`p` = regexp, `s2`&nbsp;=&nbsp;substituição, `f` = flags | Substitui um padrão de expressão regular (`p`) encontrado em um string (`s1`) por outro (`s2`) com flags opcionais (`g` = global, `i` = ignore case). Exemplo: `replace(~"w.a.b", "a\.b", "x.k")` gera ` w.x.k`.
 `color('s')`|`s` = string contendo a representação de uma cor | Retorna uma cor (sem as aspas). Exemplo: `color('#ff0000')` = `#ff0000`, `color('red')` = `#ff0000`. É possível obter o mesmo resultado usando `e()` ou `~`: `~'#ff0000'` = `#ff0000`.

@@ -28,7 +28,7 @@
 
 6. [*Mixins*] O documento `mixin-6.html` contém quatro tabelas idênticas que diferem apenas no `id`. O documento `mixin-6.less` aplica funções que variam a largura e o brilho de uma cor para cada tabela. Observe que há bastante duplicação de código. Crie um mixin para gerar o CSS para as tabelas que receba como argumentos pelo menos uma cor e uma largura. Chame o mixin para cada `id` e verifique se o CSS gerado é o mesmo.
 
-7. [*Mixins*] Analise os documentos `mixin-7-1.less` a `mixin-7-4.less` e identifique trechos duplicados ou trechos que possam ser embutidos em mixins. Crie os mixins indicados (leia os comentários no início de cada documento) utilizando ou não os nomes sugeridos, e substitua os trechos duplicados ou longos por chamadas a esses mixins. Defina argumentos como indicados e use valores default se desejar. Faça os exercícios na sequencia. 
+7. [*Mixins*] Analise os documentos `mixin-7-1.less` a `mixin-7-4.less` e identifique trechos duplicados ou trechos que possam ser embutidos em mixins. Crie os mixins indicados (leia os comentários no início de cada documento) utilizando ou não os nomes sugeridos, e substitua os trechos duplicados ou longos por chamadas a esses mixins. Defina argumentos como indicados e use valores default se desejar. Faça os exercícios na sequencia.
 
 8. [*Operações e funções*] Analise o documento `operations-8.less`. Veja o resultado em `operations-8.less`. Troque os valores fixos por valores obtidos a partir das duas variáveis declaradas no documento. Siga as instruções nos comentários para:
     a. Determinar os valores de `@conversion` em duas células `td` através de conversão do valor de `@dimension` no seletor `#unit`.

@@ -1,0 +1,53 @@
+.make-wall(@light: yellow;
+           @frame: gray;
+           @wall: black;
+           @width: 20px;
+           @height: @width;
+           @gap: @height/10) {
+
+  div {
+    width: (@width + 2 * @gap) * 4; // 4x altura ou largura + margens
+    height: (@height + 2 * @gap) * 4;
+    background: @wall;
+    display: block;
+    position: relative;
+
+    div {
+      position: absolute;
+      background: @frame;
+      width: (@width + @gap * 1.5) * 2; // 2x altura ou largura + margens
+      height: (@height + @gap * 1.5) * 2;
+      left: @gap; // margens
+      top: @gap;
+      &:nth-of-type(2) {
+        left: (@width + @gap * 2) * 2; // 2x altura ou largura + margens
+        top: (@height + @gap * 2) * 2;
+      }
+      div {
+        background: @light;
+        width: @width; // altura ou largura
+        height: @height;
+        left: @gap; // margens
+        top: @gap;
+        &:nth-of-type(n+2) {
+          left: @width + 2*@gap; // largura + margens
+          top: @gap;
+        }
+        &:nth-of-type(n+3) {
+          left: @gap;
+          top: @height + 2*@gap; // altura + margens
+        }
+        &:nth-of-type(n+4) {
+          left: @width + 2*@gap; // altura ou largura + margens
+          top: @height + 2*@gap;
+        }
+      }
+    }
+  }
+}
+
+//.make-wall;
+//.make-wall(@height: 100px;);
+//.make-wall(orange;red;navy);
+//.make-wall(white;red;navy;@height: 100px;);
+.make-wall(@wall: red;@height: 100px; @gap: 2px;);

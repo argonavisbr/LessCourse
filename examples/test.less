@@ -1,0 +1,8 @@
+@x1: 1x;
+@x2: 2x;
+
+.sec-1 {
+  background-image-1: -webkit-image-set(url(images/press-coverage-1x.png) @x1, url(images/press-coverage-2x.png) @x2);
+  background-image-2: ~'-webkit-image-set(url(images/press-coverage-1x.png) @{x1}, url(images/press-coverage-2x.png) @{x2})';
+  background-image-3: -webkit-image-set(~'url(images/press-coverage-1x.png) @{x1}, url(images/press-coverage-2x.png) @{x2}');
+}
