@@ -1,0 +1,18 @@
+header {
+  Content: 'Global', 'Local ao header';
+}
+header div {
+  Content: 'Global', 'Local ao header', 'Local ao div';
+}
+footer {
+  Content: 'Global';
+}
+article {
+  Content: "Local ao article";
+}
+article section {
+  Content: "Local ao article";
+}
+aside {
+  Content: 'Global';
+}

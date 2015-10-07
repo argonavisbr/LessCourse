@@ -1,0 +1,18 @@
+/* Unidades */
+.sec4 {
+  font-size: 22;
+}
+.sec5 {
+  font-size: 22px;
+}
+.sec6 {
+  padding: 1.1cm 11mm 13pt 1.0254m;
+  duration: 2.002s;
+  margin: 2px;
+  transform: rotate(58.29577951deg) rotate(1.01745329rad) rotate(1.9deg) rotate(361deg);
+}
+.calculos-incorretos {
+  duration: 4ms;
+  margin: 2px 2em 1cm 0.01m;
+  transform: rotate(0.00277778turn) rotate(1080deg);
+}

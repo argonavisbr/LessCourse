@@ -1,0 +1,38 @@
+.sec2 {
+  margin: 1;
+  margin: 2;
+  margin: 3;
+  margin: 4;
+}
+.secao-5 {
+  color: #000000;
+}
+.secao-4 {
+  color: #330000;
+}
+.secao-3 {
+  color: #660000;
+}
+.secao-2 {
+  color: #990000;
+}
+.secao-1 {
+  color: #cc0000;
+}
+@keyframes anim {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 50px;
+  }
+  50% {
+    top: 100px;
+  }
+  75% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}

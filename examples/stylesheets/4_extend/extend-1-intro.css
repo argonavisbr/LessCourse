@@ -1,0 +1,19 @@
+div,
+.capitulo,
+#copy,
+.secao1,
+.secao2,
+.livro,
+.secao2 {
+  font: 12pt;
+  margin: 2px;
+}
+.prefacio,
+header,
+.livro {
+  color: #111;
+  background: #eee;
+}
+.livro {
+  padding: 2px;
+}

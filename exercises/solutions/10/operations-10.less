@@ -1,0 +1,21 @@
+@h: 10px 20px 40px 80px 160px;
+@c: #402020 #204020 #202040;
+@p: 10% 20% 30% 40%;
+
+@minp: min(@p); // extraia o valor minimo de @p
+@maxh: max(@h); // extraia o valor maximo de @h
+@lastc: extract(@c, length(@c)); // extraia o ultimo valor de @c
+
+// construa um string de query url-encoded contendo minp=@minp, maxh=@maxh e color=@lastc
+// ex: ?minp=10%25&maxh=160px&color=%23202040
+@query-string: %('?minp=%A&maxh=%A&color=%A', @minp, @maxh, @lastc);
+
+// inclua o query no final da URL abaixo
+@url: ~'url(http://localhost:8090/LessCourse/test@{query-string})';
+
+.section {
+  @color: replace('@{query-string}', '.*%23', '#', g); //extraia apenas a cor do query-string
+  background-image: @url;
+  color: color(@color);
+  background-color: lighten(color(@color), @minp);
+}

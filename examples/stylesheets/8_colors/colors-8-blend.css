@@ -1,0 +1,73 @@
+.blend-mix {
+  background-color: rgba(255, 64, 0, 0.75);
+  color: #ffffff;
+}
+.blend-average {
+  background-color: #ff4000;
+  color: #ffffff;
+}
+.blend-multiply-1 {
+  background-color: #400040;
+  color: #ffffff;
+}
+.blend-multiply-2 {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.blend-screen-1 {
+  background-color: #c000c0;
+  color: #ffffff;
+}
+.blend-screen-2 {
+  background-color: #ffff00;
+  color: #000000;
+}
+/* assimetric */
+.blend-overlay-1 {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+.blend-overlay-2 {
+  background-color: #ffff00;
+  color: #000000;
+}
+.blend-hardlight-1 {
+  background-color: #800100;
+  color: #ffffff;
+}
+.blend-hardlight-2 {
+  background-color: #800000;
+  color: #ffffff;
+}
+.blend-softlight-1 {
+  background-color: #400000;
+  color: #ffffff;
+}
+.blend-softlight-2 {
+  background-color: #604000;
+  color: #ffffff;
+}
+.blend-difference-1 {
+  background-color: #00ffff;
+  color: #000000;
+}
+.blend-difference-2 {
+  background-color: #ffff80;
+  color: #000000;
+}
+.blend-exclusion-1 {
+  background-color: #bbbb80;
+  color: #000000;
+}
+.blend-exclusion-2 {
+  background-color: #00ffff;
+  color: #000000;
+}
+.blend-negation-1 {
+  background-color: #ffff80;
+  color: #000000;
+}
+.blend-negation-2 {
+  background-color: #00ffff;
+  color: #000000;
+}

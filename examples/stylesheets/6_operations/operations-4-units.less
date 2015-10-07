@@ -1,0 +1,10 @@
+@height: 2cm;
+@width: 10px;
+@length: 2in;
+
+.secao {
+  margin: (@width / @height) unit(@width / @height, cm);
+  padding: (@height * @length) (@height * convert(@length, cm));
+  font-size: convert(1in, cm);
+  duration: unit(floor(100 * 12 / 142), s);
+}

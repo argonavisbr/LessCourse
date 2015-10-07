@@ -1,0 +1,10 @@
+a:before:hover,
+p:nth-child(n+1),
+*.secao,
+*[nome],
+div {
+  text-decoration: underline;
+}
+div {
+  color: purple;
+}

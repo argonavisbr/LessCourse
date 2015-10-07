@@ -1,0 +1,27 @@
+.artigo {
+  border: solid red 1px;
+  font-size: 12pt;
+}
+.artigo .secao1 {
+  background-color: black;
+  color: white;
+}
+.artigo .secao2 {
+  background-color: white;
+  color: black;
+}
+.livro {
+  font-size: 10pt;
+}
+.livro .capitulo {
+  border: solid gray 1px;
+}
+.livro .capitulo .secao {
+  background-color: #eee;
+}
+.livro .capitulo .secao .titulo {
+  font-size: 120%;
+}
+.livro .capitulo .secao .corpo {
+  text-align: justify;
+}

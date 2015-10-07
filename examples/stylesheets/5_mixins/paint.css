@@ -1,0 +1,29 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  border: solid black 1px;
+  display: inline-block;
+}
+div:nth-of-type(5n+1) {
+  background: #8080c0;
+}
+div:nth-of-type(5n+2) {
+  background: #c08080;
+}
+div:nth-of-type(5n+3) {
+  background: #80c080;
+}
+div:nth-of-type(5n+4) {
+  background: #c0c080;
+}
+div:nth-of-type(5n+5) {
+  background: #c080c0;
+}
+div:nth-of-type(6n + 1) {
+  display: block;
+  width: 0;
+  height: 0;
+  margin: 0;
+  border: none;
+}

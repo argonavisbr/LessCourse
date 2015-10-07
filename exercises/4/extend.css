@@ -1,0 +1,75 @@
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+}
+body nav li {
+  display: inline-block;
+  font-variant: small-caps;
+  padding: 0 50px;
+  letter-spacing: 0.2em;
+}
+body nav li a {
+  text-decoration: none;
+}
+body nav li a:hover {
+  font-weight: bold;
+  color: #b03030;
+}
+body section {
+  padding: 10px;
+  margin: 10px 10px;
+  border: #3030b0 solid 1px;
+}
+body article {
+  padding-top: 20px;
+  margin: 20px;
+  background: #e7e7f8;
+  color: #3030b0;
+  counter-reset: secoes;
+}
+body article .contents {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-rule: solid white 3px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-rule: solid white 3px;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: solid white 3px;
+}
+body article .contents section {
+  margin: 0 0;
+  border: none;
+}
+body article .contents section h1 {
+  counter-increment: secoes;
+}
+body article .contents section h1:after {
+  content: ' ' counter(secoes);
+}
+body article .contents section table {
+  border: solid #3030b0 1px;
+  width: 100%;
+}
+body article .contents section table thead,
+body article .contents section table tfoot {
+  background: white;
+}
+body article .contents section table tbody td {
+  border: solid #3030b0 1px;
+  margin: 0;
+  text-align: center;
+}
+body article:nth-of-type(1) > h1 {
+  text-align: center;
+}
+body article:nth-of-type(1) > h1:after {
+  content: ' 1';
+}
+body article:nth-of-type(2) > h1 {
+  text-align: center;
+}
+body article:nth-of-type(2) > h1:after {
+  content: ' 2';
+}

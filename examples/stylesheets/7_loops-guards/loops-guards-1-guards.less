@@ -1,0 +1,43 @@
+.page (@fundo) when (@fundo = black) {
+   background: @fundo;
+   color: white;
+}
+
+.page (@fundo) when (@fundo = white) {
+  background: @fundo;
+  color: black;
+}
+
+.noite {
+   .page(rgb(0,0,0));
+ }
+
+.dia {
+  .page(rgb(255,255,255));
+}
+
+/* media queries e mixin guards */
+
+@media screen and (min-width: 500px) {
+  .sec  {
+    column-count:2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sec {
+    column-count:1;
+  }
+}
+
+.skin(@width) when (@width >= 500px) {
+  column-count:2;
+}
+
+.skin(@width) when (@width < 500px) {
+  column-count:1;
+}
+
+.sec {
+   .skin(600px);
+}

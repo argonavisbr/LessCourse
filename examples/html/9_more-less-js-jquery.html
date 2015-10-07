@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <!--link rel="stylesheet/less" type="text/css" href="../stylesheets/9_more/more-6-scripts.less" /-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.7.0/less.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<h1>Less variables</h1>
+<ol id="varlist"></ol>
+</body>
+<script>
+    $( document ).ready(function() {
+        var parser = new(less.Parser);
+        $.get( "../stylesheets/9_more/more-6-scripts.less", function( data ) {
+            parser.parse(data, function (e, tree) {
+                var variables = tree.variables();
+                console.log(variables)
+                for (i in variables) {
+                    var name = variables[i].name;
+                    var value = variables[i].value.toCSS(); // Fails if variable contains expressions!
+                    $("#varlist").append("<li>"+name + ":" + value+"</li>");
+                }
+            });
+        });
+    });
+</script>
+</html>

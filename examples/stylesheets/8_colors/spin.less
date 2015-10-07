@@ -1,0 +1,27 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  border: solid black 1px;
+  display: inline-block;
+  &:nth-of-type(6n+1) {
+     margin: 0;border:none;width:0;height:0;
+     display:block;
+   }
+    -webkit-animation: turn 2s infinite;
+}
+
+.make-step(@color; @angle; @step) {
+  @{step} {
+    -webkit-transform: rotate(@angle);
+    background: spin(@color, @angle);
+  }
+}
+
+@-webkit-keyframes turn {
+  .make-step(violet; 0deg; 0%);
+  .make-step(olive; 90deg; 25%);
+  .make-step(cornflowerblue; 180deg; 50%);
+  .make-step(yellow; 270deg; 75%);
+  .make-step(violet; 360deg; 100%);
+}

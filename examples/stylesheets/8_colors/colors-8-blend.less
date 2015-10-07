@@ -1,0 +1,110 @@
+
+.blend-mix {
+  @blend: mix(rgba(255,255,0,0.5), red);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-average {
+  @blend: average(rgba(255,255,0,0.5), red);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-multiply-1 {
+  @blend: multiply(#800080, #800080);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-multiply-2 {
+  @blend: multiply(yellow, red);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-screen-1 {
+  @blend: screen(#800080, #800080);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-screen-2 {
+  @blend: screen(yellow, red);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+/* assimetric */
+
+.blend-overlay-1 {
+  @blend: overlay(red, yellow);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-overlay-2 {
+  @blend: overlay(yellow, red);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-hardlight-1 {
+  @blend: hardlight(#800000, #808000);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-hardlight-2 {
+  @blend: hardlight(#808000, #800000);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-softlight-1 {
+  @blend: softlight(#400000, #808000);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-softlight-2 {
+  @blend: softlight(#808000, #400000);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-difference-1 {
+  @blend: difference(#ff0000, #ffffff);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-difference-2 {
+  @blend: difference(#ff00ff, #00ff7f);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-exclusion-1 {
+  @blend: exclusion(#ff44ff, #44ff7f);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-exclusion-2 {
+  @blend: exclusion(#ff0000, #ffffff);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-negation-1 {
+  @blend: negation(#ff00ff, #00ff7f);
+  background-color: @blend;
+  color: contrast(@blend);
+}
+
+.blend-negation-2 {
+  @blend: negation(#ff0000, #ffffff);
+  background-color: @blend;
+  color: contrast(@blend);
+}

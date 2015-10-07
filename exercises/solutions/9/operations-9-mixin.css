@@ -1,0 +1,38 @@
+div {
+  width: 96px;
+  height: 416px;
+  background: #ff0000;
+  display: block;
+  position: relative;
+}
+div div {
+  position: absolute;
+  background: #808080;
+  width: 46px;
+  height: 206px;
+  left: 2px;
+  top: 2px;
+}
+div div:nth-of-type(2) {
+  left: 48px;
+  top: 208px;
+}
+div div div {
+  background: #ffff00;
+  width: 20px;
+  height: 100px;
+  left: 2px;
+  top: 2px;
+}
+div div div:nth-of-type(n+2) {
+  left: 24px;
+  top: 2px;
+}
+div div div:nth-of-type(n+3) {
+  left: 2px;
+  top: 104px;
+}
+div div div:nth-of-type(n+4) {
+  left: 24px;
+  top: 104px;
+}

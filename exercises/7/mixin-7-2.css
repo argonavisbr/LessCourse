@@ -1,0 +1,28 @@
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+  color: #a03070;
+}
+body article {
+  padding: 20px;
+  margin: 10px 20px;
+  border: solid #a03070 1px;
+  background: #f4dbe9;
+}
+body article .contents {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  -webkit-column-rule: solid black 1px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -moz-column-rule: solid black 1px;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: solid black 1px;
+}
+body article .contents section {
+  padding: 10px;
+  margin: 10px 10px;
+  border: solid #a03070 0px;
+  background: transparent;
+}

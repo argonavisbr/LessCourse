@@ -1,0 +1,8 @@
+.symbol {
+  animation-duration: 15s;
+  animation-iteration-count: 1;
+}
+.section {
+  font-size: 12pt;
+  font-weight: bold;
+}

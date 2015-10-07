@@ -1,0 +1,20 @@
+@color2: rgba(64,255,64,0.5);
+@color4: hsla(240deg,100%,75%,75%);
+@color6: hsva(240deg,50%,50%,50%);
+
+.color-components-rgba {
+  content: red(@color2), green(@color4), blue(@color6), alpha(@color4);
+}
+
+.color-components-hsla {
+  content: hue(@color4), saturation(@color4), lightness(@color6);
+}
+
+.color-components-hsva {
+  content: hsvhue(@color2), hsvsaturation(@color4), hsvvalue(@color6);
+}
+
+.sec {
+  content: hue(#8080ff), saturation(#8080ff), lightness(#8080ff);
+  content: hsvhue(#8080ff), hsvsaturation(#8080ff), hsvvalue(#8080ff);
+}

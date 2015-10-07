@@ -1,0 +1,8 @@
+#secao {
+  color: #ff8800;
+  border-color: #ff8800;
+  background: #ffffff;
+}
+#secao a:hover {
+  color: #663600;
+}

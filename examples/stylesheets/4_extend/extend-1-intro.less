@@ -1,0 +1,19 @@
+div, .capitulo, #copy {
+  font: 12pt;
+  margin: 2px;
+}
+
+.prefacio, header {
+  color: #111;
+  background: #eee;
+}
+
+.livro {
+  padding: 2px;
+}
+
+.secao1:extend(.capitulo) {}
+
+.secao2:extend(.secao1, .capitulo) {}
+
+.livro:extend(div, header) {}

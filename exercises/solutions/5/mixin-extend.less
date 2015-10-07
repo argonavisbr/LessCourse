@@ -1,0 +1,10 @@
+@import url('gradient-mixin.less');
+
+// aplique este gradient no div abaixo sem alterar o HTML
+.gradient(#1e5799; #ce218e; #dbb323; #0f5423; #ff8989;);
+
+div:extend(.gradient) {
+  width: 600px;
+  height: 200px;
+  border: solid black 1px;
+}

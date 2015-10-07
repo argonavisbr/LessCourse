@@ -1,0 +1,21 @@
+.sec-1 {
+  background-color: #ff0000;
+}
+.sec-1:before {
+  content: '#ff0000';
+  color: #ffffff;
+}
+.sec-2 {
+  background-color: #ffff00;
+}
+.sec-2:before {
+  content: '#ffff00';
+  color: #000000;
+}
+.sec-3 {
+  background-color: #0000ff;
+}
+.sec-3:before {
+  content: '#0000ff';
+  color: #ffffff;
+}

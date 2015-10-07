@@ -1,0 +1,21 @@
+.sec1 {
+  content: '1 "(abc!) ~oui'" 3 #ff0000 'abc' 'http://www.xyz.org?q=hi there&r=são paulo' ' 1;
+  content: '1 "(abc!) ~oui'" 3 #ff0000 'abc' 'http://www.xyz.org?q=hi there&r=são paulo' ' 2;
+  content: '1 %22(abc!)%20~oui'%22 3 %23ff0000 'abc' 'http%3A%2F%2Fwww.xyz.org%3Fq%3Dhi%20there%26r%3Ds%C3%A3o%20paulo' ' 3;
+  content: '1 %22(abc!)%20~oui'%22 3 %23ff0000 'abc' 'http%3A%2F%2Fwww.xyz.org%3Fq%3Dhi%20there%26r%3Ds%C3%A3o%20paulo' ' 4;
+}
+.sec2 {
+  content: '1 (abc!) ~oui' 3 undefined abc http://www.xyz.org?q=hi there&r=são paulo ';
+  content: '1 (abc!)%20~oui' 3 undefined abc http%3A%2F%2Fwww.xyz.org%3Fq%3Dhi%20there%26r%3Ds%C3%A3o%20paulo ';
+}
+.sec8 {
+  background: url(http://www.test.com/app/images/pattern%205.png) #000000;
+}
+.sec7 {
+  font: italic 900 10pt/36pt Arial, Helvetica, sans-serif;
+  background: url('http://www.test.com/app'/images?name='pattern%205.png') #000000;
+}
+.sec9 {
+  content: w.x.k;
+  background: url(http://xyz.com.br/logo-xyz.com.br.jpg);
+}

@@ -1,0 +1,12 @@
+
+.transform-transition(@arg) {
+  @duration: @arg;
+  -webkit-transition-property+: -webkit-transform, -moz-transform, transform;
+  -webkit-transition-duration+: @duration, @duration, @duration;
+}
+
+.secao1 {
+  .transform-transition(2s);
+  -webkit-transition-property+: opacity;
+  -webkit-transition-duration+: @duration;
+}

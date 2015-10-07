@@ -1,0 +1,25 @@
+.palette(@dim; @cor1; @cor2; @x: @dim; @y: @dim) when (@x > 0) and (@y > 0) {
+  @p1: (@x)/@dim;
+  @p2: (@y)/@dim;
+  @color-1: hsl(hue(@cor1), saturation(@cor1), lightness(@cor1) * @p1);
+  @color-2: hsl(hue(@cor2), saturation(@cor2), lightness(@cor2) * @p2);
+
+  .palette(@dim; @color-1; @color-2; @x - 1; @y;);
+  .palette(@dim; @color-1; @color-2; @x; @y - 1;);
+
+  &:nth-of-type(@{x}) div:nth-of-type(@{y}) {
+    background: difference(@color-1, @color-2);
+  }
+}
+
+.mid div {
+  border: solid black 1px;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.mid {
+    .palette(5; green; yellow);
+}

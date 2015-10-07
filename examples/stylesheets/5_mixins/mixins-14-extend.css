@@ -1,0 +1,5 @@
+.label:before > input:hover,
+.menu-item,
+.nav-item {
+  content: 'hovering';
+}

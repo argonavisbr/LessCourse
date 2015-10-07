@@ -1,0 +1,65 @@
+// d) Crie um mixin .append-number que usa um contador CSS, com os seguintes parametros
+// 1. nome do contador (obrigatorio)
+// 2. separador (opcional - default eh um espaco
+
+
+@base-color: #a030b0;
+
+body {
+  font-family: Calibri, "Helvetica Neue", Helvetica, sans-serif;
+  width: 1024px;
+  color: @base-color;
+
+  article {
+    .box(20px; 10px; lighten(@base-color, 50%); 1px);
+    counter-reset: secoes; // este eh o contador - use este nome!
+
+    .contents {
+      .column();
+
+      section {
+        .box(10px);
+        h1 {
+          // d) substitua o CSS abaixo pelo mixin .append-number para numerar `secoes`
+          counter-increment: secoes;
+          &:after {
+            content: ' ' counter(secoes);
+          }
+        }
+      }
+    }
+    .numerar(1);
+    .numerar(2);
+  }
+}
+
+.box(@horiz; @vert: @horiz; @bg: transparent; @border: 0px) {
+  padding: @horiz;
+  margin: @vert @horiz;
+  border: solid @base-color @border;
+  background: @bg;
+}
+
+
+.column(@count: 2; @gap: 20px; @rule-width: 1px; @rule-color: black) {
+  -webkit-column-count: @count;
+  -webkit-column-gap: @gap;
+  -webkit-column-rule: solid @rule-color @rule-width;
+  -moz-column-count: @count;
+  -moz-column-gap: @gap;
+  -moz-column-rule: solid @rule-color @rule-width;
+  column-count: @count;
+  column-gap: @gap;
+  column-rule: solid @rule-color @rule-width;
+}
+
+.numerar(@numero) {
+  &:nth-of-type(@{numero}) {
+    > h1 {
+      text-align: center;
+      &:after {
+        content: ' @{numero}';
+      }
+    }
+  }
+}

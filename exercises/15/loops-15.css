@@ -1,0 +1,8 @@
+div {
+  border: solid black 1px;
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}

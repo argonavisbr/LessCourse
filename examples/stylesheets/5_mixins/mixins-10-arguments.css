@@ -1,0 +1,33 @@
+.sec1 {
+  border: solid #000000 1px;
+  background: #808080;
+}
+.sec2 {
+  border: solid #ff0000 1px;
+  background: #ffffff;
+}
+.sec3 {
+  margin: 2px 2px 0 2px;
+}
+.sec4 {
+  margin: 1 2;
+  padding: 1 2;
+}
+.sec5 {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.sec6 {
+  -webkit-transform: scale(0.5) translate(3) rotateX(25deg);
+  -moz-transform: scale(0.5) translate(3) rotateX(25deg);
+  -o-transform: scale(0.5) translate(3) rotateX(25deg);
+  -ms-transform: scale(0.5) translate(3) rotateX(25deg);
+  transform: scale(0.5) translate(3) rotateX(25deg);
+}
+.sec7 {
+  border: solid #000000 1px;
+  margin: 5 10 15 5;
+}

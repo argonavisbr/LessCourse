@@ -1,0 +1,36 @@
+
+
+header {
+  @local-1: 'Local ao header';
+
+  Content: @global, @local-1;
+
+  div {
+    @local-2: 'Local ao div';
+
+    Content:@global, @local-1, @local-2;
+  }
+  // aqui não existe @local-2
+}
+// aqui não existe local-1 ou local-2
+
+footer {
+  Content: @global;
+}
+
+
+
+
+article {
+   Content: @global;
+   section {
+     Content: @global;
+   }
+  @global: "Local ao article";
+}
+
+aside {
+  Content: @global;
+}
+
+@global: 'Global';

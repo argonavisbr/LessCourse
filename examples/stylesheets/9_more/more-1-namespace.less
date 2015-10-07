@@ -1,0 +1,22 @@
+#circular {
+  .mask() {
+    -webkit-mask-image: url(circle.svg);
+  }
+
+}
+
+#rectangular {
+  .mask() {
+    -webkit-mask-image: url(rectangle.svg);
+  }
+}
+
+.photo1 {
+   border: none;
+   #circular.mask();
+ }
+
+.photo2 {
+  border: none;
+  #rectangular.mask();
+}

@@ -1,0 +1,21 @@
+@transparencia: opacity;
+@classe: coluna;
+@diretorio: "../images";
+@prop: color;
+
+.@{classe} {
+  @{transparencia}: 0.5;
+  border-@{prop}: red;
+  background: url('@{diretorio}/paisagem.png');
+}
+
+@the-end: "this is the end";
+@end: "the-end";
+@e: @@end;
+@start: @@e;
+
+.my-friend {
+  Content: @start;
+}
+
+

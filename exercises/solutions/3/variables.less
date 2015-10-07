@@ -1,0 +1,30 @@
+@cor-do-texto: navy;
+@cor-de-fundo: #8080d0;
+@cor-escura: black;
+@cor-clara: white;
+@tipologia: 'Helvetica Neue Light', sans-serif;
+@destaque: sec1;
+@url-base: 'http://localhost:8090/LessCourse/exercises/images';
+@propriedade-1: color;
+@propriedade-2: border;
+
+article {
+  width: 1024px;
+  @{propriedade-1}: @cor-do-texto;
+  background-@{propriedade-1}: @cor-de-fundo;
+  font-family: @tipologia;
+  a:link, a:visited {
+    @{propriedade-1}: @cor-escura;
+  }
+  section {
+    @{propriedade-1}: @cor-clara;
+    background-size: 1024px;
+    background-image: url('@{url-base}/catfish.jpg');
+  }
+  .@{destaque}  {
+    @{propriedade-2}-style: solid;
+    @{propriedade-2}-width: 1px;
+    @{propriedade-2}-@{propriedade-1}: @cor-clara;
+    background-image: url('@{url-base}/roraima.jpg');
+  }
+}

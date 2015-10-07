@@ -1,0 +1,40 @@
+.sec1 {
+  font-family: serif;
+  font-size: 2;
+  color: #040404;
+  background: #d0d0d0;
+}
+.sec2 {
+  font-family: serif;
+  font-size: 21;
+  color: #000000;
+  background: #101010;
+}
+.sec3 {
+  font-family: serif;
+}
+.sec4 {
+  font-family: monospace;
+  margin: 2px;
+  color: #ff0000;
+}
+.sec5 {
+  font-family: monospace;
+  margin: 0;
+  color: black;
+}
+div {
+  border: solid red 1px;
+}
+section,
+footer,
+aside,
+div {
+  border: solid red 1px;
+}
+p:before {
+  content: '[P]';
+}
+p:after {
+  content: '[/P]';
+}

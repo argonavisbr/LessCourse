@@ -1,0 +1,42 @@
+@width: 100px;
+@height: 100px;
+@gap: 10px;
+
+div {
+  width: 480px; // 4x altura ou largura + margens
+  height: 480px;
+  background: black;
+  display: block;
+  position: absolute;
+
+  div {
+    background: gray;
+    width: 230px; // 2x altura ou largura + margens
+    height: 230px;
+    left: 10px; // margens
+    top: 10px;
+    &:nth-of-type(2) {
+      left: 240px; // 2x altura ou largura + margens
+      top: 240px;
+    }
+    div {
+      background: yellow;
+      width: 100px; // altura ou largura
+      height: 100px;
+      left: 10px; // margens
+      top: 10px;
+      &:nth-of-type(n+2) {
+        left: 120px; // largura + margens
+        top: 10px;
+      }
+      &:nth-of-type(n+3) {
+        left: 10px;
+        top: 120px; // altura + margens
+      }
+      &:nth-of-type(n+4) {
+        left: 120px; // altura ou largura + margens
+        top: 120px;
+      }
+    }
+  }
+}

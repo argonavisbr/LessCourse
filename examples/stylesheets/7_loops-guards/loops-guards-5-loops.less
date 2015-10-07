@@ -1,0 +1,30 @@
+.repetir(@vezes) when (@vezes > 0) {
+  .repetir(@vezes - 1);
+  margin: (@vezes);
+}
+
+.sec2 {
+  .repetir(4);
+}
+
+.criar-secoes(@vezes) when (@vezes > 0) and (@vezes <= 5) {
+  .secao-@{vezes} {
+     color: (darken(#ff0000, 10% * @vezes));
+  }
+  .criar-secoes( (@vezes - 1) );
+}
+
+.criar-secoes(5);
+
+
+@positions: 0px 50px 100px 50px 0px;
+.make-keyframe(@step, @count) when (@count > 0) {
+  .make-keyframe(@step, (@count - 1) );
+  @pos: @step * (@count - 1);
+  @{pos} {top: extract(@positions, @count);}
+}
+
+@keyframes anim
+{
+  .make-keyframe(25%, length(@positions));
+}

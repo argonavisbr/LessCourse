@@ -1,0 +1,50 @@
+.sec {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+.sec1 {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #000000;
+}
+.sec2 {
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #000000;
+}
+.sec3 {
+  border-style: outset;
+  border-width: 4px;
+  border-color: #800080;
+}
+.sec4 {
+  border-style: inset;
+  border-width: 2px;
+  border-color: #008000;
+}
+.sec5 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ff0000;
+}
+.sec6 {
+  border-style: outset;
+  border-width: 1px;
+  border-color: #000000;
+}
+.sec7 {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffc0cb;
+}
+.sec8 {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffa500;
+}
+.sec9 {
+  border-style: solid;
+  border-width: 15px;
+  border-color: #ffa500;
+}

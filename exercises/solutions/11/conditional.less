@@ -1,0 +1,52 @@
+@gap: 20px;
+@max-width: 600px;
+//@min-column-width: 120px;  // teste o mixin mudando estes valores
+@min-column-width: 180px;
+
+div {
+  width: @max-width;
+  margin: 10px 0 10px 0;
+}
+
+.columns(@columns) {
+  -webkit-column-count: @columns;
+  -webkit-column-gap: @gap;
+  -webkit-column-rule: solid black 1px;
+  -moz-column-count: @columns;
+  -moz-column-gap: @gap;
+  -moz-column-rule: solid black 1px;
+  column-count: @columns;
+  column-gap: @gap;
+  column-rule: solid black 1px;
+}
+
+// escreva um mixin condicional para garantir que a soma de colunas + gaps entre colunas nao exceda
+// @max-width. Inclua uma clausula `when` com a expressao correta;
+.make-page(@columns) when ( (@gap * (@columns - 1) + (@min-column-width * @columns)) <= @max-width ) {
+   .columns(@columns);
+}
+
+// escreva um mixin default para a condicao acima (caso a condicao acima nao seja alcancada)
+// o numero de colunas deve ser recalculado de forma que seja o maior numero de colunas que nao
+// exceda a largura maxima.
+.make-page(@columns) when ( default() ) {
+  @columns: unit(floor(@max-width / @min-column-width));
+  .columns(@columns);
+}
+
+// cases de teste
+.sec1 {
+  .make-page(2);
+}
+.sec2 {
+  .make-page(3);
+}
+.sec3 {
+  .make-page(4);
+}
+.sec4 {
+  .make-page(5);
+}
+.sec5 {
+  .make-page(6);
+}

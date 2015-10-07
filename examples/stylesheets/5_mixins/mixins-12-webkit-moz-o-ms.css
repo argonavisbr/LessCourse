@@ -1,0 +1,7 @@
+.secao {
+  -webkit-transform: rotate(45deg) scale(0.5) translate(100px, 100px) skewY(10deg);
+  -moz-transform: rotate(45deg) scale(0.5) translate(100px, 100px) skewY(10deg);
+  -o-transform: rotate(45deg) scale(0.5) translate(100px, 100px) skewY(10deg);
+  -ms-transform: rotate(45deg) scale(0.5) translate(100px, 100px) skewY(10deg);
+  transform: rotate(45deg) scale(0.5) translate(100px, 100px) skewY(10deg);
+}

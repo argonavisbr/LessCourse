@@ -1,0 +1,24 @@
+@h: 10px 20px 40px 80px 160px;
+@c: #402020 #204020 #202040;
+@p: 10% 20% 30% 40%;
+
+// а) extracao de valores de listas
+@minp: 5%;   // extraia o valor minimo de @p
+@maxh: 1px;   // extraia o valor maximo de @h
+@lastc: #fff; // extraia o ultimo valor de @c
+
+// b) construcao de strings, escapes e url-encoding
+// construa um string de query url-encoded contendo minp=@minp, maxh=@maxh e color=@lastc
+// ex: ?minp=10%25&maxh=160px&color=%23202040
+@query-string: '?minp=&maxh=&color=';
+
+// inclua o query-string no final da URL abaixo e escape as aspas para o CSS
+@url: 'url(http://localhost:8090/LessCourse/test)';
+
+// c) substituicao de expressao regular, escapes de CSS e coresOs
+.section {
+  @color: '#fff'; //extraia *apenas a cor* da variavel query-string
+  background-image: @url; // a URL final no CSS nao deve estar entre aspas
+  color: @color; // a cor nao deve estar entre aspas
+  background-color: lighten(#fff, @minp); // deve ser @color clareada em minp %
+}

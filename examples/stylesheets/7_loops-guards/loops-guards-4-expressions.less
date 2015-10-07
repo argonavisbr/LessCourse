@@ -1,0 +1,55 @@
+.skin(@cor, @tambase) when (lightness(@cor) > 50%), (@tambase > 20) {
+  font-size: convert(@tambase, "pt");
+  color: darken(@cor, 80%);
+  background: @cor;
+}
+
+.sec1 {
+   font-family: serif;
+  .skin(#d0d0d0, 2);
+}
+.sec2 {
+  font-family: serif;
+  .skin(#101010, 21);
+}
+.sec3 {
+  font-family: serif;
+  .skin(#101010, 19);
+}
+
+.mix(@um, @dois) when (iscolor(@um)) and (ispixel(@dois)) {
+  margin: @dois;
+  color: @um;
+}
+.mix(@um, @dois) when(default()) {
+  margin: 0;
+  color: black;
+}
+
+.sec4 {
+  font-family: monospace;
+  .mix(red, 2px);
+}
+.sec5 {
+  font-family: monospace;
+  .mix(red, 2pt);
+}
+
+@debug: true;
+
+div when (@debug) {
+   border: solid red 1px;
+}
+
+& when (@debug) {
+  section, footer, aside, div {
+    border: solid red 1px;
+  }
+  p:before {
+     content:'[P]';
+  }
+  p:after {
+    content:'[/P]';
+  }
+}
+

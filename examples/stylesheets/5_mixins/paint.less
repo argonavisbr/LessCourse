@@ -1,0 +1,34 @@
+@base-color: #000000;
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  border: solid black 1px;
+  display: inline-block;
+}
+
+.pintar(@var; @fixo; @inc) {
+  @fator: ~'@{var}n+@{fixo}';
+  div:nth-of-type(@{fator}) {
+    background: @base-color + @inc;
+  }
+}
+.reorganizar(@colunas) {
+  @arg1: @colunas + 1;
+  @fator: ~'@{arg1}n + 1';
+  div:nth-of-type(@{fator}) {
+    display: block;
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: none;
+  }
+}
+
+.pintar(5, 1, #8080c0);
+.pintar(5, 2, #c08080);
+.pintar(5, 3, #80c080);
+.pintar(5, 4, #c0c080);
+.pintar(5, 5, #c080c0);
+.reorganizar(5);

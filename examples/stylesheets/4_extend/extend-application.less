@@ -1,0 +1,31 @@
+@import url('abs-box');
+
+@up: 50%;
+@down: -@up;
+@right: 50%;
+@left: -@right;
+
+section {
+  width: 450px;
+  height: 250px;
+  border: solid black 1px;
+  position: relative;
+}
+
+.top {
+  top: @up;
+}
+.bottom {
+  top: @down;
+}
+.left {
+  left: @left;
+}
+.right {
+  left: @right;
+}
+
+.right, .top, .bottom, .left, .center
+{
+  &:extend(.abs, .box);
+}

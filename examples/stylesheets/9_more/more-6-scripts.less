@@ -1,0 +1,30 @@
+@main-color: #ff8844;
+
+.section1 {
+  color: @main-color;
+  background: lighten(@main-color, 50%);
+}
+
+@tipologia: "Times New Roman", serif;
+@largura: 15em;
+@texto: "Digite aqui!";
+
+
+p.editor {
+     font-family: @tipologia;
+     height: @largura * 2;
+     width: @largura;
+  &:before {
+    content: `@{texto}.toUpperCase()`;
+  }
+}
+
+@coords: "TOP LEFT BOTTOM RIGHT";
+.center(@position) {
+  margin: auto !important;
+  position: ~`'@{position};\n  ' + @{coords}.toLowerCase().split(' ').join(': 0;\n  ') + ': 0'`;
+}
+
+.section {
+  .center(absolute);
+}

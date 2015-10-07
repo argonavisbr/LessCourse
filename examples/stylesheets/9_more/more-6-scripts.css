@@ -1,0 +1,20 @@
+.section1 {
+  color: #ff8844;
+  background: #ffffff;
+}
+p.editor {
+  font-family: "Times New Roman", serif;
+  height: 30em;
+  width: 15em;
+}
+p.editor:before {
+  content: "DIGITE AQUI!";
+}
+.section {
+  margin: auto !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

@@ -1,0 +1,41 @@
+.secao {
+  content: 255 128 64 0.5;
+}
+.secao-rgb-1 {
+  color: rgb(128,255,255);
+}
+.secao-rgb-2 {
+  color: #80ffff;
+}
+.secao-rgba-1 {
+  color: rgba(128,255,255, 0.5);
+}
+.secao-rgba-2 {
+  color: rgba(128, 255, 255, 0.5);
+}
+.secao-hsl-1 {
+  color: hsl(0,1,0.5);
+}
+.secao-hsl-2 {
+  color: #ff0000;
+}
+.secao-hsla-1 {
+  color: hsla(0,1,0.5,0.5);
+}
+.secao-hsv-1 {
+  color: #ff0000;
+}
+.secao-hsva-1 {
+  color: rgba(255, 0, 0, 0.5);
+}
+.secao-argb {
+  color: #80ff0000;
+}
+.colors {
+  border-top-color: #ff8040;
+  border-right-color: rgba(128, 255, 64, 0.5);
+  border-bottom-color: #206020;
+  border-left-color: rgba(128, 128, 255, 0.75);
+  background-color: #408040;
+  color: rgba(64, 64, 128, 0.5);
+}

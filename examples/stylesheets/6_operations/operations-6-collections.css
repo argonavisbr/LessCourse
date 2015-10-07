@@ -1,0 +1,10 @@
+.paragrafo {
+  font-size: 10pt;
+  duration: 6s;
+  font-family: 'Garamond', 'Times New Roman', Times, serif;
+}
+.titulo {
+  font-size: 36pt;
+  color: #ff7f40;
+  font-family: 'Garamond', serif;
+}

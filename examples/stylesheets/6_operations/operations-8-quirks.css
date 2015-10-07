@@ -1,0 +1,21 @@
+@media screen and (aspect-ratio: 1.77777778) and (min-height: 480px) {
+  .section {
+    margin-top: 1.6;
+    font: 0.33333333pt;
+    font-size: 0.33333333pt;
+    width: 30cm;
+  }
+}
+header,
+footer {
+  padding: -30;
+  margin: -30;
+}
+@media screen and (aspect-ratio: 16/9) and (min-height: 960px / 2) {
+  .section {
+    margin-top: 1.6;
+    font: 12pt/36pt;
+    font-size: 0.33333333pt;
+    width: 30cm;
+  }
+}

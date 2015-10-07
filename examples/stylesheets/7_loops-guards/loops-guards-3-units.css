@@ -1,0 +1,22 @@
+.istest {
+  content: '1. string' true;
+  content: '2. string' false;
+  content: '3. keyword' true;
+  content: '4. keyword' false;
+  content: '5. number' true;
+  content: '6. number' false;
+  content: '7. color' true;
+  content: '8. color' false;
+  content: '9. url' true;
+  content: '10.url' false;
+}
+.istest2 {
+  content: '1. pixel' true;
+  content: '2. pixel' false;
+  content: '3. em' true;
+  content: '4. em' false;
+  content: '5. percentage' true;
+  content: '6. percentage' false;
+  content: '7. unit' true;
+  content: '8. unit' false;
+}

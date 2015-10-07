@@ -1,0 +1,20 @@
+.font-mix(@family, @size: 10pt) {
+  font-family: @family;
+  font-size: @size;
+}
+
+.section1 {
+  .font-mix('Times', 12pt);
+}
+
+.section2 {
+  .font-mix('Times');
+}
+
+.section3 {
+  .font-mix('Times', sans-serif;);
+}
+
+.section4 {
+  .font-mix('Times', 'Times New Roman', sans-serif; 12pt;);
+}

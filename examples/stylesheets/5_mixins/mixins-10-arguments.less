@@ -1,0 +1,54 @@
+.borda (@estilo: solid; @cor: black; @espessura: 1px) {
+  border: @arguments;
+  background: lighten(@cor, 50%);
+}
+
+.margem(@top: 2px; @right: 2px; @bottom: 2px; @right: 2px) {
+  margin: @arguments;
+}
+
+.padding-e-margem(...) {
+  margin:@arguments;
+  padding: @arguments;
+}
+
+.transmix(@transform:scale(1); ...) {
+  -webkit-transform: @arguments;
+  -moz-transform: @arguments;
+  -o-transform: @arguments;
+  -ms-transform: @arguments;
+  transform: @arguments;
+}
+
+.borda-com-margem(@borda; @restante...) {
+  border: @borda;
+  margin: @restante;
+}
+
+.sec1 {
+  .borda();
+}
+
+.sec2 {
+  .borda(@cor: red);
+}
+
+.sec3 {
+  .margem(@bottom: 0);
+}
+
+.sec4 {
+  .padding-e-margem(1;2);
+}
+
+.sec5 {
+  .transmix;
+}
+
+.sec6 {
+  .transmix(scale(0.5); translate(3); rotateX(25deg));
+}
+
+.sec7 {
+  .borda-com-margem(solid black 1px; 5; 10; 15; 5;);
+}

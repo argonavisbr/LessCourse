@@ -1,0 +1,15 @@
+div {
+  width: 600px;
+  margin: 10px 0 10px 0;
+}
+.columns {
+  -webkit-column-count: 1;
+  -webkit-column-gap: 20px;
+  -webkit-column-rule: solid black 1px;
+  -moz-column-count: 1;
+  -moz-column-gap: 20px;
+  -moz-column-rule: solid black 1px;
+  column-count: 1;
+  column-gap: 20px;
+  column-rule: solid black 1px;
+}

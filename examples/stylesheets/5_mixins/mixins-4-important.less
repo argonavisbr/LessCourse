@@ -1,0 +1,11 @@
+.mask-circle() {
+  -webkit-mask-image: url(circle.svg);
+  -webkit-mask-origin: padding;
+  -webkit-mask-position: 450px 150px;
+  -webkit-transform: scale(2);
+}
+
+.photo {
+  border: none;
+  .mask-circle() !important;
+}
